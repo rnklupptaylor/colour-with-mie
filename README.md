@@ -30,7 +30,7 @@ npm run build     # writes deploy/index.html (the published page) and a standalo
 npm test          # numerical, integrity and reproducibility checks
 ```
 
-Browser checks (`npm run test:browser` and the other `test:*-browser` scripts) need `npm ci` and a local Chrome. Scientific preparation and refit scripts in `tools/` that end in `.py` need Python with `pip install -r requirements.txt`.
+Browser checks (`npm run test:browser` and the other `test:*-browser` scripts) need `npm ci` and a local Chrome. Scientific preparation and refit scripts in `tools/` that end in `.py` need Python with `pip install -r tools/requirements.txt`.
 
 The version number lives in `package.json`; the build derives the file name, the in-app version and the credit line from it.
 
