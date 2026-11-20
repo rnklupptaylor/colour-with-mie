@@ -3,6 +3,9 @@
   "version": "29.4.0",
   "private": true,
   "description": "Self-contained development baseline for Colour with Mie",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "build": "node build.cjs",
     "test": "node tests/integrity.test.cjs && node tests/solid-mixture.test.cjs && node tests/surface.test.cjs && node tests/film-spectra.test.cjs && node tests/palette.test.cjs && node tests/dotsenko.test.cjs",
