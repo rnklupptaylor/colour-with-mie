@@ -1,0 +1,14 @@
+{
+  "source": "Turkevich et al. (1954), Figure 3, the supplied PDF crop assets/turkevich-3.png",
+  "method": "Additional manual identifications of each experimental blue-side minimum and plasmon maximum, checked against raster line centres. Coordinates are in the cropped 1020 × 930 source image; zero OD y=732, OD 1 y=28. Approximate uncertainty 2 pixels, with larger ambiguity where curves merge. No model-generated targets.",
+  "calibration": {"x380":296,"x700":742,"zero":732,"one":28},
+  "features": [
+    {"diameter":20,"minimum":[470,547],"peak":[520,297.5]},
+    {"diameter":40,"minimum":[460,524],"peak":[523,234]},
+    {"diameter":60,"minimum":[460,490],"peak":[534,203]},
+    {"diameter":80,"minimum":[440,469.5],"peak":[540,153.5]},
+    {"diameter":100,"minimum":[450,465.5],"peak":[566,257]},
+    {"diameter":120,"minimum":[460,459.5],"peak":[604,308]},
+    {"diameter":160,"minimum":[450,446],"peak":[625,399]}
+  ]
+}

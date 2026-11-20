@@ -1,0 +1,317 @@
+{
+  "reference": "D65, 50 micrometres, n = 1.49, A = 1, Au consensus",
+  "rows": [
+    {
+      "diameterNm": 10,
+      "colouredVolumePercent": 0.001,
+      "whiteVolumePercent": 0,
+      "whiteBackgroundY": 0.6323048628822143,
+      "whiteBackgroundLstar": 83.56350184089335,
+      "contrast": 0.01843264041662827,
+      "linearRGB": [
+        0.7733058188240944,
+        0.5880251831009873,
+        0.655740094825287
+      ]
+    },
+    {
+      "diameterNm": 10,
+      "colouredVolumePercent": 0.1,
+      "whiteVolumePercent": 0,
+      "whiteBackgroundY": 0.014726878525778126,
+      "whiteBackgroundLstar": 12.433362640115963,
+      "contrast": 0.04010862905006919,
+      "linearRGB": [
+        0.07858503592206804,
+        -0.002766368533097057,
+        -0.000024838454051574254
+      ]
+    },
+    {
+      "diameterNm": 10,
+      "colouredVolumePercent": 1,
+      "whiteVolumePercent": 0,
+      "whiteBackgroundY": 0.00014523403247154482,
+      "whiteBackgroundLstar": 0.13118990153154644,
+      "contrast": 0.959290385533425,
+      "linearRGB": [
+        0.00031991470869644216,
+        0.00010231204640334318,
+        0.00005604695034640093
+      ]
+    },
+    {
+      "diameterNm": 10,
+      "colouredVolumePercent": 10,
+      "whiteVolumePercent": 0,
+      "whiteBackgroundY": 0.0001391228584917528,
+      "whiteBackgroundLstar": 0.12566967807560028,
+      "contrast": 0.9999999999999504,
+      "linearRGB": [
+        0.0002780764548950388,
+        0.00010616721001982445,
+        0.000056412958100957344
+      ]
+    },
+    {
+      "diameterNm": 10,
+      "colouredVolumePercent": 0.001,
+      "whiteVolumePercent": 2,
+      "whiteBackgroundY": 0.7116276212079654,
+      "whiteBackgroundLstar": 87.56402512276134,
+      "contrast": 0.8459175705085096,
+      "linearRGB": [
+        0.8229975732148191,
+        0.6750539357833311,
+        0.7459800868456582
+      ]
+    },
+    {
+      "diameterNm": 10,
+      "colouredVolumePercent": 0.1,
+      "whiteVolumePercent": 2,
+      "whiteBackgroundY": 0.09176846909802547,
+      "whiteBackgroundLstar": 36.32258009602508,
+      "contrast": 0.9972802031466935,
+      "linearRGB": [
+        0.21133433123131778,
+        0.05419405346305966,
+        0.11190032190397568
+      ]
+    },
+    {
+      "diameterNm": 10,
+      "colouredVolumePercent": 1,
+      "whiteVolumePercent": 2,
+      "whiteBackgroundY": 0.00857174699722815,
+      "whiteBackgroundLstar": 7.742859062596188,
+      "contrast": 0.9999980586251819,
+      "linearRGB": [
+        0.0238841261314372,
+        0.0037908905030267334,
+        0.010841231217726904
+      ]
+    },
+    {
+      "diameterNm": 10,
+      "colouredVolumePercent": 10,
+      "whiteVolumePercent": 2,
+      "whiteBackgroundY": 0.0007570085406261887,
+      "whiteBackgroundLstar": 0.6838058147476361,
+      "contrast": 1,
+      "linearRGB": [
+        0.0017348427083154656,
+        0.00044165159219448647,
+        0.001001547951534958
+      ]
+    },
+    {
+      "diameterNm": 30,
+      "colouredVolumePercent": 0.001,
+      "whiteVolumePercent": 0,
+      "whiteBackgroundY": 0.6193527972787108,
+      "whiteBackgroundLstar": 82.87899046255856,
+      "contrast": 0.019089526267197118,
+      "linearRGB": [
+        0.7853730543766813,
+        0.5667840277550757,
+        0.6512264441523298
+      ]
+    },
+    {
+      "diameterNm": 30,
+      "colouredVolumePercent": 0.1,
+      "whiteVolumePercent": 0,
+      "whiteBackgroundY": 0.023110731175272875,
+      "whiteBackgroundLstar": 17.041712739720744,
+      "contrast": 0.2121480273172138,
+      "linearRGB": [
+        0.11111226246714062,
+        -0.0007633817336489812,
+        0.0004741660756859626
+      ]
+    },
+    {
+      "diameterNm": 30,
+      "colouredVolumePercent": 1,
+      "whiteVolumePercent": 0,
+      "whiteBackgroundY": 0.004790162364483261,
+      "whiteBackgroundLstar": 4.326953663837729,
+      "contrast": 0.9940749966924627,
+      "linearRGB": [
+        0.010858620766292027,
+        0.003344161748791586,
+        0.0012448075738758163
+      ]
+    },
+    {
+      "diameterNm": 30,
+      "colouredVolumePercent": 10,
+      "whiteVolumePercent": 0,
+      "whiteBackgroundY": 0.004761765071018712,
+      "whiteBackgroundLstar": 4.3013023886512025,
+      "contrast": 0.9999999999944732,
+      "linearRGB": [
+        0.010664797147811154,
+        0.003361899556324547,
+        0.0012465184862984013
+      ]
+    },
+    {
+      "diameterNm": 30,
+      "colouredVolumePercent": 0.001,
+      "whiteVolumePercent": 2,
+      "whiteBackgroundY": 0.7006676031603779,
+      "whiteBackgroundLstar": 87.02959714693318,
+      "contrast": 0.8494630486455745,
+      "linearRGB": [
+        0.8338581489417688,
+        0.656845734636769,
+        0.7425663612623371
+      ]
+    },
+    {
+      "diameterNm": 30,
+      "colouredVolumePercent": 0.1,
+      "whiteVolumePercent": 2,
+      "whiteBackgroundY": 0.09580663166199445,
+      "whiteBackgroundLstar": 37.079054698824855,
+      "contrast": 0.9942220093204747,
+      "linearRGB": [
+        0.2467400345271411,
+        0.04978441189667338,
+        0.1072560794047569
+      ]
+    },
+    {
+      "diameterNm": 30,
+      "colouredVolumePercent": 1,
+      "whiteVolumePercent": 2,
+      "whiteBackgroundY": 0.013745559575370136,
+      "whiteBackgroundLstar": 11.787243322945915,
+      "contrast": 0.9999870526672496,
+      "linearRGB": [
+        0.03998197730315628,
+        0.006205525154150064,
+        0.01118005000652332
+      ]
+    },
+    {
+      "diameterNm": 30,
+      "colouredVolumePercent": 10,
+      "whiteVolumePercent": 2,
+      "whiteBackgroundY": 0.005392125252405129,
+      "whiteBackgroundLstar": 4.870706740497553,
+      "contrast": 0.9999999999999931,
+      "linearRGB": [
+        0.01241799641563728,
+        0.0036338749881769956,
+        0.0021206623669869236
+      ]
+    },
+    {
+      "diameterNm": 100,
+      "colouredVolumePercent": 0.001,
+      "whiteVolumePercent": 0,
+      "whiteBackgroundY": 0.7147351366646936,
+      "whiteBackgroundLstar": 87.71455305072097,
+      "contrast": 0.02235029158448044,
+      "linearRGB": [
+        0.74265208296913,
+        0.7067250683020483,
+        0.7118772157317398
+      ]
+    },
+    {
+      "diameterNm": 100,
+      "colouredVolumePercent": 0.1,
+      "whiteVolumePercent": 0,
+      "whiteBackgroundY": 0.09029138038878855,
+      "whiteBackgroundLstar": 36.04033538148511,
+      "contrast": 0.9718354813940281,
+      "linearRGB": [
+        0.20778419581252938,
+        0.0623883463962407,
+        0.02072458471542183
+      ]
+    },
+    {
+      "diameterNm": 100,
+      "colouredVolumePercent": 1,
+      "whiteVolumePercent": 0,
+      "whiteBackgroundY": 0.08802362147968217,
+      "whiteBackgroundLstar": 35.60095428612296,
+      "contrast": 0.9999999984880898,
+      "linearRGB": [
+        0.20724569458461595,
+        0.060250531199110766,
+        0.012077657858570687
+      ]
+    },
+    {
+      "diameterNm": 100,
+      "colouredVolumePercent": 10,
+      "whiteVolumePercent": 0,
+      "whiteBackgroundY": 0.08802362171808023,
+      "whiteBackgroundLstar": 35.6009543327073,
+      "contrast": 1,
+      "linearRGB": [
+        0.20724569507513327,
+        0.0602505313692647,
+        0.012077658030592716
+      ]
+    },
+    {
+      "diameterNm": 100,
+      "colouredVolumePercent": 0.001,
+      "whiteVolumePercent": 2,
+      "whiteBackgroundY": 0.7848083914535451,
+      "whiteBackgroundLstar": 90.99887264035586,
+      "contrast": 0.8153931274100512,
+      "linearRGB": [
+        0.797343025530819,
+        0.780504248572741,
+        0.7905349812530277
+      ]
+    },
+    {
+      "diameterNm": 100,
+      "colouredVolumePercent": 0.1,
+      "whiteVolumePercent": 2,
+      "whiteBackgroundY": 0.19772841238062897,
+      "whiteBackgroundLstar": 51.579402706956216,
+      "contrast": 0.9997245350476147,
+      "linearRGB": [
+        0.28687550319107585,
+        0.17218466225429585,
+        0.1882577556500536
+      ]
+    },
+    {
+      "diameterNm": 100,
+      "colouredVolumePercent": 1,
+      "whiteVolumePercent": 2,
+      "whiteBackgroundY": 0.09932096670747158,
+      "whiteBackgroundLstar": 37.72028423730694,
+      "contrast": 0.9999999997537501,
+      "linearRGB": [
+        0.2159597445280636,
+        0.0712542611037496,
+        0.033890269797832946
+      ]
+    },
+    {
+      "diameterNm": 100,
+      "colouredVolumePercent": 10,
+      "whiteVolumePercent": 2,
+      "whiteBackgroundY": 0.08905210880193559,
+      "whiteBackgroundLstar": 35.80114888659305,
+      "contrast": 1,
+      "linearRGB": [
+        0.20817266550866836,
+        0.06121512526826248,
+        0.014037985082151937
+      ]
+    }
+  ]
+}

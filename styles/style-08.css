@@ -1,0 +1,7 @@
+
+.material-dataset-note{margin-top:8px;padding:8px 10px;border-left:2px solid var(--s1);background:var(--surface-2);border-radius:4px;font-size:12px;line-height:1.5;color:var(--ink-2)}
+.material-dataset-note[hidden]{display:none}
+.material-dataset-note p{margin:5px 0}
+.material-dataset-note p:first-child{margin-top:0}
+.material-source-detail{display:block;margin-top:3px;font-size:12px;line-height:1.5;color:var(--ink-2)}
+

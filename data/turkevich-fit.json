@@ -1,0 +1,1434 @@
+{
+  "source": "Turkevich et al. 1954, Fig. 3, supplied PDF p. 4 (printed 29)",
+  "distributionConstraint": {
+    "source": "Turkevich, Stevenson and Hillier (1951), pp. 58–60, Figure 4 and Tables I–III",
+    "doi": "10.1039/DF9511100055",
+    "standardMeanDiameterNm": 20,
+    "standardNumberCV": 0.125,
+    "stableCitrateNumberCVRange": [
+      0.081,
+      0.126
+    ],
+    "fitEnvelope": [
+      0.08,
+      0.15
+    ],
+    "note": "1951 preparations constrain plausibility; they are not the individually measured distributions of every 1954 sample. The standard histogram has a small-diameter tail, so a lognormal is only an approximation."
+  },
+  "broadDiagnostic": {
+    "bounds": {
+      "effectiveDiameterScale": [
+        0.65,
+        1.35
+      ],
+      "numberCV": [
+        0,
+        0.5
+      ],
+      "boundaryA": "fixed at 1"
+    },
+    "best": {
+      "A": 1,
+      "mat": "au",
+      "samples": [
+        {
+          "publishedDiameter": 20,
+          "diameter": 21.204975414276138,
+          "scale": 1.0602487707138069,
+          "cv": 0.5,
+          "A": 1,
+          "mat": "au",
+          "medium": "water",
+          "amplitude": 5.316562795368471,
+          "phi": 0.0000012241838238582194,
+          "sse": 0.007658454390010217,
+          "objective": 0.000623002609351037,
+          "ratioPenalty": 0.0002133527220461772,
+          "peakToMinimum": {
+            "paper": 2.348648648648649,
+            "app": 2.183233700834914,
+            "minimumWavelengthNm": 470,
+            "peakWavelengthNm": 520
+          },
+          "n": 17
+        },
+        {
+          "publishedDiameter": 40,
+          "diameter": 26,
+          "scale": 0.65,
+          "cv": 0.49999999999999994,
+          "A": 1,
+          "mat": "au",
+          "medium": "water",
+          "amplitude": 6.092308833493368,
+          "phi": 0.0000014028059501917773,
+          "sse": 0.0039762140017712,
+          "objective": 0.000387878215073896,
+          "ratioPenalty": 0.0001593701471167917,
+          "peakToMinimum": {
+            "paper": 2.394230769230769,
+            "app": 2.247775481980839,
+            "minimumWavelengthNm": 460,
+            "peakWavelengthNm": 523
+          },
+          "n": 17
+        },
+        {
+          "publishedDiameter": 60,
+          "diameter": 39,
+          "scale": 0.65,
+          "cv": 0.4923475903645158,
+          "A": 1,
+          "mat": "au",
+          "medium": "water",
+          "amplitude": 6.973478801212895,
+          "phi": 0.0000016057028333982803,
+          "sse": 0.000720772034122967,
+          "objective": 0.000052802678584704094,
+          "ratioPenalty": 0.000015830320972332906,
+          "peakToMinimum": {
+            "paper": 2.1859504132231407,
+            "app": 2.2298724212790013,
+            "minimumWavelengthNm": 460,
+            "peakWavelengthNm": 534
+          },
+          "n": 17
+        },
+        {
+          "publishedDiameter": 80,
+          "diameter": 52.83343266019636,
+          "scale": 0.6604179082524545,
+          "cv": 0.42106656408821147,
+          "A": 1,
+          "mat": "au",
+          "medium": "water",
+          "amplitude": 7.897554042407794,
+          "phi": 0.0000018184790209163054,
+          "sse": 0.004282384978531055,
+          "objective": 0.00021649058753965192,
+          "ratioPenalty": 0.000015262405803364115,
+          "peakToMinimum": {
+            "paper": 2.203809523809524,
+            "app": 2.161178986835108,
+            "minimumWavelengthNm": 440,
+            "peakWavelengthNm": 540
+          },
+          "n": 16
+        },
+        {
+          "publishedDiameter": 100,
+          "diameter": 84.67564672231673,
+          "scale": 0.8467564672231673,
+          "cv": 0.5,
+          "A": 1,
+          "mat": "au",
+          "medium": "water",
+          "amplitude": 11.602876872933734,
+          "phi": 0.000002671661132346259,
+          "sse": 0.014960358998591477,
+          "objective": 0.0007589356227249072,
+          "ratioPenalty": 0.000007639621248537396,
+          "peakToMinimum": {
+            "paper": 1.7823639774859286,
+            "app": 1.8071671212683835,
+            "minimumWavelengthNm": 450,
+            "peakWavelengthNm": 566
+          },
+          "n": 14
+        },
+        {
+          "publishedDiameter": 120,
+          "diameter": 162,
+          "scale": 1.35,
+          "cv": 0.5,
+          "A": 1,
+          "mat": "au",
+          "medium": "water",
+          "amplitude": 21.06478129333829,
+          "phi": 0.000004850345139322058,
+          "sse": 0.03826632353240143,
+          "objective": 0.0023600291789719684,
+          "ratioPenalty": 0.00003217146727819952,
+          "peakToMinimum": {
+            "paper": 1.5559633027522937,
+            "app": 1.5124561103859664,
+            "minimumWavelengthNm": 460,
+            "peakWavelengthNm": 604
+          },
+          "n": 13
+        },
+        {
+          "publishedDiameter": 160,
+          "diameter": 216,
+          "scale": 1.35,
+          "cv": 0.49999999999999994,
+          "A": 1,
+          "mat": "au",
+          "medium": "water",
+          "amplitude": 25.117912232381293,
+          "phi": 0.0000057836130273413965,
+          "sse": 0.06827187753445634,
+          "objective": 0.0054394756691691646,
+          "ratioPenalty": 0.0014615461028890525,
+          "peakToMinimum": {
+            "paper": 1.1643356643356644,
+            "app": 1.4095937503326834,
+            "minimumWavelengthNm": 450,
+            "peakWavelengthNm": 625
+          },
+          "n": 16
+        }
+      ],
+      "sse": 0.1381363854698847,
+      "rmse": 0.0354370614252014,
+      "n": 110
+    }
+  },
+  "method": "Olmon single-crystal/McPeak permittivity average. A fixed at 1. Each separately prepared sol has a fitted arithmetic mean diameter and lognormal number CV within a 1951-informed 8–15% envelope. The ordinate has one positive fitted concentration/path multiplier per sol, with no offset or wavelength shift. Experimental blue-side minima and plasmon maxima are explicitly included, and their concentration-independent peak/minimum ratio is included in the objective.",
+  "bounds": {
+    "effectiveDiameterScale": [
+      0.85,
+      1.15
+    ],
+    "numberCV": [
+      0.08,
+      0.15
+    ],
+    "boundaryA": "fixed at 1"
+  },
+  "objective": "Weighted OD mean squared residual (feature anchors weight 4) + 0.04 [ln(model peak/minimum ÷ measured peak/minimum)]². Feature wavelengths come from the paper, not from model extrema.",
+  "baseline": {
+    "A": 0,
+    "mat": "au",
+    "samples": [
+      {
+        "publishedDiameter": 20,
+        "diameter": 20,
+        "scale": 1,
+        "cv": 0.12,
+        "A": 0,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 5.404797138368592,
+        "phi": 0.0000012445005321464399,
+        "sse": 0.07949949720104779,
+        "objective": 0.0036205558045419024,
+        "ratioPenalty": 0.0000025024977149323064,
+        "peakToMinimum": {
+          "paper": 2.348648648648649,
+          "app": 2.3672992822648924,
+          "minimumWavelengthNm": 470,
+          "peakWavelengthNm": 520
+        },
+        "n": 17
+      },
+      {
+        "publishedDiameter": 40,
+        "diameter": 40,
+        "scale": 1,
+        "cv": 0.12,
+        "A": 0,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 5.594506180723,
+        "phi": 0.0000012881826534395835,
+        "sse": 0.07967408196664473,
+        "objective": 0.0037887414983724392,
+        "ratioPenalty": 0.00014851494856266305,
+        "peakToMinimum": {
+          "paper": 2.394230769230769,
+          "app": 2.5446556899164063,
+          "minimumWavelengthNm": 460,
+          "peakWavelengthNm": 523
+        },
+        "n": 17
+      },
+      {
+        "publishedDiameter": 60,
+        "diameter": 60,
+        "scale": 1,
+        "cv": 0.12,
+        "A": 0,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 5.712057093830746,
+        "phi": 0.0000013152497514585568,
+        "sse": 0.09368698009280929,
+        "objective": 0.00589022520868341,
+        "ratioPenalty": 0.001308906194945897,
+        "peakToMinimum": {
+          "paper": 2.1859504132231407,
+          "app": 2.6193985986519603,
+          "minimumWavelengthNm": 460,
+          "peakWavelengthNm": 534
+        },
+        "n": 17
+      },
+      {
+        "publishedDiameter": 80,
+        "diameter": 80,
+        "scale": 1,
+        "cv": 0.12,
+        "A": 0,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 6.648773364412551,
+        "phi": 0.000001530936643559221,
+        "sse": 0.04219984939371249,
+        "objective": 0.0024632060536214744,
+        "ratioPenalty": 0.0003859183406612974,
+        "peakToMinimum": {
+          "paper": 2.203809523809524,
+          "app": 2.4312644861904262,
+          "minimumWavelengthNm": 440,
+          "peakWavelengthNm": 540
+        },
+        "n": 16
+      },
+      {
+        "publishedDiameter": 100,
+        "diameter": 100,
+        "scale": 1,
+        "cv": 0.12,
+        "A": 0,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 7.424857030776133,
+        "phi": 0.000001709636511667716,
+        "sse": 0.06890072290933819,
+        "objective": 0.007336902053866987,
+        "ratioPenalty": 0.00271039764380804,
+        "peakToMinimum": {
+          "paper": 1.7823639774859286,
+          "app": 2.3123121570941336,
+          "minimumWavelengthNm": 450,
+          "peakWavelengthNm": 566
+        },
+        "n": 14
+      },
+      {
+        "publishedDiameter": 120,
+        "diameter": 120,
+        "scale": 1,
+        "cv": 0.12,
+        "A": 0,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 8.613326302767886,
+        "phi": 0.0000019832916745846855,
+        "sse": 0.0502234183756586,
+        "objective": 0.005927062369069813,
+        "ratioPenalty": 0.0023581929257007065,
+        "peakToMinimum": {
+          "paper": 1.5559633027522937,
+          "app": 1.9835754206259362,
+          "minimumWavelengthNm": 460,
+          "peakWavelengthNm": 604
+        },
+        "n": 13
+      },
+      {
+        "publishedDiameter": 160,
+        "diameter": 160,
+        "scale": 1,
+        "cv": 0.12,
+        "A": 0,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 10.688091458549462,
+        "phi": 0.000002461024006501298,
+        "sse": 0.07995039467092047,
+        "objective": 0.008854649312335905,
+        "ratioPenalty": 0.003650944634558954,
+        "peakToMinimum": {
+          "paper": 1.1643356643356644,
+          "app": 1.5750167627358476,
+          "minimumWavelengthNm": 450,
+          "peakWavelengthNm": 625
+        },
+        "n": 16
+      }
+    ],
+    "sse": 0.4941349446101316,
+    "rmse": 0.06702339785546615,
+    "n": 110
+  },
+  "baselineFixedA1": {
+    "A": 1,
+    "mat": "au",
+    "samples": [
+      {
+        "publishedDiameter": 20,
+        "diameter": 20,
+        "scale": 1,
+        "cv": 0.12,
+        "A": 1,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 5.980927003311628,
+        "phi": 0.0000013771593360110904,
+        "sse": 0.035536738809375995,
+        "objective": 0.0020652574247946864,
+        "ratioPenalty": 0.0003850978209832461,
+        "peakToMinimum": {
+          "paper": 2.348648648648649,
+          "app": 2.1291451742384377,
+          "minimumWavelengthNm": 470,
+          "peakWavelengthNm": 520
+        },
+        "n": 17
+      },
+      {
+        "publishedDiameter": 40,
+        "diameter": 40,
+        "scale": 1,
+        "cv": 0.12,
+        "A": 1,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 5.904838155874532,
+        "phi": 0.000001359639231425915,
+        "sse": 0.05148055340154567,
+        "objective": 0.0023189549698392144,
+        "ratioPenalty": 1.909615819539505e-8,
+        "peakToMinimum": {
+          "paper": 2.394230769230769,
+          "app": 2.392577060626597,
+          "minimumWavelengthNm": 460,
+          "peakWavelengthNm": 523
+        },
+        "n": 17
+      },
+      {
+        "publishedDiameter": 60,
+        "diameter": 60,
+        "scale": 1,
+        "cv": 0.12,
+        "A": 1,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 5.908270870664394,
+        "phi": 0.0000013604296432162786,
+        "sse": 0.07156655997058887,
+        "objective": 0.004217001333032642,
+        "ratioPenalty": 0.0007795607934064704,
+        "peakToMinimum": {
+          "paper": 2.1859504132231407,
+          "app": 2.513443650867208,
+          "minimumWavelengthNm": 460,
+          "peakWavelengthNm": 534
+        },
+        "n": 17
+      },
+      {
+        "publishedDiameter": 80,
+        "diameter": 80,
+        "scale": 1,
+        "cv": 0.12,
+        "A": 1,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 6.772402940339364,
+        "phi": 0.0000015594034054174464,
+        "sse": 0.04098511937183654,
+        "objective": 0.0021723334958634595,
+        "ratioPenalty": 0.00020181952123698603,
+        "peakToMinimum": {
+          "paper": 2.203809523809524,
+          "app": 2.3660432931466917,
+          "minimumWavelengthNm": 440,
+          "peakWavelengthNm": 540
+        },
+        "n": 16
+      },
+      {
+        "publishedDiameter": 100,
+        "diameter": 100,
+        "scale": 1,
+        "cv": 0.12,
+        "A": 1,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 7.496058151028138,
+        "phi": 0.00000172603117547739,
+        "sse": 0.0624765127661551,
+        "objective": 0.006583597577987528,
+        "ratioPenalty": 0.0024024981043937843,
+        "peakToMinimum": {
+          "paper": 1.7823639774859286,
+          "app": 2.2773602392500947,
+          "minimumWavelengthNm": 450,
+          "peakWavelengthNm": 566
+        },
+        "n": 14
+      },
+      {
+        "publishedDiameter": 120,
+        "diameter": 120,
+        "scale": 1,
+        "cv": 0.12,
+        "A": 1,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 8.65448998570754,
+        "phi": 0.0000019927699628556438,
+        "sse": 0.04756035518692373,
+        "objective": 0.005611684085474997,
+        "ratioPenalty": 0.002228822836628601,
+        "peakToMinimum": {
+          "paper": 1.5559633027522937,
+          "app": 1.970223311492924,
+          "minimumWavelengthNm": 460,
+          "peakWavelengthNm": 604
+        },
+        "n": 13
+      },
+      {
+        "publishedDiameter": 160,
+        "diameter": 160,
+        "scale": 1,
+        "cv": 0.12,
+        "A": 1,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 10.717396114462233,
+        "phi": 0.0000024677716528873047,
+        "sse": 0.07851302643825554,
+        "objective": 0.008687406901736968,
+        "ratioPenalty": 0.003577593643928273,
+        "peakToMinimum": {
+          "paper": 1.1643356643356644,
+          "app": 1.5702198223214907,
+          "minimumWavelengthNm": 450,
+          "peakWavelengthNm": 625
+        },
+        "n": 16
+      }
+    ],
+    "sse": 0.3881188659446815,
+    "rmse": 0.05939994382800233,
+    "n": 110
+  },
+  "sharedBest": {
+    "scale": 0.9000000000000001,
+    "cv": 0.18,
+    "A": 1,
+    "mat": "au",
+    "amplitude": 7.13275668703025,
+    "phi": 0.0000016423779219509453,
+    "sse": 0.900254984158512,
+    "rmse": 0.09046621590197546
+  },
+  "best": {
+    "A": 1,
+    "mat": "au",
+    "samples": [
+      {
+        "publishedDiameter": 20,
+        "diameter": 22.999999999999986,
+        "scale": 1.1499999999999992,
+        "cv": 0.15,
+        "A": 1,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 5.784993766060298,
+        "phi": 0.0000013320440408793926,
+        "sse": 0.036099977696466896,
+        "objective": 0.001909126008474404,
+        "ratioPenalty": 0.00024043725201125185,
+        "peakToMinimum": {
+          "paper": 2.348648648648649,
+          "app": 2.173437300049605,
+          "minimumWavelengthNm": 470,
+          "peakWavelengthNm": 520
+        },
+        "n": 17
+      },
+      {
+        "publishedDiameter": 40,
+        "diameter": 46,
+        "scale": 1.15,
+        "cv": 0.15,
+        "A": 1,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 5.636440209919665,
+        "phi": 0.0000012978383204913252,
+        "sse": 0.025185323975114825,
+        "objective": 0.001096164606291102,
+        "ratioPenalty": 4.76930090652457e-7,
+        "peakToMinimum": {
+          "paper": 2.394230769230769,
+          "app": 2.385977732478753,
+          "minimumWavelengthNm": 460,
+          "peakWavelengthNm": 523
+        },
+        "n": 17
+      },
+      {
+        "publishedDiameter": 60,
+        "diameter": 68.21846122741701,
+        "scale": 1.1369743537902834,
+        "cv": 0.15,
+        "A": 1,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 5.912924152649357,
+        "phi": 0.0000013615011009894859,
+        "sse": 0.023221375665004023,
+        "objective": 0.0016663189177154184,
+        "ratioPenalty": 0.00048025688926476055,
+        "peakToMinimum": {
+          "paper": 2.1859504132231407,
+          "app": 2.439088799242179,
+          "minimumWavelengthNm": 460,
+          "peakWavelengthNm": 534
+        },
+        "n": 17
+      },
+      {
+        "publishedDiameter": 80,
+        "diameter": 76.50102007910606,
+        "scale": 0.9562627509888256,
+        "cv": 0.15,
+        "A": 1,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 6.808181871780577,
+        "phi": 0.0000015676418088354257,
+        "sse": 0.03125631052067847,
+        "objective": 0.0017064911863917227,
+        "ratioPenalty": 0.00020510659162727146,
+        "peakToMinimum": {
+          "paper": 2.203809523809524,
+          "app": 2.3674068007628457,
+          "minimumWavelengthNm": 440,
+          "peakWavelengthNm": 540
+        },
+        "n": 16
+      },
+      {
+        "publishedDiameter": 100,
+        "diameter": 113.13270485401137,
+        "scale": 1.1313270485401137,
+        "cv": 0.15,
+        "A": 1,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 8.607857142046303,
+        "phi": 0.000001982032353789815,
+        "sse": 0.01907398552831612,
+        "objective": 0.002230083057599142,
+        "ratioPenalty": 0.0008921140985356753,
+        "peakToMinimum": {
+          "paper": 1.7823639774859286,
+          "app": 2.069448105664245,
+          "minimumWavelengthNm": 450,
+          "peakWavelengthNm": 566
+        },
+        "n": 14
+      },
+      {
+        "publishedDiameter": 120,
+        "diameter": 137.99999999999994,
+        "scale": 1.1499999999999995,
+        "cv": 0.15,
+        "A": 1,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 10.474343021736118,
+        "phi": 0.0000024118066100755795,
+        "sse": 0.036138434758385754,
+        "objective": 0.003252324627112124,
+        "ratioPenalty": 0.0007918815129938519,
+        "peakToMinimum": {
+          "paper": 1.5559633027522937,
+          "app": 1.79104059315265,
+          "minimumWavelengthNm": 460,
+          "peakWavelengthNm": 604
+        },
+        "n": 13
+      },
+      {
+        "publishedDiameter": 160,
+        "diameter": 184,
+        "scale": 1.15,
+        "cv": 0.13633462429046625,
+        "A": 1,
+        "mat": "au",
+        "medium": "water",
+        "amplitude": 13.130403693449676,
+        "phi": 0.0000030233871809531185,
+        "sse": 0.09256826702019078,
+        "objective": 0.006760620055984726,
+        "ratioPenalty": 0.0013596360737865494,
+        "peakToMinimum": {
+          "paper": 1.1643356643356644,
+          "app": 1.4000625242720024,
+          "minimumWavelengthNm": 450,
+          "peakWavelengthNm": 625
+        },
+        "n": 16
+      }
+    ],
+    "sse": 0.2635436751641569,
+    "rmse": 0.04894743703608419,
+    "n": 110
+  },
+  "relativeRmseReduction": 0.17596829421563565,
+  "observations": [
+    {
+      "d": 20,
+      "wl": 400,
+      "y": 0.265625,
+      "weight": 1
+    },
+    {
+      "d": 20,
+      "wl": 425,
+      "y": 0.265625,
+      "weight": 1
+    },
+    {
+      "d": 20,
+      "wl": 530,
+      "y": 0.5411931818181818,
+      "weight": 1
+    },
+    {
+      "d": 20,
+      "wl": 540,
+      "y": 0.4616477272727273,
+      "weight": 1
+    },
+    {
+      "d": 20,
+      "wl": 550,
+      "y": 0.390625,
+      "weight": 1
+    },
+    {
+      "d": 20,
+      "wl": 560,
+      "y": 0.2997159090909091,
+      "weight": 1
+    },
+    {
+      "d": 20,
+      "wl": 570,
+      "y": 0.22443181818181818,
+      "weight": 1
+    },
+    {
+      "d": 20,
+      "wl": 580,
+      "y": 0.1690340909090909,
+      "weight": 1
+    },
+    {
+      "d": 20,
+      "wl": 590,
+      "y": 0.12642045454545456,
+      "weight": 1
+    },
+    {
+      "d": 20,
+      "wl": 600,
+      "y": 0.09943181818181818,
+      "weight": 1
+    },
+    {
+      "d": 20,
+      "wl": 620,
+      "y": 0.06676136363636363,
+      "weight": 1
+    },
+    {
+      "d": 20,
+      "wl": 640,
+      "y": 0.05113636363636364,
+      "weight": 1
+    },
+    {
+      "d": 20,
+      "wl": 660,
+      "y": 0.04261363636363636,
+      "weight": 1
+    },
+    {
+      "d": 20,
+      "wl": 680,
+      "y": 0.03835227272727273,
+      "weight": 1
+    },
+    {
+      "d": 20,
+      "wl": 693,
+      "y": 0.036931818181818184,
+      "weight": 1
+    },
+    {
+      "d": 40,
+      "wl": 400,
+      "y": 0.3053977272727273,
+      "weight": 1
+    },
+    {
+      "d": 40,
+      "wl": 425,
+      "y": 0.2997159090909091,
+      "weight": 1
+    },
+    {
+      "d": 40,
+      "wl": 530,
+      "y": 0.6818181818181818,
+      "weight": 1
+    },
+    {
+      "d": 40,
+      "wl": 540,
+      "y": 0.6008522727272727,
+      "weight": 1
+    },
+    {
+      "d": 40,
+      "wl": 550,
+      "y": 0.4786931818181818,
+      "weight": 1
+    },
+    {
+      "d": 40,
+      "wl": 560,
+      "y": 0.3678977272727273,
+      "weight": 1
+    },
+    {
+      "d": 40,
+      "wl": 570,
+      "y": 0.28551136363636365,
+      "weight": 1
+    },
+    {
+      "d": 40,
+      "wl": 580,
+      "y": 0.22443181818181818,
+      "weight": 1
+    },
+    {
+      "d": 40,
+      "wl": 590,
+      "y": 0.18039772727272727,
+      "weight": 1
+    },
+    {
+      "d": 40,
+      "wl": 600,
+      "y": 0.14914772727272727,
+      "weight": 1
+    },
+    {
+      "d": 40,
+      "wl": 620,
+      "y": 0.10511363636363637,
+      "weight": 1
+    },
+    {
+      "d": 40,
+      "wl": 640,
+      "y": 0.08096590909090909,
+      "weight": 1
+    },
+    {
+      "d": 40,
+      "wl": 660,
+      "y": 0.06960227272727272,
+      "weight": 1
+    },
+    {
+      "d": 40,
+      "wl": 680,
+      "y": 0.06392045454545454,
+      "weight": 1
+    },
+    {
+      "d": 40,
+      "wl": 693,
+      "y": 0.05965909090909091,
+      "weight": 1
+    },
+    {
+      "d": 60,
+      "wl": 400,
+      "y": 0.35511363636363635,
+      "weight": 1
+    },
+    {
+      "d": 60,
+      "wl": 425,
+      "y": 0.3508522727272727,
+      "weight": 1
+    },
+    {
+      "d": 60,
+      "wl": 530,
+      "y": 0.7485795454545454,
+      "weight": 1
+    },
+    {
+      "d": 60,
+      "wl": 540,
+      "y": 0.7329545454545454,
+      "weight": 1
+    },
+    {
+      "d": 60,
+      "wl": 550,
+      "y": 0.6448863636363636,
+      "weight": 1
+    },
+    {
+      "d": 60,
+      "wl": 560,
+      "y": 0.5355113636363636,
+      "weight": 1
+    },
+    {
+      "d": 60,
+      "wl": 570,
+      "y": 0.43892045454545453,
+      "weight": 1
+    },
+    {
+      "d": 60,
+      "wl": 580,
+      "y": 0.36363636363636365,
+      "weight": 1
+    },
+    {
+      "d": 60,
+      "wl": 590,
+      "y": 0.30113636363636365,
+      "weight": 1
+    },
+    {
+      "d": 60,
+      "wl": 600,
+      "y": 0.2556818181818182,
+      "weight": 1
+    },
+    {
+      "d": 60,
+      "wl": 620,
+      "y": 0.1903409090909091,
+      "weight": 1
+    },
+    {
+      "d": 60,
+      "wl": 640,
+      "y": 0.15056818181818182,
+      "weight": 1
+    },
+    {
+      "d": 60,
+      "wl": 660,
+      "y": 0.12215909090909091,
+      "weight": 1
+    },
+    {
+      "d": 60,
+      "wl": 680,
+      "y": 0.10511363636363637,
+      "weight": 1
+    },
+    {
+      "d": 60,
+      "wl": 693,
+      "y": 0.09943181818181818,
+      "weight": 1
+    },
+    {
+      "d": 80,
+      "wl": 400,
+      "y": 0.38636363636363635,
+      "weight": 1
+    },
+    {
+      "d": 80,
+      "wl": 425,
+      "y": 0.37357954545454547,
+      "weight": 1
+    },
+    {
+      "d": 80,
+      "wl": 530,
+      "y": 0.7940340909090909,
+      "weight": 1
+    },
+    {
+      "d": 80,
+      "wl": 540,
+      "y": 0.8224431818181818,
+      "weight": 1
+    },
+    {
+      "d": 80,
+      "wl": 550,
+      "y": 0.7798295454545454,
+      "weight": 1
+    },
+    {
+      "d": 80,
+      "wl": 570,
+      "y": 0.5681818181818182,
+      "weight": 1
+    },
+    {
+      "d": 80,
+      "wl": 580,
+      "y": 0.4772727272727273,
+      "weight": 1
+    },
+    {
+      "d": 80,
+      "wl": 590,
+      "y": 0.40198863636363635,
+      "weight": 1
+    },
+    {
+      "d": 80,
+      "wl": 600,
+      "y": 0.34232954545454547,
+      "weight": 1
+    },
+    {
+      "d": 80,
+      "wl": 620,
+      "y": 0.265625,
+      "weight": 1
+    },
+    {
+      "d": 80,
+      "wl": 640,
+      "y": 0.22017045454545456,
+      "weight": 1
+    },
+    {
+      "d": 80,
+      "wl": 660,
+      "y": 0.19318181818181818,
+      "weight": 1
+    },
+    {
+      "d": 80,
+      "wl": 680,
+      "y": 0.171875,
+      "weight": 1
+    },
+    {
+      "d": 80,
+      "wl": 693,
+      "y": 0.15767045454545456,
+      "weight": 1
+    },
+    {
+      "d": 100,
+      "wl": 400,
+      "y": 0.40482954545454547,
+      "weight": 1
+    },
+    {
+      "d": 100,
+      "wl": 425,
+      "y": 0.38636363636363635,
+      "weight": 1
+    },
+    {
+      "d": 100,
+      "wl": 530,
+      "y": 0.5767045454545454,
+      "weight": 1
+    },
+    {
+      "d": 100,
+      "wl": 570,
+      "y": 0.6747159090909091,
+      "weight": 1
+    },
+    {
+      "d": 100,
+      "wl": 580,
+      "y": 0.6619318181818182,
+      "weight": 1
+    },
+    {
+      "d": 100,
+      "wl": 590,
+      "y": 0.6306818181818182,
+      "weight": 1
+    },
+    {
+      "d": 100,
+      "wl": 600,
+      "y": 0.5951704545454546,
+      "weight": 1
+    },
+    {
+      "d": 100,
+      "wl": 620,
+      "y": 0.5113636363636364,
+      "weight": 1
+    },
+    {
+      "d": 100,
+      "wl": 640,
+      "y": 0.43323863636363635,
+      "weight": 1
+    },
+    {
+      "d": 100,
+      "wl": 660,
+      "y": 0.37073863636363635,
+      "weight": 1
+    },
+    {
+      "d": 100,
+      "wl": 680,
+      "y": 0.3153409090909091,
+      "weight": 1
+    },
+    {
+      "d": 100,
+      "wl": 693,
+      "y": 0.2869318181818182,
+      "weight": 1
+    },
+    {
+      "d": 120,
+      "wl": 400,
+      "y": 0.42045454545454547,
+      "weight": 1
+    },
+    {
+      "d": 120,
+      "wl": 425,
+      "y": 0.3991477272727273,
+      "weight": 1
+    },
+    {
+      "d": 120,
+      "wl": 530,
+      "y": 0.42613636363636365,
+      "weight": 1
+    },
+    {
+      "d": 120,
+      "wl": 560,
+      "y": 0.5355113636363636,
+      "weight": 1
+    },
+    {
+      "d": 120,
+      "wl": 580,
+      "y": 0.5795454545454546,
+      "weight": 1
+    },
+    {
+      "d": 120,
+      "wl": 590,
+      "y": 0.5951704545454546,
+      "weight": 1
+    },
+    {
+      "d": 120,
+      "wl": 620,
+      "y": 0.5809659090909091,
+      "weight": 1
+    },
+    {
+      "d": 120,
+      "wl": 640,
+      "y": 0.5269886363636364,
+      "weight": 1
+    },
+    {
+      "d": 120,
+      "wl": 660,
+      "y": 0.47301136363636365,
+      "weight": 1
+    },
+    {
+      "d": 120,
+      "wl": 680,
+      "y": 0.40625,
+      "weight": 1
+    },
+    {
+      "d": 120,
+      "wl": 693,
+      "y": 0.3650568181818182,
+      "weight": 1
+    },
+    {
+      "d": 160,
+      "wl": 400,
+      "y": 0.43892045454545453,
+      "weight": 1
+    },
+    {
+      "d": 160,
+      "wl": 425,
+      "y": 0.4161931818181818,
+      "weight": 1
+    },
+    {
+      "d": 160,
+      "wl": 530,
+      "y": 0.3508522727272727,
+      "weight": 1
+    },
+    {
+      "d": 160,
+      "wl": 540,
+      "y": 0.375,
+      "weight": 1
+    },
+    {
+      "d": 160,
+      "wl": 550,
+      "y": 0.390625,
+      "weight": 1
+    },
+    {
+      "d": 160,
+      "wl": 560,
+      "y": 0.4147727272727273,
+      "weight": 1
+    },
+    {
+      "d": 160,
+      "wl": 580,
+      "y": 0.4446022727272727,
+      "weight": 1
+    },
+    {
+      "d": 160,
+      "wl": 590,
+      "y": 0.4559659090909091,
+      "weight": 1
+    },
+    {
+      "d": 160,
+      "wl": 600,
+      "y": 0.4659090909090909,
+      "weight": 1
+    },
+    {
+      "d": 160,
+      "wl": 620,
+      "y": 0.47301136363636365,
+      "weight": 1
+    },
+    {
+      "d": 160,
+      "wl": 640,
+      "y": 0.46448863636363635,
+      "weight": 1
+    },
+    {
+      "d": 160,
+      "wl": 660,
+      "y": 0.453125,
+      "weight": 1
+    },
+    {
+      "d": 160,
+      "wl": 680,
+      "y": 0.43323863636363635,
+      "weight": 1
+    },
+    {
+      "d": 160,
+      "wl": 693,
+      "y": 0.4190340909090909,
+      "weight": 1
+    },
+    {
+      "d": 20,
+      "wl": 470,
+      "y": 0.2627840909090909,
+      "weight": 4,
+      "feature": "minimum"
+    },
+    {
+      "d": 20,
+      "wl": 520,
+      "y": 0.6171875,
+      "weight": 4,
+      "feature": "peak"
+    },
+    {
+      "d": 40,
+      "wl": 460,
+      "y": 0.29545454545454547,
+      "weight": 4,
+      "feature": "minimum"
+    },
+    {
+      "d": 40,
+      "wl": 523,
+      "y": 0.7073863636363636,
+      "weight": 4,
+      "feature": "peak"
+    },
+    {
+      "d": 60,
+      "wl": 460,
+      "y": 0.34375,
+      "weight": 4,
+      "feature": "minimum"
+    },
+    {
+      "d": 60,
+      "wl": 534,
+      "y": 0.7514204545454546,
+      "weight": 4,
+      "feature": "peak"
+    },
+    {
+      "d": 80,
+      "wl": 440,
+      "y": 0.3728693181818182,
+      "weight": 4,
+      "feature": "minimum"
+    },
+    {
+      "d": 80,
+      "wl": 540,
+      "y": 0.8217329545454546,
+      "weight": 4,
+      "feature": "peak"
+    },
+    {
+      "d": 100,
+      "wl": 450,
+      "y": 0.37855113636363635,
+      "weight": 4,
+      "feature": "minimum"
+    },
+    {
+      "d": 100,
+      "wl": 566,
+      "y": 0.6747159090909091,
+      "weight": 4,
+      "feature": "peak"
+    },
+    {
+      "d": 120,
+      "wl": 460,
+      "y": 0.38707386363636365,
+      "weight": 4,
+      "feature": "minimum"
+    },
+    {
+      "d": 120,
+      "wl": 604,
+      "y": 0.6022727272727273,
+      "weight": 4,
+      "feature": "peak"
+    },
+    {
+      "d": 160,
+      "wl": 450,
+      "y": 0.40625,
+      "weight": 4,
+      "feature": "minimum"
+    },
+    {
+      "d": 160,
+      "wl": 625,
+      "y": 0.47301136363636365,
+      "weight": 4,
+      "feature": "peak"
+    }
+  ],
+  "opticalData": {
+    "material": "au",
+    "reference": "R. L. Olmon et al., Physical Review B 86, 235147 (2012), single-crystal Au; K. M. McPeak et al., ACS Photonics 2, 326–333 (2015), template-stripped Au",
+    "provenance": {
+      "material": "au",
+      "name": "Gold (Au · Olmon/McPeak consensus)",
+      "id": "au",
+      "year": 2015,
+      "title": "R. L. Olmon et al., Physical Review B 86, 235147 (2012), single-crystal Au; K. M. McPeak et al., ACS Photonics 2, 326–333 (2015), template-stripped Au",
+      "doi": "10.1103/PhysRevB.86.235147",
+      "kind": "Equal-weight mean of two measured complex permittivities",
+      "conditions": "Olmon single-crystal and McPeak Au endpoints, averaged as epsilon",
+      "notes": "Equal-weight average of two high-quality optical datasets, each a reasonable representation of gold in colloids. Permittivity interpolated linearly in wavelength at the original table nodes. Scalar bulk-film optical response; optional electron-boundary scattering is applied separately. Endpoint differences are a material sensitivity, not a statistical confidence interval.",
+      "rangeNm": [
+        300,
+        1700
+      ],
+      "tableRangeNm": [
+        300,
+        1700
+      ],
+      "interpolation": "At native n,k nodes form epsilon = (n+ik)^2; interpolate real and imaginary epsilon linearly in wavelength. Default epsilon is the equal-weight mean of the two interpolated endpoints. No extrapolation.",
+      "license": "CC0 endpoint numerical datasets; consensus calculated in app",
+      "origin": "Published Olmon single-crystal and McPeak gold optical datasets; figure-digitized Fontijn magnetite",
+      "rawSha256": [
+        "4e0dd505f8d87ae1c54132946088df10a972fe9d4d3b62717c01eb85d704632c",
+        "d104232ae43a9b04f978552a7e3dbc448962163e48a023ecca38764eca55e82d"
+      ],
+      "sourceFiles": [
+        {
+          "file": "Au_Olmon_sc_2012.yml",
+          "sha256": "4e0dd505f8d87ae1c54132946088df10a972fe9d4d3b62717c01eb85d704632c"
+        },
+        {
+          "file": "Au_McPeak_2015.yml",
+          "sha256": "d104232ae43a9b04f978552a7e3dbc448962163e48a023ecca38764eca55e82d"
+        }
+      ],
+      "src": "R. L. Olmon et al., Physical Review B 86, 235147 (2012), single-crystal Au; K. M. McPeak et al., ACS Photonics 2, 326–333 (2015), template-stripped Au",
+      "range": [
+        0.3,
+        1.7
+      ],
+      "references": [
+        {
+          "src": "R. L. Olmon et al., Physical Review B 86, 235147 (2012), single-crystal Au",
+          "doi": "10.1103/PhysRevB.86.235147"
+        },
+        {
+          "src": "K. M. McPeak et al., ACS Photonics 2, 326–333 (2015), template-stripped Au",
+          "doi": "10.1021/ph5004237"
+        }
+      ],
+      "sha": [
+        "4e0dd505f8d87ae1c54132946088df10a972fe9d4d3b62717c01eb85d704632c",
+        "d104232ae43a9b04f978552a7e3dbc448962163e48a023ecca38764eca55e82d"
+      ]
+    },
+    "medium": "water"
+  },
+  "quadrature": {
+    "fitNodes": 41,
+    "validationNodes": 65,
+    "maximumRelativeSpectralDifference": 2.0519083379878425e-9,
+    "wavelengthsNm": [
+      400,
+      700
+    ],
+    "stepNm": 10
+  },
+  "identifiability": "Diameter/CV bounds are explicit modelling constraints, not microscopy confidence intervals. Concentration fitting cannot validate the absolute vertical scale. The narrow citrate distributions do not reproduce every spectrum. A minority of non-spherical particles is a possible explanation, alongside material constants and experimental effects, but the spectra alone do not establish its presence. Broad 40–50% fits are retained only as an implausible diagnostic, not as the default historical model.",
+  "electronScattering": {
+    "A": 1,
+    "plasmaEnergyEv": 8.45,
+    "bulkRelaxationTimeFs": 14,
+    "vfMps": 1400000,
+    "length": "4V/S = 2d/3 for each sphere in the distribution",
+    "drudeSource": "10.1103/PhysRevB.86.235147"
+  }
+}

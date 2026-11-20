@@ -1,0 +1,56 @@
+{
+  "flexiblePositiveMixture": {
+    "rms": 0.0247875822916617,
+    "meanShellNm": 4.1652457542918295,
+    "sdShellNm": 6.415899775035194,
+    "numberCV": 1.5403412315886311,
+    "components": [
+      {
+        "thicknessNm": 1.0,
+        "numberWeight": 0.7287675927172216
+      },
+      {
+        "thicknessNm": 7.0,
+        "numberWeight": 0.06851574303414745
+      },
+      {
+        "thicknessNm": 8.0,
+        "numberWeight": 0.039000592369067937
+      },
+      {
+        "thicknessNm": 9.0,
+        "numberWeight": 0.05411224444321882
+      },
+      {
+        "thicknessNm": 10.0,
+        "numberWeight": 0.009773306678607405
+      },
+      {
+        "thicknessNm": 11.0,
+        "numberWeight": 0.021090045928284642
+      },
+      {
+        "thicknessNm": 12.0,
+        "numberWeight": 0.010798647795342273
+      },
+      {
+        "thicknessNm": 25.0,
+        "numberWeight": 0.06794182703411004
+      }
+    ]
+  },
+  "positiveGaussian": {
+    "meanShellNm": 11.523298268045345,
+    "numberCV": 0.49999999999999994,
+    "rms": 0.08867161358883065
+  },
+  "note": "Diagnostic alternatives with the same fixed shared core population and A=1. No baseline or wavelength shift.",
+  "constantBackgroundDiagnostic": {
+    "meanShellNm": 8.53110692807222,
+    "numberCV": 0.4350655440496788,
+    "amplitude": 0.00024579260386956627,
+    "constantOffsetSourcePixels": 25.864780612533078,
+    "normalizedRms": 0.00901600125647376,
+    "note": "No constant background is established by the paper. This extra-parameter diagnostic is not adopted as the default physical fit."
+  }
+}

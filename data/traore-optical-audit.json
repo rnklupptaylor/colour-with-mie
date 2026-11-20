@@ -1,0 +1,198 @@
+{
+  "method": "Direct 10 mm transmission, same recipe volume fractions; original 6.5 nm bulk assumptions versus published finite-size correction and measured pure endpoints. Intermediate alloys retain a representative 6.5 nm diameter. 1 nm spectrum compared with Lightbox 10 nm RGB weights. Renders add glass, reflection and scattering.",
+  "paperCorrection": "gammaNP = gammaBulk + 2 C vF / d; C(Ag)=0.2959, C(Au)=0.2035, linear in xAu. Under app L=4V/S=2d/3 this is A=4C/3.",
+  "rows": [
+    {
+      "gold": 0,
+      "on": false,
+      "A": 0.39453333333333335,
+      "diameterNm": 6.5,
+      "sdNm": 0,
+      "phi": 0.0000017121936507936505,
+      "peak": [
+        399,
+        40.93274143102505
+      ],
+      "transmissionHex": "#fdfee4",
+      "linear1nm": [
+        0.9861848102643322,
+        0.9933617392315286,
+        0.7790618944735382
+      ],
+      "linear10nm": [
+        0.9860564904561877,
+        0.9934923713175035,
+        0.7756538879908046
+      ],
+      "maxRgbGridDifference": 0.00340800648273365
+    },
+    {
+      "gold": 0,
+      "on": true,
+      "A": 0.39453333333333335,
+      "diameterNm": 4.47,
+      "sdNm": 0.56,
+      "phi": 0.0000017121936507936505,
+      "peak": [
+        399,
+        13.987904634180925
+      ],
+      "transmissionHex": "#fcf7bb",
+      "linear1nm": [
+        0.9730235357233091,
+        0.927051683774492,
+        0.4963464296352183
+      ],
+      "linear10nm": [
+        0.9732792392699887,
+        0.9267439169620465,
+        0.49487058288011304
+      ],
+      "maxRgbGridDifference": 0.001475846755105259
+    },
+    {
+      "gold": 10,
+      "on": false,
+      "A": 0.3822133333333333,
+      "diameterNm": 6.5,
+      "sdNm": 0,
+      "phi": 0.0000017108902363699105,
+      "peak": [
+        411,
+        11.691389048345826
+      ],
+      "transmissionHex": "#fdfaab",
+      "linear1nm": [
+        0.9813149496548423,
+        0.9552985502743117,
+        0.4061660105919599
+      ],
+      "linear10nm": [
+        0.9818713346977374,
+        0.9547309541212998,
+        0.405557934958801
+      ],
+      "maxRgbGridDifference": 0.0006080756331588999
+    },
+    {
+      "gold": 10,
+      "on": true,
+      "A": 0.3822133333333333,
+      "diameterNm": 6.5,
+      "sdNm": 0,
+      "phi": 0.0000017108902363699105,
+      "peak": [
+        411,
+        8.075940657867502
+      ],
+      "transmissionHex": "#fdf394",
+      "linear1nm": [
+        0.9798955407271622,
+        0.8998863333814152,
+        0.2960217109049429
+      ],
+      "linear10nm": [
+        0.9804546469319733,
+        0.8991973686415891,
+        0.29630204572001434
+      ],
+      "maxRgbGridDifference": 0.0006889647398261589
+    },
+    {
+      "gold": 20,
+      "on": false,
+      "A": 0.36989333333333335,
+      "diameterNm": 6.5,
+      "sdNm": 0,
+      "phi": 0.00000170958682194617,
+      "peak": [
+        423,
+        6.055340263171071
+      ],
+      "transmissionHex": "#fff374",
+      "linear1nm": [
+        1.0003125414710283,
+        0.8943388342242056,
+        0.17574498739091643
+      ],
+      "linear10nm": [
+        1.001078654916335,
+        0.8933417456164902,
+        0.17767196438135782
+      ],
+      "maxRgbGridDifference": 0.0019269769904413925
+    },
+    {
+      "gold": 20,
+      "on": true,
+      "A": 0.36989333333333335,
+      "diameterNm": 6.5,
+      "sdNm": 0,
+      "phi": 0.00000170958682194617,
+      "peak": [
+        423,
+        4.816012320340863
+      ],
+      "transmissionHex": "#ffec68",
+      "linear1nm": [
+        0.9976205090043143,
+        0.8392289051508586,
+        0.13795376658977623
+      ],
+      "linear10nm": [
+        0.9982280805125952,
+        0.838290819452992,
+        0.13987644980101988
+      ],
+      "maxRgbGridDifference": 0.001922683211243642
+    },
+    {
+      "gold": 100,
+      "on": false,
+      "A": 0.2713333333333333,
+      "diameterNm": 6.5,
+      "sdNm": 0,
+      "phi": 0.0000016991595065562457,
+      "peak": [
+        521,
+        1.9807194384154805
+      ],
+      "transmissionHex": "#ffa5af",
+      "linear1nm": [
+        1.1510550447908945,
+        0.37488628742564384,
+        0.429016578678224
+      ],
+      "linear10nm": [
+        1.148477836132298,
+        0.37626965123457057,
+        0.42810512846909926
+      ],
+      "maxRgbGridDifference": 0.0025772086585964527
+    },
+    {
+      "gold": 100,
+      "on": true,
+      "A": 0.2713333333333333,
+      "diameterNm": 5.1,
+      "sdNm": 0.67,
+      "phi": 0.0000016991595065562457,
+      "peak": [
+        521,
+        1.6804069435166546
+      ],
+      "transmissionHex": "#ffa5b2",
+      "linear1nm": [
+        1.072426706125667,
+        0.37491739631270227,
+        0.44693380168051533
+      ],
+      "linear10nm": [
+        1.0702380419383537,
+        0.37622042138265166,
+        0.4460775355426536
+      ],
+      "maxRgbGridDifference": 0.0021886641873132273
+    }
+  ]
+}

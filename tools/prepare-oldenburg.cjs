@@ -1,0 +1,13 @@
+const fs=require('node:fs'),path=require('node:path'),dir=path.resolve(__dirname,'..'),read=f=>fs.readFileSync(path.join(dir,f),'utf8');
+const report=JSON.parse(read('data/oldenburg-modern-fit.json')),grid=JSON.parse(read('data/oldenburg-modern-grid-fit.json'));
+// Full-grid and native calculations are retained separately in the audit record.
+report.native.maximumPeakNormalizedGridDifference=0;
+for(const [panel,f] of Object.entries(report.families))for(const mode of ['single','population','background']){if(!f[mode])continue;for(const r of f[mode].rows){const g=grid.families[panel][mode].rows.find(x=>x.id===r.id);r.gridDifference=Math.max(...r.crossSectionsNm2.map((v,i)=>Math.abs(v-g.crossSectionsNm2[i])));r.peakNormalizedGridDifference=r.gridDifference*r.amplitude/Math.max(...r.signal);report.native.maximumPeakNormalizedGridDifference=Math.max(report.native.maximumPeakNormalizedGridDifference,r.peakNormalizedGridDifference);}}
+fs.writeFileSync(path.join(dir,'data/oldenburg-modern-fit.json'),JSON.stringify(report,null,2));
+report.defaultPopulationRowSelection='Use the shared-core population fits for labelled spectra and the background group for the rising trace. Its constant is a vertical plotting offset.';
+for(const f of Object.values(report.families)){const selected=f.population.rows.map(r=>r.TEM===null?f.background.rows[0]:r);f.displayedPopulationRms=Math.sqrt(selected.reduce((s,r)=>s+r.rms*r.rms,0)/selected.length);}
+fs.writeFileSync(path.join(dir,'data/oldenburg-modern-fit.json'),JSON.stringify(report,null,2));
+let s=read('src/oldenburg-modern.template.js');if(s.split('/*OLDENBURG_MODERN*/{}').length!==2)throw Error('Oldenburg module marker');s=s.replace('/*OLDENBURG_MODERN*/{}',()=>JSON.stringify(report));fs.writeFileSync(path.join(dir,'src/oldenburg-modern.js'),s);
+const rows=[];for(const [panel,f] of Object.entries(report.families))for(let r of f.population.rows){if(r.TEM===null)r=f.background.rows[0];rows.push([panel,r.TEM,2*r.meanCoreRadiusNm,2*r.coreRadiusSDNm,r.meanShellThicknessNm,r.shellThicknessSDNm,r.coreNumberCV,r.shellNumberCV,1,r.rms,r.amplitude,r.offset||0,r.fitPeak]);}
+fs.writeFileSync(path.join(dir,'data/oldenburg-modern-settings.csv'),['panel,TEM_shell_nm,shared_core_mean_diameter_nm,shared_core_diameter_SD_nm,mean_shell_nm,shell_SD_nm,core_number_CV,shell_number_CV,A,normalized_RMS,ordinate_multiplier,vertical_plot_offset,calculated_peak_nm',...rows.map(r=>r.join(','))].join('\n')+'\n');
+console.log('Prepared modern Oldenburg fits; family RMS',Object.fromEntries(Object.entries(report.families).map(([p,f])=>[p,f.population.rms])),'maximum grid/65-node differences',report.native.maximumPeakNormalizedGridDifference,report.native.maximumPeakNormalized65NodeDifference);

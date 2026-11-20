@@ -1,0 +1,165 @@
+{
+  "format": "scatter-with-mie-lightbox",
+  "version": 1,
+  "title": "Lycurgus effect · alloy and glass analogues",
+  "samples": [
+    {
+      "id": "lycurgus-0",
+      "name": "Ag₇₀Au₃₀ · d = 70 nm + SiO₂",
+      "particle": {
+        "struct": "homog",
+        "mat": "auag30",
+        "matCore": "sio2",
+        "med": "custom",
+        "rad": 35,
+        "core": 60,
+        "shell": 10,
+        "cn": 1.5,
+        "ck": 0,
+        "ccn": 1.45,
+        "cck": 0,
+        "cmed": 1.5251388981611569,
+        "popOn": true,
+        "popShape": "lognormal",
+        "popSize": 20,
+        "popShell": 10,
+        "popBeads": "independent",
+        "popQuality": "standard",
+        "surfaceOn": true,
+        "surfaceA": 1
+      },
+      "phi": 0.000008,
+      "origin": "forward",
+      "target": null,
+      "testCard": false,
+      "designIlluminant": "D65",
+      "designWhiteBalance": "source",
+      "paint": {
+        "loading": 0.001,
+        "white": 0
+      },
+      "sourceName": "",
+      "solid": {
+        "loading": 0.003,
+        "diameter": 200
+      }
+    },
+    {
+      "id": "lycurgus-1",
+      "name": "Ag₈₀Au₂₀ · d = 70 nm",
+      "particle": {
+        "struct": "homog",
+        "mat": "auag20",
+        "matCore": "sio2",
+        "med": "custom",
+        "rad": 35,
+        "core": 60,
+        "shell": 10,
+        "cn": 1.5,
+        "ck": 0,
+        "ccn": 1.45,
+        "cck": 0,
+        "cmed": 1.5251388981611569,
+        "popOn": true,
+        "popShape": "lognormal",
+        "popSize": 10,
+        "popShell": 10,
+        "popBeads": "independent",
+        "popQuality": "standard",
+        "surfaceOn": true,
+        "surfaceA": 1
+      },
+      "phi": 0.000009999999999999999,
+      "origin": "forward",
+      "target": null,
+      "testCard": false,
+      "designIlluminant": "D65",
+      "designWhiteBalance": "source",
+      "paint": {
+        "loading": 0.001,
+        "white": 0
+      },
+      "sourceName": "",
+      "solid": {
+        "loading": 0,
+        "diameter": 200
+      }
+    },
+    {
+      "id": "lycurgus-2",
+      "name": "Ag₈₀Au₂₀ · d = 75 nm",
+      "particle": {
+        "struct": "homog",
+        "mat": "auag20",
+        "matCore": "sio2",
+        "med": "custom",
+        "rad": 37.5,
+        "core": 60,
+        "shell": 10,
+        "cn": 1.5,
+        "ck": 0,
+        "ccn": 1.45,
+        "cck": 0,
+        "cmed": 1.5251388981611569,
+        "popOn": true,
+        "popShape": "lognormal",
+        "popSize": 10,
+        "popShell": 10,
+        "popBeads": "independent",
+        "popQuality": "standard",
+        "surfaceOn": true,
+        "surfaceA": 1
+      },
+      "phi": 0.000009999999999999999,
+      "origin": "forward",
+      "target": null,
+      "testCard": false,
+      "designIlluminant": "D65",
+      "designWhiteBalance": "source",
+      "paint": {
+        "loading": 0.001,
+        "white": 0
+      },
+      "sourceName": "",
+      "solid": {
+        "loading": 0,
+        "diameter": 200
+      }
+    }
+  ],
+  "settings": {
+    "container": "seidel",
+    "lighting": "room",
+    "illuminant": "D65",
+    "whiteBalance": "source",
+    "pitch": 0.13,
+    "yaw": 0,
+    "seidelMatrix": "soda-clear",
+    "seidelLogo": false,
+    "seidelFrontLight": true,
+    "gain": 1
+  },
+  "activeId": null,
+  "selectedIds": [],
+  "scientificBasis": {
+    "purpose": "Illustrate red transmission and olive-green reflection in the supplied mug. These are optical analogues, not a recovered archaeological recipe.",
+    "closestExistingMaterial": "Rioux Au–Ag alloy at x_Au = 0.30, a binary approximation to the reported Ag–Au–Cu particles.",
+    "archaeology": {
+      "AgAtomicPercent": 66.2,
+      "AuAtomicPercent": 31.2,
+      "CuAtomicPercent": 2.6,
+      "reportedTypicalDiameterNm": [
+        50,
+        100
+      ],
+      "source": "https://doi.org/10.1111/j.1475-4754.1990.tb01079.x"
+    },
+    "appearanceVariants": "The two x_Au = 0.20 samples deliberately favour the optical colour contrast. They are not presented as the measured composition of the cup.",
+    "matrix": "Measured modern soda–lime clear glass, Rubin 1985. The alternative green glass can be selected in Scene settings. Neither is measured Lycurgus glass.",
+    "silica": "The x_Au = 0.30 example includes 0.3 vol% 200 nm silica spheres as a simple proxy for silica-rich scattering regions. The real glass is more heterogeneous.",
+    "replicaStudy": "https://iris.cnr.it/handle/20.500.14243/398313",
+    "matrixOptics": "https://doi.org/10.1016/0165-1633(85)90052-8",
+    "alloyOptics": "https://doi.org/10.1002/adom.201300457",
+    "rendering": "Same particle and matrix parameters in front and back lighting. A = 1 for every size-distribution member. Narrow photographic front illumination, D65."
+  }
+}

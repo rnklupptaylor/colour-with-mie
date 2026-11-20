@@ -1,0 +1,8 @@
+* text=auto eol=lf
+# Keep source data byte-exact (checksums are verified by the tests)
+data/** -text
+*.csv -text
+*.png binary
+*.stl binary
+*.pdf binary
+*.zip binary

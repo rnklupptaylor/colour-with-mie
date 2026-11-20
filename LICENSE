@@ -1,0 +1,41 @@
+MIT License
+
+Copyright (c) 2026 Robin N. Klupp Taylor
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+Third-party material included in this repository
+-------------------------------------------------------------------------------
+
+The MIT licence above covers the author's own code. The following embedded
+material keeps its own licence, whose full text is included where it is
+embedded (app-shell.html and src/entry/script-04.js):
+
+- three.js, Copyright (c) 2010-2023 three.js authors, MIT License.
+- Atkinson Hyperlegible, JetBrains Mono and STIX Two Text fonts, embedded in
+  styles/style-01.css, each under the SIL Open Font License 1.1.
+
+The CIE observer and D65 tables in data/colorimetry/ are published by the CIE
+under CC BY-SA 4.0 (citations and checksums in data/colorimetry/README.md).
+
+Other optical constants, colorimetric tables and digitised literature figures in
+data/ and assets/ are reproduced for teaching and comparison with their
+sources cited in the files and in the app. They are not covered by the MIT
+licence; refer to the original sources for their terms.

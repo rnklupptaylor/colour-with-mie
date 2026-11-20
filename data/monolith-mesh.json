@@ -1,0 +1,18 @@
+{
+  "source": "Procedural rounded, curved solid slab",
+  "outsideDimensionsMm": [
+    16,
+    45,
+    1.47935
+  ],
+  "nominalThicknessMm": 1.47935,
+  "thicknessReference": "Central Humpen.stl barrel wall at original height 44.5 mm, x = -75 mm. Ray intersection difference = 1.47935 mm. The mug wall varies elsewhere.",
+  "bendRadiusMm": 60,
+  "cornerRadiusMm": 2.0,
+  "edgeRadiusMm": 0.15,
+  "triangles": 1056,
+  "bvhNodes": 511,
+  "millimetresPerWorldUnit": 13.47305389221557,
+  "closed": true,
+  "surfaceAssumption": "Smooth homogeneous solid, no liquid cavity"
+}

@@ -1,0 +1,128 @@
+{
+  "format": "scatter-with-mie-lightbox",
+  "version": 1,
+  "title": "Seidlaglas · three solid colours",
+  "samples": [
+    {
+      "id": "seidel-0",
+      "name": "Au 30 nm",
+      "particle": {
+        "struct": "homog",
+        "mat": "au",
+        "matCore": "sio2",
+        "med": "water",
+        "rad": 15,
+        "core": 60,
+        "shell": 10,
+        "cn": 1.5,
+        "ck": 0,
+        "ccn": 1.45,
+        "cck": 0,
+        "cmed": 1.33,
+        "popOn": false,
+        "popShape": "lognormal",
+        "popSize": 10,
+        "popShell": 10,
+        "popBeads": "independent",
+        "popQuality": "standard",
+        "surfaceOn": true,
+        "surfaceA": 1
+      },
+      "phi": 8e-06,
+      "origin": "forward",
+      "target": null,
+      "testCard": false,
+      "designIlluminant": "bleyer",
+      "designWhiteBalance": "source",
+      "paint": {
+        "loading": 0.001,
+        "white": 0
+      },
+      "sourceName": ""
+    },
+    {
+      "id": "seidel-1",
+      "name": "Ag 50 nm",
+      "particle": {
+        "struct": "homog",
+        "mat": "ag",
+        "matCore": "sio2",
+        "med": "water",
+        "rad": 25,
+        "core": 60,
+        "shell": 10,
+        "cn": 1.5,
+        "ck": 0,
+        "ccn": 1.45,
+        "cck": 0,
+        "cmed": 1.33,
+        "popOn": false,
+        "popShape": "lognormal",
+        "popSize": 10,
+        "popShell": 10,
+        "popBeads": "independent",
+        "popQuality": "standard",
+        "surfaceOn": true,
+        "surfaceA": 1
+      },
+      "phi": 6e-06,
+      "origin": "forward",
+      "target": null,
+      "testCard": false,
+      "designIlluminant": "bleyer",
+      "designWhiteBalance": "source",
+      "paint": {
+        "loading": 0.001,
+        "white": 0
+      },
+      "sourceName": ""
+    },
+    {
+      "id": "seidel-2",
+      "name": "SiO₂ core 120 / Au shell 10 nm",
+      "particle": {
+        "struct": "cs",
+        "mat": "au",
+        "matCore": "sio2",
+        "med": "water",
+        "rad": 70,
+        "core": 60,
+        "shell": 10,
+        "cn": 1.5,
+        "ck": 0,
+        "ccn": 1.45,
+        "cck": 0,
+        "cmed": 1.33,
+        "popOn": false,
+        "popShape": "lognormal",
+        "popSize": 10,
+        "popShell": 10,
+        "popBeads": "independent",
+        "popQuality": "standard",
+        "surfaceOn": true,
+        "surfaceA": 1
+      },
+      "phi": 1.5e-05,
+      "origin": "forward",
+      "target": null,
+      "testCard": false,
+      "designIlluminant": "bleyer",
+      "designWhiteBalance": "source",
+      "paint": {
+        "loading": 0.001,
+        "white": 0
+      },
+      "sourceName": ""
+    }
+  ],
+  "settings": {
+    "container": "seidel",
+    "lighting": "back",
+    "illuminant": "D65",
+    "whiteBalance": "source",
+    "pitch": 0.13,
+    "yaw": 0,
+    "seidelMatrix": "bk7",
+    "seidelLogo": false
+  }
+}

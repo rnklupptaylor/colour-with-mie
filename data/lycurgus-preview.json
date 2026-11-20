@@ -1,0 +1,33 @@
+{
+  "purpose": "Compact native-renderer preview. Top: back light. Bottom: narrow photographic front light. Each row uses exactly the same sample and matrix parameters.",
+  "renderPassesPerView": 64,
+  "scatteringGridCap": 24,
+  "sourceImagePixels": [
+    240,
+    320
+  ],
+  "sameSettingsAs": "Lycurgus-Seidlaglas.lightbox.json",
+  "layout": {
+    "width": 1000,
+    "height": 903,
+    "tileHeight": 398,
+    "renderWidth": 319,
+    "cropWidth": 298.81087965514286,
+    "cropAspect": 0.7507692307692309,
+    "renderAspect": 0.8007692307692309,
+    "step": 340.6444028068629,
+    "left": 9.95015736556572,
+    "top": 9.95015736556572,
+    "bottom": 495.5115421825441,
+    "labelY": 451.7308497740549,
+    "labelHeight": 55.72088124716804,
+    "scale": 398.0062946226288,
+    "prefs": {
+      "gap": 0.14,
+      "rowGap": 0.08,
+      "scheme": "sample",
+      "labels": true
+    },
+    "count": 3
+  }
+}

@@ -1,0 +1,6 @@
+(function(root){
+ 'use strict';let image=null,pending=null;const masks=new Map();
+ function ready(){if(!pending)pending=root.MieCard.ready.then(source=>{const c=document.createElement('canvas');c.width=2098;c.height=801;const ctx=c.getContext('2d');ctx.drawImage(source,203,173,2098,801,0,0,c.width,c.height);const p=ctx.getImageData(0,0,c.width,c.height);for(let i=0;i<p.data.length;i+=4){const v=Math.max(p.data[i],p.data[i+1],p.data[i+2])<180?0:255;p.data[i]=p.data[i+1]=p.data[i+2]=v;p.data[i+3]=255;}ctx.putImageData(p,0,0);image=c;return c;});return pending;}
+ function mask(width,height){if(!image)return null;width=Math.max(1,Math.round(width));height=Math.max(1,Math.round(height));const key=width+':'+height;if(masks.has(key))return masks.get(key);const c=document.createElement('canvas');c.width=width;c.height=height;const ctx=c.getContext('2d');ctx.fillStyle='#fff';ctx.fillRect(0,0,width,height);const w=Math.min(width*.96,height*.92*image.width/image.height),h=w*image.height/image.width;ctx.drawImage(image,(width-w)/2,(height-h)/2,w,h);const data=ctx.getImageData(0,0,width,height).data,out=new Uint8Array(width*height);for(let i=0;i<out.length;i++)out[i]=data[4*i];masks.set(key,out);if(masks.size>16)masks.delete(masks.keys().next().value);return out;}
+ root.MieFauLogo={ready,mask};
+})(globalThis);

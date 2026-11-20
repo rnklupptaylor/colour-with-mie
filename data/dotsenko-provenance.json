@@ -1,0 +1,166 @@
+{
+  "title": "Light scattering by spherical two-layer particles of white pigments",
+  "authors": [
+    "A. V. Dotsenko",
+    "A. M. Efremov",
+    "V. G. Sofronov"
+  ],
+  "doi": "10.1007/BF00660776",
+  "journal": "Journal of Applied Spectroscopy 43, 915–918",
+  "originalYear": 1985,
+  "translationCopyright": 1986,
+  "sourcePdf": "Dotsenko1986_LIGHT SCATTERING BY SPHERICAL TWO-LAYER PARTICLES OF WHITE PIGMENTS.pdf",
+  "sourceSha256": "7fe3375334e357a13c89db31f0a639013e49ba8e0ec44f9c0513693677dc994d",
+  "artwork": "Original bilevel page images extracted from PDF, losslessly cropped and saved as PNG. No colouring, tracing, image generation or retouching. The supplied 2011 colour figure is an identification aid only.",
+  "crops": [
+    {
+      "figure": 1,
+      "pdfPage": 2,
+      "nativeCropBox": [
+        536,
+        120,
+        2022,
+        740
+      ],
+      "asset": "assets/museum/dotsenko-fig1.png",
+      "sha256": "4b53c7c9e5e1d8cec54b1dfcb269b4bdc58804e8735755ee398e144550a30c7a",
+      "pixels": [
+        1486,
+        620
+      ]
+    },
+    {
+      "figure": 2,
+      "pdfPage": 2,
+      "nativeCropBox": [
+        540,
+        1083,
+        2010,
+        1639
+      ],
+      "asset": "assets/museum/dotsenko-fig2.png",
+      "sha256": "d51fb6edad21e5bb19a6bf65cf8e2e1d83164689ed181d8bdfc5f7ca2e4d49f8",
+      "pixels": [
+        1470,
+        556
+      ]
+    },
+    {
+      "figure": 3,
+      "pdfPage": 3,
+      "nativeCropBox": [
+        328,
+        108,
+        1223,
+        794
+      ],
+      "asset": "assets/museum/dotsenko-fig3.png",
+      "sha256": "0dfe89bd9b6993201513d77552ecd4e89d821e6bcd88e411dcb973fc11b03cc9",
+      "pixels": [
+        895,
+        686
+      ]
+    }
+  ],
+  "figure1QscaAxis": {
+    "vacuumWavelengthNm": [
+      350,
+      400,
+      450,
+      500,
+      550,
+      600,
+      650,
+      700
+    ],
+    "nativeCropTickXPx": [
+      89,
+      175,
+      263,
+      349,
+      436,
+      523,
+      610,
+      697
+    ],
+    "nativeCropWidthPx": 1486,
+    "displayWidth": 744,
+    "maximumLinearTickResidualNm": 0.329,
+    "x350": 44.393,
+    "x700": 348.886,
+    "previousCalibrationMaximumDifferenceNm": 1.3
+  },
+  "sampling": {
+    "figure1DefaultNm": 2,
+    "figure2DefaultNm": 25,
+    "alternateNm": [
+      2,
+      25
+    ],
+    "mapSpectralStepNm": 1,
+    "sizeDistribution": false,
+    "fittedShift": false,
+    "fittedScale": true,
+    "scaleMeaning": "Empirical real-shell-index scale for Figs. 1/2, three global coordinate/ordinate scales for Fig. 3. Printed inputs remain unmodified."
+  },
+  "weightSources": [
+    {
+      "url": "https://cie.co.at/datatable/cie-standard-illuminant-d65",
+      "doi": "10.25039/CIE.DS.hjfjmt59",
+      "csv": "data/colorimetry/CIE_std_illum_D65.csv",
+      "md5": "03d4eb9b837c60671627c946fb534deb"
+    },
+    {
+      "url": "https://cie.co.at/datatable/cie-1931-colour-matching-functions-2-degree-observer",
+      "csv": "data/colorimetry/CIE_xyz_1931_2deg.csv"
+    }
+  ],
+  "registration": {
+    "indexFactor": 1.039186669019605,
+    "source": "Single common shell real-index multiplier fitted to all six Fig. 2a Q curves at the original 25 nm grid. k, core index, binder index and all geometry fixed.",
+    "baseRmsQ": 0.32482467411871063,
+    "registeredRmsQ": 0.08470615296760531,
+    "notAMeasuredDataset": true,
+    "alternatives": {
+      "wavelength": {
+        "factor": 1.0481147314955206,
+        "rmse": 0.1496684312677879
+      },
+      "size": {
+        "factor": 1.0727096992015952,
+        "rmse": 0.14290666489873965
+      },
+      "index": {
+        "factor": 1.039186669019605,
+        "rmse": 0.08470615296760531
+      },
+      "medium": {
+        "factor": 1.4794993547839612,
+        "rmse": 0.29417587888070085
+      }
+    },
+    "mapRawRelativeRms": 0.17087484479254186,
+    "mapRegisteredRelativeRms": 0.14861473001954117,
+    "mapMethod": "Three global factors, common to all contours. Core-axis, shell-axis and ordinate scale fitted by equal-level geometric distance in the original image. No contour-specific adjustment. Printed optical constants and 1 nm integration retained.",
+    "previousMapShellAxisFactor": 1.0916503622308453,
+    "mapCoreAxisFactor": 0.8997800010924424,
+    "mapShellAxisFactor": 1.139667864057681,
+    "mapOrdinateFactor": 1.0784246062984482,
+    "mapGeometricRmsPixels": 6.649984551551378,
+    "mapUnregisteredGeometricRmsPixels": 13.230574556975853
+  },
+  "figure3Calibration": {
+    "origin": [
+      59.1,
+      308.5
+    ],
+    "coreVectorPerNm": [
+      0.223,
+      -0.003
+    ],
+    "shellVectorPerNm": [
+      -0.06,
+      -2.077
+    ]
+  }
+}

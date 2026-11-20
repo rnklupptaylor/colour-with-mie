@@ -1,0 +1,6 @@
+numpy
+scipy==1.18.1
+Pillow
+pypdf
+
+matplotlib

@@ -1,0 +1,34 @@
+{
+  "indexFactor": 1.039186669019605,
+  "source": "Single common shell real-index multiplier fitted to all six Fig. 2a Q curves at the original 25 nm grid. k, core index, binder index and all geometry fixed.",
+  "baseRmsQ": 0.32482467411871063,
+  "registeredRmsQ": 0.08470615296760531,
+  "notAMeasuredDataset": true,
+  "alternatives": {
+    "wavelength": {
+      "factor": 1.0481147314955206,
+      "rmse": 0.1496684312677879
+    },
+    "size": {
+      "factor": 1.0727096992015952,
+      "rmse": 0.14290666489873965
+    },
+    "index": {
+      "factor": 1.039186669019605,
+      "rmse": 0.08470615296760531
+    },
+    "medium": {
+      "factor": 1.4794993547839612,
+      "rmse": 0.29417587888070085
+    }
+  },
+  "mapRawRelativeRms": 0.17087484479254186,
+  "mapRegisteredRelativeRms": 0.14861473001954117,
+  "mapMethod": "Three global factors, common to all contours. Core-axis, shell-axis and ordinate scale fitted by equal-level geometric distance in the original image. No contour-specific adjustment. Printed optical constants and 1 nm integration retained.",
+  "previousMapShellAxisFactor": 1.0916503622308453,
+  "mapCoreAxisFactor": 0.8997800010924424,
+  "mapShellAxisFactor": 1.139667864057681,
+  "mapOrdinateFactor": 1.0784246062984482,
+  "mapGeometricRmsPixels": 6.649984551551378,
+  "mapUnregisteredGeometricRmsPixels": 13.230574556975853
+}

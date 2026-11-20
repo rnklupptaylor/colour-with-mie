@@ -1,0 +1,20 @@
+{
+  "origin": "Published Olmon single-crystal and McPeak gold optical datasets; figure-digitized Fontijn magnetite",
+  "goldProtocol": "At native n,k nodes form epsilon = (n+ik)^2; interpolate real and imaginary epsilon linearly in wavelength. Default epsilon is the equal-weight mean of the two interpolated endpoints. No extrapolation.",
+  "magnetiteProtocol": "Interpolate the figure-digitized diagonal epsilon linearly in photon energy, using hc = 1239.8419843320026 eV nm. No magneto-optical tensor terms.",
+  "files": [
+    {
+      "file": "Au_Olmon_sc_2012.yml",
+      "sha256": "4e0dd505f8d87ae1c54132946088df10a972fe9d4d3b62717c01eb85d704632c"
+    },
+    {
+      "file": "Au_McPeak_2015.yml",
+      "sha256": "d104232ae43a9b04f978552a7e3dbc448962163e48a023ecca38764eca55e82d"
+    },
+    {
+      "file": "Fe3O4_Fontijn_1997_digitized.csv",
+      "sha256": "089134902485927d6f111faf9e96b17a865a26439a5728df4d0e923bb5ac66a1"
+    }
+  ],
+  "databaseCommit": "6f3b772c3339d68a21538cb2562d2acb36731302"
+}

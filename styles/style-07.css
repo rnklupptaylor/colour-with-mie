@@ -1,0 +1,47 @@
+
+.plot-navigation,.scene-zoom{display:flex;align-items:center;gap:3px;position:absolute;z-index:6;padding:3px;border:1px solid var(--line);border-radius:7px;background:var(--surface);color:var(--ink);box-shadow:0 1px 5px #0001}
+.plot-navigation{bottom:3px;right:6px;font-size:12px}
+.plot-navigation.polar-short{left:6px;right:auto;font-size:11px}
+.plot-navigation.polar-short .plot-gesture-hint{display:none}
+.plot-navigation.polar-short output{width:36px}
+.plot-navigation.polar-short button{min-width:26px;padding:2px 5px}
+.plot-navigation.polar-tiny{padding:2px}
+.plot-navigation.polar-tiny button{min-height:22px;min-width:22px;font-size:10px;padding:1px 4px}
+.plot-navigation.polar-tiny output{width:30px;font-size:10px}
+.plot-navigation[hidden],.scene-zoom[hidden]{display:none!important}
+.plot-navigation button,.scene-zoom button{border:0;border-radius:4px;background:var(--surface-2);color:var(--ink);min-width:28px;min-height:27px;padding:2px 7px;cursor:pointer;font:inherit;touch-action:manipulation}
+.plot-navigation button:hover,.scene-zoom button:hover{background:var(--grid)}
+.plot-navigation button:focus-visible,.scene-zoom button:focus-visible{outline:2px solid var(--s1);outline-offset:1px}
+.plot-navigation button:disabled,.scene-zoom button:disabled{opacity:.4;cursor:default}
+.plot-navigation output,.scene-zoom output{width:44px;text-align:center;font-variant-numeric:tabular-nums;font-size:11px}
+.plot-gesture-hint{font-size:10px;color:var(--muted);margin:0 5px}
+.scene-zoom{top:8px;right:8px}
+.scene-zoom button{font-size:17px}
+.far-focus{margin-top:7px}
+#farDbRow select{max-width:145px}
+.guide-aim{font-size:13.5px;line-height:1.48;margin:10px 0 7px}
+.guide-primer{font-size:13px;line-height:1.55;margin:7px 0 11px}
+.guide-primer summary{color:var(--ink-2);cursor:pointer;font-weight:600}
+.guide-primer p{margin:7px 0}
+.task-coaching{font-size:12.5px!important;line-height:1.5;color:var(--ink-2);margin-top:5px!important}
+#ideas h3{font-size:13.5px;margin:13px 0 6px}
+#ideas p{line-height:1.55}
+.guide-check{padding:8px 10px;border-left:3px solid var(--s1);background:var(--surface-2)}
+.guide-reading{font-size:12px;color:var(--ink-2)}
+.guide-reading span{color:var(--muted)}
+.theory p,.theory li{line-height:1.6}
+.theory section{margin-bottom:24px;scroll-margin-top:10px}
+.theory h3{margin-top:16px;margin-bottom:8px}
+.theory-jumps{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.theory-jumps button{font:inherit;font-size:12px;border:1px solid var(--line);border-radius:6px;background:var(--surface-2);color:var(--ink);padding:7px 10px;cursor:pointer;text-align:left}
+.theory-jumps button:hover{border-color:var(--s1)}
+.theory-orientation{padding:10px 12px;background:var(--surface-2);border-radius:6px}
+.theory-orientation summary{cursor:pointer;font-weight:600}
+.theory-level-note{font-size:12.5px!important;color:var(--muted)}
+.theory-table-wrap{overflow:auto}
+.theory .reading-map{width:100%;font-size:12.5px;border-collapse:collapse}
+.theory .reading-map th,.theory .reading-map td{padding:9px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+.theory .reading-map th{font-weight:600}
+.theory .reading-map td:nth-child(2){min-width:150px}
+@media(max-width:900px){.plot-gesture-hint{display:none}.scene-zoom{top:6px;right:6px}.theory .reading-map th,.theory .reading-map td{padding:7px}.guide-aim{font-size:14px}.guide-primer{font-size:13.5px}}
+

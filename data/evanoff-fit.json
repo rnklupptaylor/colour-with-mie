@@ -1,0 +1,3706 @@
+{
+  "source": "Evanoff & Chumanov 2004, Figure 2 native PDF image (4148 × 4486) and Table 1",
+  "method": "Three absolute extinction comparisons for all 16 panels under each of four Ag datasets. (1) Table 1 means and SDs. (2) Fitted mean within Table 1 mean ± reported spread, SD fixed. (3) Mean fixed exactly at Table 1; fitted SD from zero to 25% of the fixed mean. A fixed at 1 in all modes. Lognormal number distributions, absolute decadic normalization; no amplitude multiplier, baseline offset or wavelength shift. The Museum initial dataset minimizes the mean-fit equal-panel residual.",
+  "baseline": {
+    "mat": "ag",
+    "A": 1,
+    "score": 0.12865527239585894
+  },
+  "best": {
+    "mat": "agRakicLD",
+    "A": 1,
+    "reference": "A. D. Rakić et al., Applied Optics 37, 5271–5283 (1998), Lorentz–Drude model",
+    "doi": "10.1364/AO.37.005271",
+    "score": 0.017703450258726598,
+    "sdScore": 0.024696925277696485,
+    "tableScore": 0.029253357647129583,
+    "rowNormalizedRms": [
+      0.21590201578388146,
+      0.10391613873664096,
+      0.08508182757414502,
+      0.07850247984664956
+    ],
+    "sdRowNormalizedRms": [
+      0.27748985704014895,
+      0.08699682574710764,
+      0.05505612061636811,
+      0.10577077215954779
+    ],
+    "curves": [
+      {
+        "diameter": 26.645904539332218,
+        "sd": 3,
+        "score": 0.04928533777574391,
+        "panel": 0,
+        "letter": "A",
+        "figureDiameter": 29,
+        "tableDiameter": 29,
+        "publishedSpreadNm": 3,
+        "cv": 0.11258765847380703,
+        "A": 1,
+        "mode": "mean",
+        "bounds": {
+          "meanDiameterNm": [
+            26,
+            32
+          ],
+          "sdNm": "fixed at Table 1 value"
+        },
+        "atBound": false,
+        "tableScore": 0.06339095593462321
+      },
+      {
+        "diameter": 31,
+        "sd": 3,
+        "score": 0.05819311989277336,
+        "panel": 1,
+        "letter": "B",
+        "figureDiameter": 34,
+        "tableDiameter": 34,
+        "publishedSpreadNm": 3,
+        "cv": 0.0967741935483871,
+        "A": 1,
+        "mode": "mean",
+        "bounds": {
+          "meanDiameterNm": [
+            31,
+            37
+          ],
+          "sdNm": "fixed at Table 1 value"
+        },
+        "atBound": true,
+        "tableScore": 0.12387603977689281
+      },
+      {
+        "diameter": 33,
+        "sd": 3,
+        "score": 0.0403385711007163,
+        "panel": 2,
+        "letter": "C",
+        "figureDiameter": 37,
+        "tableDiameter": 36,
+        "publishedSpreadNm": 3,
+        "cv": 0.09090909090909091,
+        "A": 1,
+        "mode": "mean",
+        "bounds": {
+          "meanDiameterNm": [
+            33,
+            39
+          ],
+          "sdNm": "fixed at Table 1 value"
+        },
+        "atBound": true,
+        "tableScore": 0.06252370730031814
+      },
+      {
+        "diameter": 41,
+        "sd": 3,
+        "score": 0.038637692908940036,
+        "panel": 3,
+        "letter": "D",
+        "figureDiameter": 44,
+        "tableDiameter": 44,
+        "publishedSpreadNm": 3,
+        "cv": 0.07317073170731707,
+        "A": 1,
+        "mode": "mean",
+        "bounds": {
+          "meanDiameterNm": [
+            41,
+            47
+          ],
+          "sdNm": "fixed at Table 1 value"
+        },
+        "atBound": true,
+        "tableScore": 0.07190871772279706
+      },
+      {
+        "diameter": 50.16185833966769,
+        "sd": 3,
+        "score": 0.011818640789753464,
+        "panel": 4,
+        "letter": "E",
+        "figureDiameter": 48,
+        "tableDiameter": 48,
+        "publishedSpreadNm": 3,
+        "cv": 0.05980639671851269,
+        "A": 1,
+        "mode": "mean",
+        "bounds": {
+          "meanDiameterNm": [
+            45,
+            51
+          ],
+          "sdNm": "fixed at Table 1 value"
+        },
+        "atBound": false,
+        "tableScore": 0.014452841068891052
+      },
+      {
+        "diameter": 51.39755413256755,
+        "sd": 3,
+        "score": 0.018274967843817512,
+        "panel": 5,
+        "letter": "F",
+        "figureDiameter": 52,
+        "tableDiameter": 52,
+        "publishedSpreadNm": 3,
+        "cv": 0.058368536219879766,
+        "A": 1,
+        "mode": "mean",
+        "bounds": {
+          "meanDiameterNm": [
+            49,
+            55
+          ],
+          "sdNm": "fixed at Table 1 value"
+        },
+        "atBound": false,
+        "tableScore": 0.01849750720399336
+      },
+      {
+        "diameter": 56,
+        "sd": 3,
+        "score": 0.006754011956326149,
+        "panel": 6,
+        "letter": "G",
+        "figureDiameter": 58,
+        "tableDiameter": 59,
+        "publishedSpreadNm": 3,
+        "cv": 0.05357142857142857,
+        "A": 1,
+        "mode": "mean",
+        "bounds": {
+          "meanDiameterNm": [
+            56,
+            62
+          ],
+          "sdNm": "fixed at Table 1 value"
+        },
+        "atBound": true,
+        "tableScore": 0.014264530448896836
+      },
+      {
+        "diameter": 61.860882221965994,
+        "sd": 3,
+        "score": 0.006346634969834123,
+        "panel": 7,
+        "letter": "H",
+        "figureDiameter": 61,
+        "tableDiameter": 61,
+        "publishedSpreadNm": 3,
+        "cv": 0.04849591360879006,
+        "A": 1,
+        "mode": "mean",
+        "bounds": {
+          "meanDiameterNm": [
+            58,
+            64
+          ],
+          "sdNm": "fixed at Table 1 value"
+        },
+        "atBound": false,
+        "tableScore": 0.006624640047270839
+      },
+      {
+        "diameter": 74.40448026219181,
+        "sd": 3,
+        "score": 0.011376933841129354,
+        "panel": 8,
+        "letter": "I",
+        "figureDiameter": 75,
+        "tableDiameter": 76,
+        "publishedSpreadNm": 3,
+        "cv": 0.04032015262291177,
+        "A": 1,
+        "mode": "mean",
+        "bounds": {
+          "meanDiameterNm": [
+            73,
+            79
+          ],
+          "sdNm": "fixed at Table 1 value"
+        },
+        "atBound": false,
+        "tableScore": 0.012412312512875737
+      },
+      {
+        "diameter": 77.65474705118231,
+        "sd": 4,
+        "score": 0.007432933375501739,
+        "panel": 9,
+        "letter": "J",
+        "figureDiameter": 78,
+        "tableDiameter": 78,
+        "publishedSpreadNm": 4,
+        "cv": 0.05151005124469205,
+        "A": 1,
+        "mode": "mean",
+        "bounds": {
+          "meanDiameterNm": [
+            74,
+            82
+          ],
+          "sdNm": "fixed at Table 1 value"
+        },
+        "atBound": false,
+        "tableScore": 0.007479208799337241
+      },
+      {
+        "diameter": 96.14651516566069,
+        "sd": 5,
+        "score": 0.005943005356124634,
+        "panel": 10,
+        "letter": "K",
+        "figureDiameter": 92,
+        "tableDiameter": 92,
+        "publishedSpreadNm": 5,
+        "cv": 0.05200396490070376,
+        "A": 1,
+        "mode": "mean",
+        "bounds": {
+          "meanDiameterNm": [
+            87,
+            97
+          ],
+          "sdNm": "fixed at Table 1 value"
+        },
+        "atBound": false,
+        "tableScore": 0.011845367132776275
+      },
+      {
+        "diameter": 99,
+        "sd": 3,
+        "score": 0.00420279696067045,
+        "panel": 11,
+        "letter": "L",
+        "figureDiameter": 97,
+        "tableDiameter": 96,
+        "publishedSpreadNm": 3,
+        "cv": 0.030303030303030304,
+        "A": 1,
+        "mode": "mean",
+        "bounds": {
+          "meanDiameterNm": [
+            93,
+            99
+          ],
+          "sdNm": "fixed at Table 1 value"
+        },
+        "atBound": true,
+        "tableScore": 0.00947138396598119
+      },
+      {
+        "diameter": 105.05671199857446,
+        "sd": 4,
+        "score": 0.002313712881392912,
+        "panel": 12,
+        "letter": "M",
+        "figureDiameter": 105,
+        "tableDiameter": 105,
+        "publishedSpreadNm": 4,
+        "cv": 0.03807467342071658,
+        "A": 1,
+        "mode": "mean",
+        "bounds": {
+          "meanDiameterNm": [
+            101,
+            109
+          ],
+          "sdNm": "fixed at Table 1 value"
+        },
+        "atBound": false,
+        "tableScore": 0.002314711597021686
+      },
+      {
+        "diameter": 116,
+        "sd": 3,
+        "score": 0.0027625768244794045,
+        "panel": 13,
+        "letter": "N",
+        "figureDiameter": 113,
+        "tableDiameter": 113,
+        "publishedSpreadNm": 3,
+        "cv": 0.02586206896551724,
+        "A": 1,
+        "mode": "mean",
+        "bounds": {
+          "meanDiameterNm": [
+            110,
+            116
+          ],
+          "sdNm": "fixed at Table 1 value"
+        },
+        "atBound": true,
+        "tableScore": 0.007556900572373009
+      },
+      {
+        "diameter": 124,
+        "sd": 4,
+        "score": 0.005466904249978256,
+        "panel": 14,
+        "letter": "O",
+        "figureDiameter": 120,
+        "tableDiameter": 120,
+        "publishedSpreadNm": 4,
+        "cv": 0.03225806451612903,
+        "A": 1,
+        "mode": "mean",
+        "bounds": {
+          "meanDiameterNm": [
+            116,
+            124
+          ],
+          "sdNm": "fixed at Table 1 value"
+        },
+        "atBound": true,
+        "tableScore": 0.014474306882403672
+      },
+      {
+        "diameter": 141,
+        "sd": 5,
+        "score": 0.014107363412443907,
+        "panel": 15,
+        "letter": "P",
+        "figureDiameter": 136,
+        "tableDiameter": 136,
+        "publishedSpreadNm": 5,
+        "cv": 0.03546099290780142,
+        "A": 1,
+        "mode": "mean",
+        "bounds": {
+          "meanDiameterNm": [
+            131,
+            141
+          ],
+          "sdNm": "fixed at Table 1 value"
+        },
+        "atBound": true,
+        "tableScore": 0.026960591387621243
+      }
+    ],
+    "sdCurves": [
+      {
+        "diameter": 29,
+        "sd": 0,
+        "score": 0.06265470092210854,
+        "panel": 0,
+        "letter": "A",
+        "figureDiameter": 29,
+        "tableDiameter": 29,
+        "publishedSpreadNm": 3,
+        "cv": 0,
+        "A": 1,
+        "mode": "sd",
+        "bounds": {
+          "meanDiameterNm": "fixed at Table 1 value",
+          "sdNm": [
+            0,
+            7.25
+          ]
+        },
+        "atBound": true,
+        "tableScore": 0.06339095593462321
+      },
+      {
+        "diameter": 34,
+        "sd": 0,
+        "score": 0.12143246404944671,
+        "panel": 1,
+        "letter": "B",
+        "figureDiameter": 34,
+        "tableDiameter": 34,
+        "publishedSpreadNm": 3,
+        "cv": 0,
+        "A": 1,
+        "mode": "sd",
+        "bounds": {
+          "meanDiameterNm": "fixed at Table 1 value",
+          "sdNm": [
+            0,
+            8.5
+          ]
+        },
+        "atBound": true,
+        "tableScore": 0.12387603977689281
+      },
+      {
+        "diameter": 36,
+        "sd": 8.618325521093375,
+        "score": 0.057067534556922914,
+        "panel": 2,
+        "letter": "C",
+        "figureDiameter": 37,
+        "tableDiameter": 36,
+        "publishedSpreadNm": 3,
+        "cv": 0.23939793114148264,
+        "A": 1,
+        "mode": "sd",
+        "bounds": {
+          "meanDiameterNm": "fixed at Table 1 value",
+          "sdNm": [
+            0,
+            9
+          ]
+        },
+        "atBound": false,
+        "tableScore": 0.06252370730031814
+      },
+      {
+        "diameter": 44,
+        "sd": 8.562221422334353,
+        "score": 0.06684778351217102,
+        "panel": 3,
+        "letter": "D",
+        "figureDiameter": 44,
+        "tableDiameter": 44,
+        "publishedSpreadNm": 3,
+        "cv": 0.19459594141668984,
+        "A": 1,
+        "mode": "sd",
+        "bounds": {
+          "meanDiameterNm": "fixed at Table 1 value",
+          "sdNm": [
+            0,
+            11
+          ]
+        },
+        "atBound": false,
+        "tableScore": 0.07190871772279706
+      },
+      {
+        "diameter": 48,
+        "sd": 12,
+        "score": 0.004046642238150361,
+        "panel": 4,
+        "letter": "E",
+        "figureDiameter": 48,
+        "tableDiameter": 48,
+        "publishedSpreadNm": 3,
+        "cv": 0.25,
+        "A": 1,
+        "mode": "sd",
+        "bounds": {
+          "meanDiameterNm": "fixed at Table 1 value",
+          "sdNm": [
+            0,
+            12
+          ]
+        },
+        "atBound": true,
+        "tableScore": 0.014452841068891052
+      },
+      {
+        "diameter": 52,
+        "sd": 13,
+        "score": 0.006913207270010497,
+        "panel": 5,
+        "letter": "F",
+        "figureDiameter": 52,
+        "tableDiameter": 52,
+        "publishedSpreadNm": 3,
+        "cv": 0.25,
+        "A": 1,
+        "mode": "sd",
+        "bounds": {
+          "meanDiameterNm": "fixed at Table 1 value",
+          "sdNm": [
+            0,
+            13
+          ]
+        },
+        "atBound": true,
+        "tableScore": 0.01849750720399336
+      },
+      {
+        "diameter": 59,
+        "sd": 7.438457822991907,
+        "score": 0.013355325120055017,
+        "panel": 6,
+        "letter": "G",
+        "figureDiameter": 58,
+        "tableDiameter": 59,
+        "publishedSpreadNm": 3,
+        "cv": 0.12607555632189674,
+        "A": 1,
+        "mode": "sd",
+        "bounds": {
+          "meanDiameterNm": "fixed at Table 1 value",
+          "sdNm": [
+            0,
+            14.75
+          ]
+        },
+        "atBound": false,
+        "tableScore": 0.014264530448896836
+      },
+      {
+        "diameter": 61,
+        "sd": 8.029301896657199,
+        "score": 0.005958616132074564,
+        "panel": 7,
+        "letter": "H",
+        "figureDiameter": 61,
+        "tableDiameter": 61,
+        "publishedSpreadNm": 3,
+        "cv": 0.13162789994519997,
+        "A": 1,
+        "mode": "sd",
+        "bounds": {
+          "meanDiameterNm": "fixed at Table 1 value",
+          "sdNm": [
+            0,
+            15.25
+          ]
+        },
+        "atBound": false,
+        "tableScore": 0.006624640047270839
+      },
+      {
+        "diameter": 76,
+        "sd": 15.835009436648612,
+        "score": 0.004607710424534573,
+        "panel": 8,
+        "letter": "I",
+        "figureDiameter": 75,
+        "tableDiameter": 76,
+        "publishedSpreadNm": 3,
+        "cv": 0.20835538732432385,
+        "A": 1,
+        "mode": "sd",
+        "bounds": {
+          "meanDiameterNm": "fixed at Table 1 value",
+          "sdNm": [
+            0,
+            19
+          ]
+        },
+        "atBound": false,
+        "tableScore": 0.012412312512875737
+      },
+      {
+        "diameter": 78,
+        "sd": 15.155786487742757,
+        "score": 0.0019251880025188842,
+        "panel": 9,
+        "letter": "J",
+        "figureDiameter": 78,
+        "tableDiameter": 78,
+        "publishedSpreadNm": 4,
+        "cv": 0.19430495497106098,
+        "A": 1,
+        "mode": "sd",
+        "bounds": {
+          "meanDiameterNm": "fixed at Table 1 value",
+          "sdNm": [
+            0,
+            19.5
+          ]
+        },
+        "atBound": false,
+        "tableScore": 0.007479208799337241
+      },
+      {
+        "diameter": 92,
+        "sd": 22.229120649438038,
+        "score": 0.002377506807180062,
+        "panel": 10,
+        "letter": "K",
+        "figureDiameter": 92,
+        "tableDiameter": 92,
+        "publishedSpreadNm": 5,
+        "cv": 0.2416208766243265,
+        "A": 1,
+        "mode": "sd",
+        "bounds": {
+          "meanDiameterNm": "fixed at Table 1 value",
+          "sdNm": [
+            0,
+            23
+          ]
+        },
+        "atBound": false,
+        "tableScore": 0.011845367132776275
+      },
+      {
+        "diameter": 96,
+        "sd": 19.069117764428547,
+        "score": 0.0032143004350627747,
+        "panel": 11,
+        "letter": "L",
+        "figureDiameter": 97,
+        "tableDiameter": 96,
+        "publishedSpreadNm": 3,
+        "cv": 0.19863664337946405,
+        "A": 1,
+        "mode": "sd",
+        "bounds": {
+          "meanDiameterNm": "fixed at Table 1 value",
+          "sdNm": [
+            0,
+            24
+          ]
+        },
+        "atBound": false,
+        "tableScore": 0.00947138396598119
+      },
+      {
+        "diameter": 105,
+        "sd": 13.193571858895634,
+        "score": 0.0008533093834874365,
+        "panel": 12,
+        "letter": "M",
+        "figureDiameter": 105,
+        "tableDiameter": 105,
+        "publishedSpreadNm": 4,
+        "cv": 0.12565306532281556,
+        "A": 1,
+        "mode": "sd",
+        "bounds": {
+          "meanDiameterNm": "fixed at Table 1 value",
+          "sdNm": [
+            0,
+            26.25
+          ]
+        },
+        "atBound": false,
+        "tableScore": 0.002314711597021686
+      },
+      {
+        "diameter": 113,
+        "sd": 18.079288215544658,
+        "score": 0.004344443881676095,
+        "panel": 13,
+        "letter": "N",
+        "figureDiameter": 113,
+        "tableDiameter": 113,
+        "publishedSpreadNm": 3,
+        "cv": 0.15999370102251909,
+        "A": 1,
+        "mode": "sd",
+        "bounds": {
+          "meanDiameterNm": "fixed at Table 1 value",
+          "sdNm": [
+            0,
+            28.25
+          ]
+        },
+        "atBound": false,
+        "tableScore": 0.007556900572373009
+      },
+      {
+        "diameter": 120,
+        "sd": 16.56615669476487,
+        "score": 0.012914489669240756,
+        "panel": 14,
+        "letter": "O",
+        "figureDiameter": 120,
+        "tableDiameter": 120,
+        "publishedSpreadNm": 4,
+        "cv": 0.13805130578970726,
+        "A": 1,
+        "mode": "sd",
+        "bounds": {
+          "meanDiameterNm": "fixed at Table 1 value",
+          "sdNm": [
+            0,
+            30
+          ]
+        },
+        "atBound": false,
+        "tableScore": 0.014474306882403672
+      },
+      {
+        "diameter": 136,
+        "sd": 12.708540348876056,
+        "score": 0.026637582038503593,
+        "panel": 15,
+        "letter": "P",
+        "figureDiameter": 136,
+        "tableDiameter": 136,
+        "publishedSpreadNm": 5,
+        "cv": 0.09344514962408865,
+        "A": 1,
+        "mode": "sd",
+        "bounds": {
+          "meanDiameterNm": "fixed at Table 1 value",
+          "sdNm": [
+            0,
+            34
+          ]
+        },
+        "atBound": false,
+        "tableScore": 0.026960591387621243
+      }
+    ]
+  },
+  "choices": [
+    {
+      "mat": "ag",
+      "A": 1,
+      "reference": "S. Babar & J. H. Weaver, Appl. Opt. 54, 477 (2015)",
+      "doi": "10.1364/AO.54.000477",
+      "score": 0.09576234988240478,
+      "sdScore": 0.09448171519546586,
+      "tableScore": 0.12865527239585894,
+      "rowNormalizedRms": [
+        0.5092529155122076,
+        0.264152675987422,
+        0.1635726361109287,
+        0.16485819377980998
+      ],
+      "sdRowNormalizedRms": [
+        0.5395112006239969,
+        0.1854607196661924,
+        0.14436337369800412,
+        0.17781468718456614
+      ],
+      "curves": [
+        {
+          "diameter": 26,
+          "sd": 3,
+          "score": 0.220738115835816,
+          "panel": 0,
+          "letter": "A",
+          "figureDiameter": 29,
+          "tableDiameter": 29,
+          "publishedSpreadNm": 3,
+          "cv": 0.11538461538461539,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              26,
+              32
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.332253790852658
+        },
+        {
+          "diameter": 31,
+          "sd": 3,
+          "score": 0.3237862575360848,
+          "panel": 1,
+          "letter": "B",
+          "figureDiameter": 34,
+          "tableDiameter": 34,
+          "publishedSpreadNm": 3,
+          "cv": 0.0967741935483871,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              31,
+              37
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.4926928773928252
+        },
+        {
+          "diameter": 33,
+          "sd": 3,
+          "score": 0.2531296456839217,
+          "panel": 2,
+          "letter": "C",
+          "figureDiameter": 37,
+          "tableDiameter": 36,
+          "publishedSpreadNm": 3,
+          "cv": 0.09090909090909091,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              33,
+              39
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.3417599450377093
+        },
+        {
+          "diameter": 41,
+          "sd": 3,
+          "score": 0.23970010877491194,
+          "panel": 3,
+          "letter": "D",
+          "figureDiameter": 44,
+          "tableDiameter": 44,
+          "publishedSpreadNm": 3,
+          "cv": 0.07317073170731707,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              41,
+              47
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.3008967850307275
+        },
+        {
+          "diameter": 51,
+          "sd": 3,
+          "score": 0.09638270140544133,
+          "panel": 4,
+          "letter": "E",
+          "figureDiameter": 48,
+          "tableDiameter": 48,
+          "publishedSpreadNm": 3,
+          "cv": 0.058823529411764705,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              45,
+              51
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.10086513262480777
+        },
+        {
+          "diameter": 53.15272633475109,
+          "sd": 3,
+          "score": 0.107277027604057,
+          "panel": 5,
+          "letter": "F",
+          "figureDiameter": 52,
+          "tableDiameter": 52,
+          "publishedSpreadNm": 3,
+          "cv": 0.05644113118687967,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              49,
+              55
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.10774616774501337
+        },
+        {
+          "diameter": 59.89160338124895,
+          "sd": 3,
+          "score": 0.053062868020835645,
+          "panel": 6,
+          "letter": "G",
+          "figureDiameter": 58,
+          "tableDiameter": 59,
+          "publishedSpreadNm": 3,
+          "cv": 0.05009049400302496,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              56,
+              62
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.05340927776817579
+        },
+        {
+          "diameter": 64,
+          "sd": 3,
+          "score": 0.022383947894929736,
+          "panel": 7,
+          "letter": "H",
+          "figureDiameter": 61,
+          "tableDiameter": 61,
+          "publishedSpreadNm": 3,
+          "cv": 0.046875,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              58,
+              64
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.033476501552134476
+        },
+        {
+          "diameter": 78.99663077436472,
+          "sd": 3,
+          "score": 0.031406671166351235,
+          "panel": 8,
+          "letter": "I",
+          "figureDiameter": 75,
+          "tableDiameter": 76,
+          "publishedSpreadNm": 3,
+          "cv": 0.037976303173850465,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              73,
+              79
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.03528214319890487
+        },
+        {
+          "diameter": 82,
+          "sd": 4,
+          "score": 0.02323602781538933,
+          "panel": 9,
+          "letter": "J",
+          "figureDiameter": 78,
+          "tableDiameter": 78,
+          "publishedSpreadNm": 4,
+          "cv": 0.04878048780487805,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              74,
+              82
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.029779860982585404
+        },
+        {
+          "diameter": 97,
+          "sd": 5,
+          "score": 0.02457163673168627,
+          "panel": 10,
+          "letter": "K",
+          "figureDiameter": 92,
+          "tableDiameter": 92,
+          "publishedSpreadNm": 5,
+          "cv": 0.05154639175257732,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              87,
+              97
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.040056522416385805
+        },
+        {
+          "diameter": 99,
+          "sd": 3,
+          "score": 0.027809693423686367,
+          "panel": 11,
+          "letter": "L",
+          "figureDiameter": 97,
+          "tableDiameter": 96,
+          "publishedSpreadNm": 3,
+          "cv": 0.030303030303030304,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              93,
+              99
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.03831235227791202
+        },
+        {
+          "diameter": 107.89858716936149,
+          "sd": 4,
+          "score": 0.018959092002432988,
+          "panel": 12,
+          "letter": "M",
+          "figureDiameter": 105,
+          "tableDiameter": 105,
+          "publishedSpreadNm": 4,
+          "cv": 0.03707184778723244,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              101,
+              109
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.02147973809357498
+        },
+        {
+          "diameter": 116,
+          "sd": 3,
+          "score": 0.027105733150075736,
+          "panel": 13,
+          "letter": "N",
+          "figureDiameter": 113,
+          "tableDiameter": 113,
+          "publishedSpreadNm": 3,
+          "cv": 0.02586206896551724,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              110,
+              116
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.036263313141787955
+        },
+        {
+          "diameter": 124,
+          "sd": 4,
+          "score": 0.027959191017628268,
+          "panel": 14,
+          "letter": "O",
+          "figureDiameter": 120,
+          "tableDiameter": 120,
+          "publishedSpreadNm": 4,
+          "cv": 0.03225806451612903,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              116,
+              124
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.041783063433971646
+        },
+        {
+          "diameter": 141,
+          "sd": 5,
+          "score": 0.03468888005522853,
+          "panel": 15,
+          "letter": "P",
+          "figureDiameter": 136,
+          "tableDiameter": 136,
+          "publishedSpreadNm": 5,
+          "cv": 0.03546099290780142,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              131,
+              141
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.05242688678456884
+        }
+      ],
+      "sdCurves": [
+        {
+          "diameter": 29,
+          "sd": 7.25,
+          "score": 0.29284819197140816,
+          "panel": 0,
+          "letter": "A",
+          "figureDiameter": 29,
+          "tableDiameter": 29,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              7.25
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.332253790852658
+        },
+        {
+          "diameter": 34,
+          "sd": 8.5,
+          "score": 0.40905910659535377,
+          "panel": 1,
+          "letter": "B",
+          "figureDiameter": 34,
+          "tableDiameter": 34,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              8.5
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.4926928773928252
+        },
+        {
+          "diameter": 36,
+          "sd": 9,
+          "score": 0.2634482435092235,
+          "panel": 2,
+          "letter": "C",
+          "figureDiameter": 37,
+          "tableDiameter": 36,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              9
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.3417599450377093
+        },
+        {
+          "diameter": 44,
+          "sd": 11,
+          "score": 0.19893380031900124,
+          "panel": 3,
+          "letter": "D",
+          "figureDiameter": 44,
+          "tableDiameter": 44,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              11
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.3008967850307275
+        },
+        {
+          "diameter": 48,
+          "sd": 12,
+          "score": 0.048073911666657226,
+          "panel": 4,
+          "letter": "E",
+          "figureDiameter": 48,
+          "tableDiameter": 48,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              12
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.10086513262480777
+        },
+        {
+          "diameter": 52,
+          "sd": 13,
+          "score": 0.04853656236846595,
+          "panel": 5,
+          "letter": "F",
+          "figureDiameter": 52,
+          "tableDiameter": 52,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              13
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.10774616774501337
+        },
+        {
+          "diameter": 59,
+          "sd": 14.75,
+          "score": 0.025395777203334108,
+          "panel": 6,
+          "letter": "G",
+          "figureDiameter": 58,
+          "tableDiameter": 59,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              14.75
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.05340927776817579
+        },
+        {
+          "diameter": 61,
+          "sd": 15.25,
+          "score": 0.01557646291795072,
+          "panel": 7,
+          "letter": "H",
+          "figureDiameter": 61,
+          "tableDiameter": 61,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              15.25
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.033476501552134476
+        },
+        {
+          "diameter": 76,
+          "sd": 18.90889852842087,
+          "score": 0.01802435739898014,
+          "panel": 8,
+          "letter": "I",
+          "figureDiameter": 75,
+          "tableDiameter": 76,
+          "publishedSpreadNm": 3,
+          "cv": 0.2488012964265904,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              19
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.03528214319890487
+        },
+        {
+          "diameter": 78,
+          "sd": 18.630786176370698,
+          "score": 0.01601493306125912,
+          "panel": 9,
+          "letter": "J",
+          "figureDiameter": 78,
+          "tableDiameter": 78,
+          "publishedSpreadNm": 4,
+          "cv": 0.23885623303039358,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              19.5
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.029779860982585404
+        },
+        {
+          "diameter": 92,
+          "sd": 23,
+          "score": 0.023848224146690526,
+          "panel": 10,
+          "letter": "K",
+          "figureDiameter": 92,
+          "tableDiameter": 92,
+          "publishedSpreadNm": 5,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              23
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.040056522416385805
+        },
+        {
+          "diameter": 96,
+          "sd": 24,
+          "score": 0.025475620054948557,
+          "panel": 11,
+          "letter": "L",
+          "figureDiameter": 97,
+          "tableDiameter": 96,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              24
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.03831235227791202
+        },
+        {
+          "diameter": 105,
+          "sd": 16.058944766770303,
+          "score": 0.016880555228792126,
+          "panel": 12,
+          "letter": "M",
+          "figureDiameter": 105,
+          "tableDiameter": 105,
+          "publishedSpreadNm": 4,
+          "cv": 0.15294233111209812,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              26.25
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.02147973809357498
+        },
+        {
+          "diameter": 113,
+          "sd": 28.25,
+          "score": 0.025558176790106336,
+          "panel": 13,
+          "letter": "N",
+          "figureDiameter": 113,
+          "tableDiameter": 113,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              28.25
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.036263313141787955
+        },
+        {
+          "diameter": 120,
+          "sd": 30,
+          "score": 0.03459902392256775,
+          "panel": 14,
+          "letter": "O",
+          "figureDiameter": 120,
+          "tableDiameter": 120,
+          "publishedSpreadNm": 4,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              30
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.041783063433971646
+        },
+        {
+          "diameter": 136,
+          "sd": 34,
+          "score": 0.04943449597271422,
+          "panel": 15,
+          "letter": "P",
+          "figureDiameter": 136,
+          "tableDiameter": 136,
+          "publishedSpreadNm": 5,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              34
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.05242688678456884
+        }
+      ]
+    },
+    {
+      "mat": "agJC1972",
+      "A": 1,
+      "reference": "P. B. Johnson & R. W. Christy, Physical Review B 6, 4370 (1972)",
+      "doi": "10.1103/PhysRevB.6.4370",
+      "score": 0.0925619221186817,
+      "sdScore": 0.09059168705158359,
+      "tableScore": 0.12462241113104763,
+      "rowNormalizedRms": [
+        0.5010554645072622,
+        0.25459070967330066,
+        0.1674123248799013,
+        0.16232003569642886
+      ],
+      "sdRowNormalizedRms": [
+        0.5293043128655247,
+        0.17492714837588472,
+        0.1425804430198671,
+        0.17684739923908657
+      ],
+      "curves": [
+        {
+          "diameter": 26,
+          "sd": 3,
+          "score": 0.21461060190198794,
+          "panel": 0,
+          "letter": "A",
+          "figureDiameter": 29,
+          "tableDiameter": 29,
+          "publishedSpreadNm": 3,
+          "cv": 0.11538461538461539,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              26,
+              32
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.32317291554498606
+        },
+        {
+          "diameter": 31,
+          "sd": 3,
+          "score": 0.3143627343406134,
+          "panel": 1,
+          "letter": "B",
+          "figureDiameter": 34,
+          "tableDiameter": 34,
+          "publishedSpreadNm": 3,
+          "cv": 0.0967741935483871,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              31,
+              37
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.48117319657698365
+        },
+        {
+          "diameter": 33,
+          "sd": 3,
+          "score": 0.2452793087910278,
+          "panel": 2,
+          "letter": "C",
+          "figureDiameter": 37,
+          "tableDiameter": 36,
+          "publishedSpreadNm": 3,
+          "cv": 0.09090909090909091,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              33,
+              39
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.3318767756035234
+        },
+        {
+          "diameter": 41,
+          "sd": 3,
+          "score": 0.22997366901672434,
+          "panel": 3,
+          "letter": "D",
+          "figureDiameter": 44,
+          "tableDiameter": 44,
+          "publishedSpreadNm": 3,
+          "cv": 0.07317073170731707,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              41,
+              47
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.2855202249113391
+        },
+        {
+          "diameter": 51,
+          "sd": 3,
+          "score": 0.08912482865897453,
+          "panel": 4,
+          "letter": "E",
+          "figureDiameter": 48,
+          "tableDiameter": 48,
+          "publishedSpreadNm": 3,
+          "cv": 0.058823529411764705,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              45,
+              51
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.09461986727321983
+        },
+        {
+          "diameter": 53.046966635521414,
+          "sd": 3,
+          "score": 0.10023012954482856,
+          "panel": 5,
+          "letter": "F",
+          "figureDiameter": 52,
+          "tableDiameter": 52,
+          "publishedSpreadNm": 3,
+          "cv": 0.05655365782953429,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              49,
+              55
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.10069566752529753
+        },
+        {
+          "diameter": 59.23651491170324,
+          "sd": 3,
+          "score": 0.0495620806430215,
+          "panel": 6,
+          "letter": "G",
+          "figureDiameter": 58,
+          "tableDiameter": 59,
+          "publishedSpreadNm": 3,
+          "cv": 0.05064443788551268,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              56,
+              62
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.0495881215918569
+        },
+        {
+          "diameter": 64,
+          "sd": 3,
+          "score": 0.020348678960994838,
+          "panel": 7,
+          "letter": "H",
+          "figureDiameter": 61,
+          "tableDiameter": 61,
+          "publishedSpreadNm": 3,
+          "cv": 0.046875,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              58,
+              64
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.03041236367744956
+        },
+        {
+          "diameter": 78.66320095713367,
+          "sd": 3,
+          "score": 0.03372085840710544,
+          "panel": 8,
+          "letter": "I",
+          "figureDiameter": 75,
+          "tableDiameter": 76,
+          "publishedSpreadNm": 3,
+          "cv": 0.038137273381931215,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              73,
+              79
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.036656772603597336
+        },
+        {
+          "diameter": 81.79703493077028,
+          "sd": 4,
+          "score": 0.025167681793726453,
+          "panel": 9,
+          "letter": "J",
+          "figureDiameter": 78,
+          "tableDiameter": 78,
+          "publishedSpreadNm": 4,
+          "cv": 0.0489015280735474,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              74,
+              82
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.030851497160455578
+        },
+        {
+          "diameter": 97,
+          "sd": 5,
+          "score": 0.02505244078740264,
+          "panel": 10,
+          "letter": "K",
+          "figureDiameter": 92,
+          "tableDiameter": 92,
+          "publishedSpreadNm": 5,
+          "cv": 0.05154639175257732,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              87,
+              97
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.04080520407424603
+        },
+        {
+          "diameter": 99,
+          "sd": 3,
+          "score": 0.02816656509853993,
+          "panel": 11,
+          "letter": "L",
+          "figureDiameter": 97,
+          "tableDiameter": 96,
+          "publishedSpreadNm": 3,
+          "cv": 0.030303030303030304,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              93,
+              99
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.03893029135533077
+        },
+        {
+          "diameter": 108.11059216883385,
+          "sd": 4,
+          "score": 0.018317657672709677,
+          "panel": 12,
+          "letter": "M",
+          "figureDiameter": 105,
+          "tableDiameter": 105,
+          "publishedSpreadNm": 4,
+          "cv": 0.036999149849750994,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              101,
+              109
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.021210677936380765
+        },
+        {
+          "diameter": 116,
+          "sd": 3,
+          "score": 0.02610411314249186,
+          "panel": 13,
+          "letter": "N",
+          "figureDiameter": 113,
+          "tableDiameter": 113,
+          "publishedSpreadNm": 3,
+          "cv": 0.02586206896551724,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              110,
+              116
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.03562791417932383
+        },
+        {
+          "diameter": 124,
+          "sd": 4,
+          "score": 0.027019564823514898,
+          "panel": 14,
+          "letter": "O",
+          "figureDiameter": 120,
+          "tableDiameter": 120,
+          "publishedSpreadNm": 4,
+          "cv": 0.03225806451612903,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              116,
+              124
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.04125467060736461
+        },
+        {
+          "diameter": 141,
+          "sd": 5,
+          "score": 0.033949840315243306,
+          "panel": 15,
+          "letter": "P",
+          "figureDiameter": 136,
+          "tableDiameter": 136,
+          "publishedSpreadNm": 5,
+          "cv": 0.03546099290780142,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              131,
+              141
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.05156241747540703
+        }
+      ],
+      "sdCurves": [
+        {
+          "diameter": 29,
+          "sd": 7.25,
+          "score": 0.28553529797972815,
+          "panel": 0,
+          "letter": "A",
+          "figureDiameter": 29,
+          "tableDiameter": 29,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              7.25
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.32317291554498606
+        },
+        {
+          "diameter": 34,
+          "sd": 8.5,
+          "score": 0.39651817910857057,
+          "panel": 1,
+          "letter": "B",
+          "figureDiameter": 34,
+          "tableDiameter": 34,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              8.5
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.48117319657698365
+        },
+        {
+          "diameter": 36,
+          "sd": 9,
+          "score": 0.2516980293863849,
+          "panel": 2,
+          "letter": "C",
+          "figureDiameter": 37,
+          "tableDiameter": 36,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              9
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.3318767756035234
+        },
+        {
+          "diameter": 44,
+          "sd": 11,
+          "score": 0.18690071599749725,
+          "panel": 3,
+          "letter": "D",
+          "figureDiameter": 44,
+          "tableDiameter": 44,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              11
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.2855202249113391
+        },
+        {
+          "diameter": 48,
+          "sd": 12,
+          "score": 0.04325452373922701,
+          "panel": 4,
+          "letter": "E",
+          "figureDiameter": 48,
+          "tableDiameter": 48,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              12
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.09461986727321983
+        },
+        {
+          "diameter": 52,
+          "sd": 13,
+          "score": 0.04382012907154345,
+          "panel": 5,
+          "letter": "F",
+          "figureDiameter": 52,
+          "tableDiameter": 52,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              13
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.10069566752529753
+        },
+        {
+          "diameter": 59,
+          "sd": 14.75,
+          "score": 0.022372150668356607,
+          "panel": 6,
+          "letter": "G",
+          "figureDiameter": 58,
+          "tableDiameter": 59,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              14.75
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.0495881215918569
+        },
+        {
+          "diameter": 61,
+          "sd": 15.25,
+          "score": 0.012951225476548098,
+          "panel": 7,
+          "letter": "H",
+          "figureDiameter": 61,
+          "tableDiameter": 61,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              15.25
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.03041236367744956
+        },
+        {
+          "diameter": 76,
+          "sd": 19,
+          "score": 0.0171835269924976,
+          "panel": 8,
+          "letter": "I",
+          "figureDiameter": 75,
+          "tableDiameter": 76,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              19
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.036656772603597336
+        },
+        {
+          "diameter": 78,
+          "sd": 19.192305650079955,
+          "score": 0.015282253994641835,
+          "panel": 9,
+          "letter": "J",
+          "figureDiameter": 78,
+          "tableDiameter": 78,
+          "publishedSpreadNm": 4,
+          "cv": 0.24605520064205072,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              19.5
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.030851497160455578
+        },
+        {
+          "diameter": 92,
+          "sd": 23,
+          "score": 0.02357801795449097,
+          "panel": 10,
+          "letter": "K",
+          "figureDiameter": 92,
+          "tableDiameter": 92,
+          "publishedSpreadNm": 5,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              23
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.04080520407424603
+        },
+        {
+          "diameter": 96,
+          "sd": 24,
+          "score": 0.025272931985335863,
+          "panel": 11,
+          "letter": "L",
+          "figureDiameter": 97,
+          "tableDiameter": 96,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              24
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.03893029135533077
+        },
+        {
+          "diameter": 105,
+          "sd": 16.035850630957622,
+          "score": 0.016601093957664962,
+          "panel": 12,
+          "letter": "M",
+          "figureDiameter": 105,
+          "tableDiameter": 105,
+          "publishedSpreadNm": 4,
+          "cv": 0.15272238696150117,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              26.25
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.021210677936380765
+        },
+        {
+          "diameter": 113,
+          "sd": 25.864017836858963,
+          "score": 0.025282934397643984,
+          "panel": 13,
+          "letter": "N",
+          "figureDiameter": 113,
+          "tableDiameter": 113,
+          "publishedSpreadNm": 3,
+          "cv": 0.2288851136005218,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              28.25
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.03562791417932383
+        },
+        {
+          "diameter": 120,
+          "sd": 30,
+          "score": 0.03432124876713472,
+          "panel": 14,
+          "letter": "O",
+          "figureDiameter": 120,
+          "tableDiameter": 120,
+          "publishedSpreadNm": 4,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              30
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.04125467060736461
+        },
+        {
+          "diameter": 136,
+          "sd": 34,
+          "score": 0.04889473334807182,
+          "panel": 15,
+          "letter": "P",
+          "figureDiameter": 136,
+          "tableDiameter": 136,
+          "publishedSpreadNm": 5,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              34
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.05156241747540703
+        }
+      ]
+    },
+    {
+      "mat": "agRakicBB",
+      "A": 1,
+      "reference": "A. D. Rakić et al., Applied Optics 37, 5271–5283 (1998), Brendel–Bormann model",
+      "doi": "10.1364/AO.37.005271",
+      "score": 0.021148527137031244,
+      "sdScore": 0.028696717217468175,
+      "tableScore": 0.03412256241636459,
+      "rowNormalizedRms": [
+        0.24890541587974993,
+        0.09875388149769326,
+        0.07861851753942914,
+        0.08189628857827277
+      ],
+      "sdRowNormalizedRms": [
+        0.30940477977292336,
+        0.06986107815989231,
+        0.053072211166429455,
+        0.10657542532772185
+      ],
+      "curves": [
+        {
+          "diameter": 26.142210803193286,
+          "sd": 3,
+          "score": 0.05903736247735435,
+          "panel": 0,
+          "letter": "A",
+          "figureDiameter": 29,
+          "tableDiameter": 29,
+          "publishedSpreadNm": 3,
+          "cv": 0.11475693553942072,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              26,
+              32
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.08006886003956404
+        },
+        {
+          "diameter": 31,
+          "sd": 3,
+          "score": 0.0758538808796191,
+          "panel": 1,
+          "letter": "B",
+          "figureDiameter": 34,
+          "tableDiameter": 34,
+          "publishedSpreadNm": 3,
+          "cv": 0.0967741935483871,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              31,
+              37
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.15147549655554873
+        },
+        {
+          "diameter": 33,
+          "sd": 3,
+          "score": 0.059464258747594576,
+          "panel": 2,
+          "letter": "C",
+          "figureDiameter": 37,
+          "tableDiameter": 36,
+          "publishedSpreadNm": 3,
+          "cv": 0.09090909090909091,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              33,
+              39
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.08824665369466742
+        },
+        {
+          "diameter": 41,
+          "sd": 3,
+          "score": 0.053460122112517036,
+          "panel": 3,
+          "letter": "D",
+          "figureDiameter": 44,
+          "tableDiameter": 44,
+          "publishedSpreadNm": 3,
+          "cv": 0.07317073170731707,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              41,
+              47
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.08867732318260689
+        },
+        {
+          "diameter": 50.53118982705221,
+          "sd": 3,
+          "score": 0.012606926104268326,
+          "panel": 4,
+          "letter": "E",
+          "figureDiameter": 48,
+          "tableDiameter": 48,
+          "publishedSpreadNm": 3,
+          "cv": 0.05936927292366922,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              45,
+              51
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.016185396788147365
+        },
+        {
+          "diameter": 51.73258037684275,
+          "sd": 3,
+          "score": 0.01963695016686894,
+          "panel": 5,
+          "letter": "F",
+          "figureDiameter": 52,
+          "tableDiameter": 52,
+          "publishedSpreadNm": 3,
+          "cv": 0.05799053474902446,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              49,
+              55
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.019680539500341297
+        },
+        {
+          "diameter": 56,
+          "sd": 3,
+          "score": 0.0045675372970157445,
+          "panel": 6,
+          "letter": "G",
+          "figureDiameter": 58,
+          "tableDiameter": 59,
+          "publishedSpreadNm": 3,
+          "cv": 0.05357142857142857,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              56,
+              62
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.010474015888534435
+        },
+        {
+          "diameter": 62.421942157656,
+          "sd": 3,
+          "score": 0.0021979028752887745,
+          "panel": 7,
+          "letter": "H",
+          "figureDiameter": 61,
+          "tableDiameter": 61,
+          "publishedSpreadNm": 3,
+          "cv": 0.04806002338765829,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              58,
+              64
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.0029805942394131595
+        },
+        {
+          "diameter": 74.62600780760333,
+          "sd": 3,
+          "score": 0.009384119513496887,
+          "panel": 8,
+          "letter": "I",
+          "figureDiameter": 75,
+          "tableDiameter": 76,
+          "publishedSpreadNm": 3,
+          "cv": 0.040200462119512476,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              73,
+              79
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.010174927726763698
+        },
+        {
+          "diameter": 77.81184702914817,
+          "sd": 4,
+          "score": 0.005509242267513277,
+          "panel": 9,
+          "letter": "J",
+          "figureDiameter": 78,
+          "tableDiameter": 78,
+          "publishedSpreadNm": 4,
+          "cv": 0.051406053868655856,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              74,
+              82
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.005523360515072274
+        },
+        {
+          "diameter": 95.94660234429546,
+          "sd": 5,
+          "score": 0.005492540511844818,
+          "panel": 10,
+          "letter": "K",
+          "figureDiameter": 92,
+          "tableDiameter": 92,
+          "publishedSpreadNm": 5,
+          "cv": 0.05211231953850711,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              87,
+              97
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.010918239580777355
+        },
+        {
+          "diameter": 99,
+          "sd": 3,
+          "score": 0.004337582907535131,
+          "panel": 11,
+          "letter": "L",
+          "figureDiameter": 97,
+          "tableDiameter": 96,
+          "publishedSpreadNm": 3,
+          "cv": 0.030303030303030304,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              93,
+              99
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.009180274371350704
+        },
+        {
+          "diameter": 104.77968078550543,
+          "sd": 4,
+          "score": 0.0029572476944981605,
+          "panel": 12,
+          "letter": "M",
+          "figureDiameter": 105,
+          "tableDiameter": 105,
+          "publishedSpreadNm": 4,
+          "cv": 0.03817534058142822,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              101,
+              109
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.002972414871104834
+        },
+        {
+          "diameter": 116,
+          "sd": 3,
+          "score": 0.003467806848712162,
+          "panel": 13,
+          "letter": "N",
+          "figureDiameter": 113,
+          "tableDiameter": 113,
+          "publishedSpreadNm": 3,
+          "cv": 0.02586206896551724,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              110,
+              116
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.007830050561034021
+        },
+        {
+          "diameter": 124,
+          "sd": 4,
+          "score": 0.006064663337997595,
+          "panel": 14,
+          "letter": "O",
+          "figureDiameter": 120,
+          "tableDiameter": 120,
+          "publishedSpreadNm": 4,
+          "cv": 0.03225806451612903,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              116,
+              124
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.014627245476449023
+        },
+        {
+          "diameter": 141,
+          "sd": 5,
+          "score": 0.014338290450375013,
+          "panel": 15,
+          "letter": "P",
+          "figureDiameter": 136,
+          "tableDiameter": 136,
+          "publishedSpreadNm": 5,
+          "cv": 0.03546099290780142,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              131,
+              141
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.026945605670458193
+        }
+      ],
+      "sdCurves": [
+        {
+          "diameter": 29,
+          "sd": 0,
+          "score": 0.07978839211558489,
+          "panel": 0,
+          "letter": "A",
+          "figureDiameter": 29,
+          "tableDiameter": 29,
+          "publishedSpreadNm": 3,
+          "cv": 0,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              7.25
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.08006886003956404
+        },
+        {
+          "diameter": 34,
+          "sd": 0,
+          "score": 0.15020142969316486,
+          "panel": 1,
+          "letter": "B",
+          "figureDiameter": 34,
+          "tableDiameter": 34,
+          "publishedSpreadNm": 3,
+          "cv": 0,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              8.5
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.15147549655554873
+        },
+        {
+          "diameter": 36,
+          "sd": 9,
+          "score": 0.07577240993208968,
+          "panel": 2,
+          "letter": "C",
+          "figureDiameter": 37,
+          "tableDiameter": 36,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              9
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.08824665369466742
+        },
+        {
+          "diameter": 44,
+          "sd": 9.94774400162304,
+          "score": 0.0771630392444854,
+          "panel": 3,
+          "letter": "D",
+          "figureDiameter": 44,
+          "tableDiameter": 44,
+          "publishedSpreadNm": 3,
+          "cv": 0.22608509094597817,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              11
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.08867732318260689
+        },
+        {
+          "diameter": 48,
+          "sd": 12,
+          "score": 0.0026143414169201005,
+          "panel": 4,
+          "letter": "E",
+          "figureDiameter": 48,
+          "tableDiameter": 48,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              12
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.016185396788147365
+        },
+        {
+          "diameter": 52,
+          "sd": 13,
+          "score": 0.005361709371664706,
+          "panel": 5,
+          "letter": "F",
+          "figureDiameter": 52,
+          "tableDiameter": 52,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              13
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.019680539500341297
+        },
+        {
+          "diameter": 59,
+          "sd": 7.704454988560164,
+          "score": 0.00928967889637993,
+          "panel": 6,
+          "letter": "G",
+          "figureDiameter": 58,
+          "tableDiameter": 59,
+          "publishedSpreadNm": 3,
+          "cv": 0.1305839828569519,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              14.75
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.010474015888534435
+        },
+        {
+          "diameter": 61,
+          "sd": 7.958517497331803,
+          "score": 0.002256551281685594,
+          "panel": 7,
+          "letter": "H",
+          "figureDiameter": 61,
+          "tableDiameter": 61,
+          "publishedSpreadNm": 3,
+          "cv": 0.13046749995625906,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              15.25
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.0029805942394131595
+        },
+        {
+          "diameter": 76,
+          "sd": 14.828657992920402,
+          "score": 0.003773219761409788,
+          "panel": 8,
+          "letter": "I",
+          "figureDiameter": 75,
+          "tableDiameter": 76,
+          "publishedSpreadNm": 3,
+          "cv": 0.19511392095947896,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              19
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.010174927726763698
+        },
+        {
+          "diameter": 78,
+          "sd": 14.145189697274184,
+          "score": 0.0010695586946759422,
+          "panel": 9,
+          "letter": "J",
+          "figureDiameter": 78,
+          "tableDiameter": 78,
+          "publishedSpreadNm": 4,
+          "cv": 0.18134858586248953,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              19.5
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.005523360515072274
+        },
+        {
+          "diameter": 92,
+          "sd": 20.885024805469687,
+          "score": 0.002710045037851197,
+          "panel": 10,
+          "letter": "K",
+          "figureDiameter": 92,
+          "tableDiameter": 92,
+          "publishedSpreadNm": 5,
+          "cv": 0.2270111391898879,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              23
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.010918239580777355
+        },
+        {
+          "diameter": 96,
+          "sd": 17.998150274956743,
+          "score": 0.003713814898439388,
+          "panel": 11,
+          "letter": "L",
+          "figureDiameter": 97,
+          "tableDiameter": 96,
+          "publishedSpreadNm": 3,
+          "cv": 0.1874807320307994,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              24
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.009180274371350704
+        },
+        {
+          "diameter": 105,
+          "sd": 12.612158251396508,
+          "score": 0.0016653574421643552,
+          "panel": 12,
+          "letter": "M",
+          "figureDiameter": 105,
+          "tableDiameter": 105,
+          "publishedSpreadNm": 4,
+          "cv": 0.12011579287044294,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              26.25
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.002972414871104834
+        },
+        {
+          "diameter": 113,
+          "sd": 17.81494981541636,
+          "score": 0.004465252687869281,
+          "panel": 13,
+          "letter": "N",
+          "figureDiameter": 113,
+          "tableDiameter": 113,
+          "publishedSpreadNm": 3,
+          "cv": 0.1576544231452775,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              28.25
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.007830050561034021
+        },
+        {
+          "diameter": 120,
+          "sd": 16.88230230925085,
+          "score": 0.012802992801352785,
+          "panel": 14,
+          "letter": "O",
+          "figureDiameter": 120,
+          "tableDiameter": 120,
+          "publishedSpreadNm": 4,
+          "cv": 0.1406858525770904,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              30
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.014627245476449023
+        },
+        {
+          "diameter": 136,
+          "sd": 13.517141098056307,
+          "score": 0.026499682203752848,
+          "panel": 15,
+          "letter": "P",
+          "figureDiameter": 136,
+          "tableDiameter": 136,
+          "publishedSpreadNm": 5,
+          "cv": 0.09939074336806109,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              34
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.026945605670458193
+        }
+      ]
+    },
+    {
+      "mat": "agRakicLD",
+      "A": 1,
+      "reference": "A. D. Rakić et al., Applied Optics 37, 5271–5283 (1998), Lorentz–Drude model",
+      "doi": "10.1364/AO.37.005271",
+      "score": 0.017703450258726598,
+      "sdScore": 0.024696925277696485,
+      "tableScore": 0.029253357647129583,
+      "rowNormalizedRms": [
+        0.21590201578388146,
+        0.10391613873664096,
+        0.08508182757414502,
+        0.07850247984664956
+      ],
+      "sdRowNormalizedRms": [
+        0.27748985704014895,
+        0.08699682574710764,
+        0.05505612061636811,
+        0.10577077215954779
+      ],
+      "curves": [
+        {
+          "diameter": 26.645904539332218,
+          "sd": 3,
+          "score": 0.04928533777574391,
+          "panel": 0,
+          "letter": "A",
+          "figureDiameter": 29,
+          "tableDiameter": 29,
+          "publishedSpreadNm": 3,
+          "cv": 0.11258765847380703,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              26,
+              32
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.06339095593462321
+        },
+        {
+          "diameter": 31,
+          "sd": 3,
+          "score": 0.05819311989277336,
+          "panel": 1,
+          "letter": "B",
+          "figureDiameter": 34,
+          "tableDiameter": 34,
+          "publishedSpreadNm": 3,
+          "cv": 0.0967741935483871,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              31,
+              37
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.12387603977689281
+        },
+        {
+          "diameter": 33,
+          "sd": 3,
+          "score": 0.0403385711007163,
+          "panel": 2,
+          "letter": "C",
+          "figureDiameter": 37,
+          "tableDiameter": 36,
+          "publishedSpreadNm": 3,
+          "cv": 0.09090909090909091,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              33,
+              39
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.06252370730031814
+        },
+        {
+          "diameter": 41,
+          "sd": 3,
+          "score": 0.038637692908940036,
+          "panel": 3,
+          "letter": "D",
+          "figureDiameter": 44,
+          "tableDiameter": 44,
+          "publishedSpreadNm": 3,
+          "cv": 0.07317073170731707,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              41,
+              47
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.07190871772279706
+        },
+        {
+          "diameter": 50.16185833966769,
+          "sd": 3,
+          "score": 0.011818640789753464,
+          "panel": 4,
+          "letter": "E",
+          "figureDiameter": 48,
+          "tableDiameter": 48,
+          "publishedSpreadNm": 3,
+          "cv": 0.05980639671851269,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              45,
+              51
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.014452841068891052
+        },
+        {
+          "diameter": 51.39755413256755,
+          "sd": 3,
+          "score": 0.018274967843817512,
+          "panel": 5,
+          "letter": "F",
+          "figureDiameter": 52,
+          "tableDiameter": 52,
+          "publishedSpreadNm": 3,
+          "cv": 0.058368536219879766,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              49,
+              55
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.01849750720399336
+        },
+        {
+          "diameter": 56,
+          "sd": 3,
+          "score": 0.006754011956326149,
+          "panel": 6,
+          "letter": "G",
+          "figureDiameter": 58,
+          "tableDiameter": 59,
+          "publishedSpreadNm": 3,
+          "cv": 0.05357142857142857,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              56,
+              62
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.014264530448896836
+        },
+        {
+          "diameter": 61.860882221965994,
+          "sd": 3,
+          "score": 0.006346634969834123,
+          "panel": 7,
+          "letter": "H",
+          "figureDiameter": 61,
+          "tableDiameter": 61,
+          "publishedSpreadNm": 3,
+          "cv": 0.04849591360879006,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              58,
+              64
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.006624640047270839
+        },
+        {
+          "diameter": 74.40448026219181,
+          "sd": 3,
+          "score": 0.011376933841129354,
+          "panel": 8,
+          "letter": "I",
+          "figureDiameter": 75,
+          "tableDiameter": 76,
+          "publishedSpreadNm": 3,
+          "cv": 0.04032015262291177,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              73,
+              79
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.012412312512875737
+        },
+        {
+          "diameter": 77.65474705118231,
+          "sd": 4,
+          "score": 0.007432933375501739,
+          "panel": 9,
+          "letter": "J",
+          "figureDiameter": 78,
+          "tableDiameter": 78,
+          "publishedSpreadNm": 4,
+          "cv": 0.05151005124469205,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              74,
+              82
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.007479208799337241
+        },
+        {
+          "diameter": 96.14651516566069,
+          "sd": 5,
+          "score": 0.005943005356124634,
+          "panel": 10,
+          "letter": "K",
+          "figureDiameter": 92,
+          "tableDiameter": 92,
+          "publishedSpreadNm": 5,
+          "cv": 0.05200396490070376,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              87,
+              97
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.011845367132776275
+        },
+        {
+          "diameter": 99,
+          "sd": 3,
+          "score": 0.00420279696067045,
+          "panel": 11,
+          "letter": "L",
+          "figureDiameter": 97,
+          "tableDiameter": 96,
+          "publishedSpreadNm": 3,
+          "cv": 0.030303030303030304,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              93,
+              99
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.00947138396598119
+        },
+        {
+          "diameter": 105.05671199857446,
+          "sd": 4,
+          "score": 0.002313712881392912,
+          "panel": 12,
+          "letter": "M",
+          "figureDiameter": 105,
+          "tableDiameter": 105,
+          "publishedSpreadNm": 4,
+          "cv": 0.03807467342071658,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              101,
+              109
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": false,
+          "tableScore": 0.002314711597021686
+        },
+        {
+          "diameter": 116,
+          "sd": 3,
+          "score": 0.0027625768244794045,
+          "panel": 13,
+          "letter": "N",
+          "figureDiameter": 113,
+          "tableDiameter": 113,
+          "publishedSpreadNm": 3,
+          "cv": 0.02586206896551724,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              110,
+              116
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.007556900572373009
+        },
+        {
+          "diameter": 124,
+          "sd": 4,
+          "score": 0.005466904249978256,
+          "panel": 14,
+          "letter": "O",
+          "figureDiameter": 120,
+          "tableDiameter": 120,
+          "publishedSpreadNm": 4,
+          "cv": 0.03225806451612903,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              116,
+              124
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.014474306882403672
+        },
+        {
+          "diameter": 141,
+          "sd": 5,
+          "score": 0.014107363412443907,
+          "panel": 15,
+          "letter": "P",
+          "figureDiameter": 136,
+          "tableDiameter": 136,
+          "publishedSpreadNm": 5,
+          "cv": 0.03546099290780142,
+          "A": 1,
+          "mode": "mean",
+          "bounds": {
+            "meanDiameterNm": [
+              131,
+              141
+            ],
+            "sdNm": "fixed at Table 1 value"
+          },
+          "atBound": true,
+          "tableScore": 0.026960591387621243
+        }
+      ],
+      "sdCurves": [
+        {
+          "diameter": 29,
+          "sd": 0,
+          "score": 0.06265470092210854,
+          "panel": 0,
+          "letter": "A",
+          "figureDiameter": 29,
+          "tableDiameter": 29,
+          "publishedSpreadNm": 3,
+          "cv": 0,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              7.25
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.06339095593462321
+        },
+        {
+          "diameter": 34,
+          "sd": 0,
+          "score": 0.12143246404944671,
+          "panel": 1,
+          "letter": "B",
+          "figureDiameter": 34,
+          "tableDiameter": 34,
+          "publishedSpreadNm": 3,
+          "cv": 0,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              8.5
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.12387603977689281
+        },
+        {
+          "diameter": 36,
+          "sd": 8.618325521093375,
+          "score": 0.057067534556922914,
+          "panel": 2,
+          "letter": "C",
+          "figureDiameter": 37,
+          "tableDiameter": 36,
+          "publishedSpreadNm": 3,
+          "cv": 0.23939793114148264,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              9
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.06252370730031814
+        },
+        {
+          "diameter": 44,
+          "sd": 8.562221422334353,
+          "score": 0.06684778351217102,
+          "panel": 3,
+          "letter": "D",
+          "figureDiameter": 44,
+          "tableDiameter": 44,
+          "publishedSpreadNm": 3,
+          "cv": 0.19459594141668984,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              11
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.07190871772279706
+        },
+        {
+          "diameter": 48,
+          "sd": 12,
+          "score": 0.004046642238150361,
+          "panel": 4,
+          "letter": "E",
+          "figureDiameter": 48,
+          "tableDiameter": 48,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              12
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.014452841068891052
+        },
+        {
+          "diameter": 52,
+          "sd": 13,
+          "score": 0.006913207270010497,
+          "panel": 5,
+          "letter": "F",
+          "figureDiameter": 52,
+          "tableDiameter": 52,
+          "publishedSpreadNm": 3,
+          "cv": 0.25,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              13
+            ]
+          },
+          "atBound": true,
+          "tableScore": 0.01849750720399336
+        },
+        {
+          "diameter": 59,
+          "sd": 7.438457822991907,
+          "score": 0.013355325120055017,
+          "panel": 6,
+          "letter": "G",
+          "figureDiameter": 58,
+          "tableDiameter": 59,
+          "publishedSpreadNm": 3,
+          "cv": 0.12607555632189674,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              14.75
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.014264530448896836
+        },
+        {
+          "diameter": 61,
+          "sd": 8.029301896657199,
+          "score": 0.005958616132074564,
+          "panel": 7,
+          "letter": "H",
+          "figureDiameter": 61,
+          "tableDiameter": 61,
+          "publishedSpreadNm": 3,
+          "cv": 0.13162789994519997,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              15.25
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.006624640047270839
+        },
+        {
+          "diameter": 76,
+          "sd": 15.835009436648612,
+          "score": 0.004607710424534573,
+          "panel": 8,
+          "letter": "I",
+          "figureDiameter": 75,
+          "tableDiameter": 76,
+          "publishedSpreadNm": 3,
+          "cv": 0.20835538732432385,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              19
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.012412312512875737
+        },
+        {
+          "diameter": 78,
+          "sd": 15.155786487742757,
+          "score": 0.0019251880025188842,
+          "panel": 9,
+          "letter": "J",
+          "figureDiameter": 78,
+          "tableDiameter": 78,
+          "publishedSpreadNm": 4,
+          "cv": 0.19430495497106098,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              19.5
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.007479208799337241
+        },
+        {
+          "diameter": 92,
+          "sd": 22.229120649438038,
+          "score": 0.002377506807180062,
+          "panel": 10,
+          "letter": "K",
+          "figureDiameter": 92,
+          "tableDiameter": 92,
+          "publishedSpreadNm": 5,
+          "cv": 0.2416208766243265,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              23
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.011845367132776275
+        },
+        {
+          "diameter": 96,
+          "sd": 19.069117764428547,
+          "score": 0.0032143004350627747,
+          "panel": 11,
+          "letter": "L",
+          "figureDiameter": 97,
+          "tableDiameter": 96,
+          "publishedSpreadNm": 3,
+          "cv": 0.19863664337946405,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              24
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.00947138396598119
+        },
+        {
+          "diameter": 105,
+          "sd": 13.193571858895634,
+          "score": 0.0008533093834874365,
+          "panel": 12,
+          "letter": "M",
+          "figureDiameter": 105,
+          "tableDiameter": 105,
+          "publishedSpreadNm": 4,
+          "cv": 0.12565306532281556,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              26.25
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.002314711597021686
+        },
+        {
+          "diameter": 113,
+          "sd": 18.079288215544658,
+          "score": 0.004344443881676095,
+          "panel": 13,
+          "letter": "N",
+          "figureDiameter": 113,
+          "tableDiameter": 113,
+          "publishedSpreadNm": 3,
+          "cv": 0.15999370102251909,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              28.25
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.007556900572373009
+        },
+        {
+          "diameter": 120,
+          "sd": 16.56615669476487,
+          "score": 0.012914489669240756,
+          "panel": 14,
+          "letter": "O",
+          "figureDiameter": 120,
+          "tableDiameter": 120,
+          "publishedSpreadNm": 4,
+          "cv": 0.13805130578970726,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              30
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.014474306882403672
+        },
+        {
+          "diameter": 136,
+          "sd": 12.708540348876056,
+          "score": 0.026637582038503593,
+          "panel": 15,
+          "letter": "P",
+          "figureDiameter": 136,
+          "tableDiameter": 136,
+          "publishedSpreadNm": 5,
+          "cv": 0.09344514962408865,
+          "A": 1,
+          "mode": "sd",
+          "bounds": {
+            "meanDiameterNm": "fixed at Table 1 value",
+            "sdNm": [
+              0,
+              34
+            ]
+          },
+          "atBound": false,
+          "tableScore": 0.026960591387621243
+        }
+      ]
+    }
+  ],
+  "ranking": [
+    {
+      "mat": "agRakicLD",
+      "rms": 0.13305431319099204,
+      "rowRms": [
+        0.21590201578388146,
+        0.10391613873664096,
+        0.08508182757414502,
+        0.07850247984664956
+      ],
+      "sdFitRms": 0.1571525541558154
+    },
+    {
+      "mat": "agRakicBB",
+      "rms": 0.1454253318271313,
+      "rowRms": [
+        0.24890541587974993,
+        0.09875388149769326,
+        0.07861851753942914,
+        0.08189628857827277
+      ],
+      "sdFitRms": 0.1694010543576048
+    },
+    {
+      "mat": "agJC1972",
+      "rms": 0.30423990881980245,
+      "rowRms": [
+        0.5010554645072622,
+        0.25459070967330066,
+        0.1674123248799013,
+        0.16232003569642886
+      ],
+      "sdFitRms": 0.30098452958845506
+    },
+    {
+      "mat": "ag",
+      "rms": 0.30945492382963435,
+      "rowRms": [
+        0.5092529155122076,
+        0.264152675987422,
+        0.1635726361109287,
+        0.16485819377980998
+      ],
+      "sdFitRms": 0.3073787813032413
+    }
+  ],
+  "lowestResidual": "agRakicLD",
+  "defaultMaterial": "agRakicLD",
+  "limits": "Table 1 gives mean ± widths, not full histograms; interpreting ± as number SD and choosing a lognormal shape are stated modelling assumptions. Mean and SD bounds are exploratory sensitivity ranges, not claimed confidence intervals. Fitted SDs are optical estimates rather than additional microscopy measurements. Reaching a bound is reported; residual differences remain visible. Figure/table diameter differences remain visible.",
+  "calibration": "Native PDF image; 360–760 nm printed wavelength scale and four ordinate ticks per panel. Panel P follows the extinction stroke through its 136 nm annotation, including corrected 644 and 656 nm markers. Dipole maxima from Table 1 validate the digitization independently, including P where the quadrupole is taller."
+}

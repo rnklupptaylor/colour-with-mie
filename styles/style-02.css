@@ -1,0 +1,421 @@
+
+/* All new UI is hidden on desktop; the existing v2 desktop stylesheet is untouched. */
+.mobile-workspace { display:none }
+
+@media (max-width:900px) {
+  body.mobile-lab {
+    height:var(--mobile-vh,100dvh); overflow:hidden; overscroll-behavior:none;
+    display:grid; grid-template-rows:auto auto minmax(0,1fr);
+  }
+  .mobile-lab .top {
+    height:calc(48px + env(safe-area-inset-top,0px)); min-width:0; flex-wrap:nowrap;
+    padding:env(safe-area-inset-top,0px) max(8px,env(safe-area-inset-right,0px)) 0 max(10px,env(safe-area-inset-left,0px));
+    gap:6px; z-index:12;
+  }
+  .mobile-lab .brand { font-size:15px; gap:6px; min-width:0 }
+  .mobile-lab .brand>svg { width:23px; height:23px; flex:none }
+  .mobile-lab .lessons { display:none }
+  .mobile-lab .top-actions { gap:4px; margin-left:auto; flex:none }
+  .mobile-lab .top-actions>.btn-quiet { font-size:12px; padding:7px }
+  .mobile-lab .top-actions .btn-icon { width:32px; height:34px }
+  .mobile-lab .mobile-contextbar { display:flex; align-items:center; justify-content:space-between; gap:10px; height:40px; padding:3px max(10px,env(safe-area-inset-right,0px)) 3px max(10px,env(safe-area-inset-left,0px)); background:var(--surface); border-bottom:1px solid var(--line); min-width:0 }
+  .mobile-contextbar #level { flex-wrap:nowrap }
+  .mobile-contextbar #level button { min-height:30px; padding:4px 12px; font-size:13px }
+  .mobile-contextbar .mobile-guide-button { min-height:32px; padding:4px 14px; font-size:13px }
+  .mobile-contextbar .mobile-guide-button.on { color:var(--accent); background:var(--accent-soft); border-color:var(--accent) }
+  .mobile-lab .app { display:grid; grid-template-columns:minmax(0,1fr); grid-template-rows:44px minmax(0,1fr) auto; height:auto; min-height:0; overflow:hidden }
+  .mobile-lab .side { display:none }
+  .mobile-lab .mobile-toolbar {
+    display:flex; align-items:center; gap:8px; padding:4px max(8px,env(safe-area-inset-right,0px)) 4px max(8px,env(safe-area-inset-left,0px));
+    grid-row:1; min-width:0; background:var(--surface); border-bottom:1px solid var(--line);
+  }
+  .mobile-toolbar select { flex:1; width:0; min-width:0; height:36px; font-size:16px; font-weight:700; background:var(--surface-2) }
+  .mobile-toolbar .seg { flex:none; flex-wrap:nowrap }
+  .mobile-toolbar .seg button { min-height:32px; padding:4px 11px }
+  .mobile-lab .stage { order:initial; grid-row:2; min-width:0; min-height:0; display:flex; flex-direction:column; padding:6px max(6px,env(safe-area-inset-right,0px)) 6px max(6px,env(safe-area-inset-left,0px)); gap:0; overflow:hidden }
+  .mobile-lab .stage>.view-card,.mobile-lab .stage>.graph-card { flex:1; height:100%; min-height:0; width:100% }
+  .mobile-lab .stage>.view-card { display:grid; grid-template-rows:auto minmax(0,1fr) }
+  .mobile-lab .stage>.graph-card { display:none; grid-template-rows:auto minmax(0,1fr) auto }
+  .mobile-lab .app[data-mobile-result="graph"] .view-card { display:none }
+  .mobile-lab .app[data-mobile-result="graph"] .graph-card { display:grid }
+  .mobile-lab .app[data-mobile-lesson="design"] .view-card { grid-template-rows:minmax(0,1fr) }
+  .mobile-lab .app[data-mobile-lesson="design"] .view-bar { display:none }
+  .mobile-lab .app[data-mobile-lesson="design"] .design-view,.mobile-lab .mobile-target-view { grid-row:1; grid-column:1 }
+  .mobile-lab .app[data-mobile-result="target"] #designView { display:none!important }
+  .mobile-lab .view-bar { gap:4px; padding:5px; min-width:0 }
+  .mobile-lab #viewSeg { flex:1; min-width:0; flex-wrap:nowrap; overflow-x:auto; scrollbar-width:none }
+  .mobile-lab #viewSeg button { flex:none; font-size:12px; padding:6px 8px; min-height:32px }
+  .mobile-lab .view-actions { gap:4px; flex:none }
+  .mobile-lab .view-actions .btn-icon { width:32px; height:32px }
+  .mobile-lab .speed-sel { width:47px; height:32px; padding:0 2px; font-size:13px }
+  .mobile-lab .scene { min-height:0 }
+  .mobile-lab .legend { left:8px; bottom:8px; width:150px; padding:4px 6px }
+  .mobile-lab .lg-title { font-size:11px; margin-bottom:2px }
+  .mobile-lab .lg-ticks { font-size:10px }
+  .mobile-spectrum-head { display:none; flex:none; justify-content:flex-end; height:40px; padding:2px 6px 3px }
+  .mobile-lab .app[data-mobile-spectrum="true"] .mobile-spectrum-head { display:flex }
+  .mobile-lab .app[data-mobile-spectrum="true"] #plotWrap { display:flex; flex-direction:column }
+  .mobile-lab .app[data-mobile-spectrum="true"] #plotWrap>canvas { flex:1; height:0; min-height:0 }
+  .mobile-lab .app[data-mobile-spectrum="true"] #plotWrap>.plot-tip { margin-top:40px }
+  .mobile-lab .swatch { position:static; display:grid; grid-template-columns:auto auto 24px; grid-template-rows:auto auto; align-items:center; column-gap:8px; padding:0; max-width:100%; font-size:10px; background:none; border-radius:0; cursor:default }
+  .mobile-lab .swatch .sw-title { grid-column:1; grid-row:1; align-self:end; text-align:right; margin:0; font-size:10px }
+  .mobile-lab .swatch .sw-conc { grid-column:1; grid-row:2; align-self:start; margin:0; text-align:right; font-size:9px }
+  .mobile-lab .swatch .sw-row { grid-column:2; grid-row:1/3; gap:6px }
+  .mobile-lab .swatch .sw-chip { width:24px; height:18px; border-radius:4px }
+  .mobile-lab .swatch .sw-row span { margin-top:1px; font-size:9px; line-height:1.1 }
+  .mobile-lab .swatch .sw-lite,.mobile-lab .swatch .sw-dark { padding:2px; border-radius:5px }
+  .mobile-swatch-info { grid-column:3; grid-row:1/3; width:24px; height:30px; border:1px solid var(--line); background:var(--surface-2); border-radius:8px; font-size:13px; font-weight:700; color:var(--accent); cursor:pointer }
+  .mobile-colour-details .sw-warn { display:block; font-size:12px; line-height:1.4; color:var(--ink-2); background:var(--surface-2); border:1px solid var(--line); border-radius:6px; padding:7px 9px }
+  .mobile-lab .badge { font-size:11px; padding:3px 6px; top:6px; left:6px }
+  .mobile-lab .badge:not([hidden])~.swatch { top:40px }
+  .mobile-lab .scene-info { display:none }
+  .mobile-lab .graph-bar { flex-wrap:wrap; padding:0 6px; gap:0 }
+  .mobile-lab .graph-bar .tabs { flex-basis:100% }
+  .mobile-lab .graph-bar .tabs button { min-height:36px; font-size:12px; padding:7px 9px }
+  .mobile-lab .graph-actions { min-width:0; width:100%; gap:12px; overflow-x:auto; padding:3px 0 5px }
+  .mobile-lab .graph-actions label { flex:none }
+  .mobile-lab .graph-actions #dataBtn { margin-left:auto }
+  .mobile-lab .mobile-graph-note { border-top:1px solid var(--line); overflow:auto; font-size:12px }
+  .mobile-lab .mobile-graph-note[open] { max-height:min(160px,25dvh) }
+  .mobile-graph-note>summary { padding:6px 10px; min-height:30px; color:var(--ink-2); cursor:pointer }
+  .mobile-lab .caption { font-size:12px; padding:2px 10px 8px }
+  .mobile-lab .detector { padding:2px 8px }
+  .mobile-lab .det-body { gap:6px }
+  .mobile-lab .det-top .det-hint { display:none }
+  .mobile-lab .det-read b { font-size:19px }
+  .mobile-lab .det-sub { font-size:11px; margin-bottom:3px }
+  .mobile-lab .design-view { padding:10px; grid-template-columns:minmax(0,1fr) }
+  .mobile-lab .mobile-target-view { min-height:0; min-width:0; overflow:hidden; padding:8px; background:var(--scene-bg) }
+  .mobile-target-picker { display:flex; flex-direction:column; height:100%; min-height:0; gap:6px; margin:0 }
+  .mobile-target-intro { flex:none; margin:0; font-size:16px; font-weight:700; line-height:1.3 }
+  .mobile-target-picker #tPresets { flex:none; display:flex; flex-wrap:nowrap; overflow-x:auto; scrollbar-width:thin; gap:6px; margin:0; padding-bottom:2px }
+  .mobile-target-picker #tPresets button { flex:none; min-height:30px; padding:4px 10px; font-family:var(--ui); font-size:12px }
+  .mobile-target-map-slot { flex:1; min-width:0; min-height:0; display:flex; justify-content:center; align-items:center }
+  .mobile-target-picker .tmap-wrap { width:var(--mobile-map-size,100%); max-width:100%; margin:0 }
+  .mobile-target-picker .tmap-ax { font-size:10px; line-height:1.2 }
+  .mobile-target-picker .tmap { border-radius:6px }
+  .mobile-target-knobs { flex:none; display:grid; grid-template-columns:minmax(0,1fr) 56px; grid-template-rows:auto 36px; gap:0 12px; min-width:0; padding:0 }
+  .mobile-target-knobs .row { grid-column:1; grid-row:1; margin:0; font-size:13px }
+  .mobile-target-knobs .row output { font-size:13px }
+  .mobile-target-knobs #tLSlider { grid-column:1; grid-row:2; height:36px; touch-action:pan-y }
+  .mobile-target-preview-label { grid-column:2; grid-row:1; margin:0; font-size:10px; text-align:center; color:var(--ink-2) }
+  .mobile-target-knobs .lab-sw { grid-column:2; grid-row:2; align-self:center; width:56px; height:30px; margin:0 }
+  .mobile-target-knobs input[type="range"]::-webkit-slider-thumb { width:22px; height:22px; margin-top:-9px }
+  .mobile-target-knobs input[type="range"]::-moz-range-thumb { width:18px; height:18px }
+  .mobile-target-picker #tGamut { flex:none; margin:0; font-size:11px }
+  .mobile-accordion>h2 { display:none }
+
+  /* A bounded tray occupies its own grid row: it can never cover the live canvas. */
+  .mobile-lab .mobile-tray {
+    display:flex; flex-direction:column; grid-row:3; min-width:0; min-height:0;
+    height:var(--mobile-tray-size,300px); padding-bottom:env(safe-area-inset-bottom,0px);
+    background:var(--surface); border-top:1px solid var(--line); border-radius:14px 14px 0 0;
+    box-shadow:0 -3px 16px rgb(0 0 0 / .05); overflow:hidden;
+  }
+  .mobile-lab .mobile-tray.collapsed { height:calc(84px + env(safe-area-inset-bottom,0px)) }
+  .mobile-fold { flex:none; position:relative; width:100%; height:40px; padding:10px 14px 0; display:flex; align-items:center; justify-content:space-between; border:0; background:none; cursor:ns-resize; touch-action:none; color:var(--ink-2); font-size:12px; font-weight:700 }
+  .mobile-fold::before { content:""; position:absolute; width:36px; height:3px; border-radius:3px; background:var(--axis); top:5px; left:calc(50% - 18px) }
+  .mobile-fold-action { display:flex; gap:5px; align-items:center; color:var(--accent) }
+  .mobile-fold svg { width:16px; height:16px }
+  .collapsed .mobile-fold svg { transform:rotate(180deg) }
+  .mobile-tray.dragging { user-select:none }
+  .mobile-tray-tabs { flex:none; display:flex; gap:5px; min-height:44px; overflow-x:auto; scrollbar-width:none; padding:3px 10px 6px; scroll-snap-type:x proximity; border-bottom:1px solid var(--line) }
+  .mobile-tray-tabs button { flex:none; white-space:nowrap; scroll-snap-align:start; border:1px solid var(--line); border-radius:999px; background:var(--surface); padding:6px 13px; min-height:34px; font-size:13px; font-weight:700; cursor:pointer; color:var(--ink-2) }
+  .mobile-tray-tabs button[aria-selected="true"] { color:var(--accent-ink); background:var(--accent); border-color:var(--accent) }
+  .mobile-tray-content { min-height:0; flex:1; overflow-y:auto; overscroll-behavior-y:contain; scrollbar-width:thin; padding:0 max(14px,env(safe-area-inset-right,0px)) 12px max(14px,env(safe-area-inset-left,0px)); scroll-padding:8px; -webkit-overflow-scrolling:touch }
+  .mobile-tray-page { min-width:0; padding-top:8px }
+  .mobile-lab .mobile-tray .group { margin:0; padding:0 0 6px; border:0 }
+  .mobile-tray .group>h2:first-of-type,.mobile-size-controls>.row-label:first-child { display:none }
+  .mobile-tray .row { margin-top:7px }
+  .mobile-tray .row-label { margin-top:6px }
+  .mobile-tray input[type="range"] { height:36px; touch-action:pan-y }
+  .mobile-tray input[type="range"]::-webkit-slider-thumb { width:22px; height:22px; margin-top:-9px }
+  .mobile-tray input[type="range"]::-moz-range-thumb { width:18px; height:18px }
+  .mobile-tray .num,.mobile-tray select { font-size:16px; min-height:34px }
+  .mobile-tray .chips { margin-top:3px }
+  .mobile-tray .chips button { min-height:30px; padding:4px 10px }
+  .mobile-tray .seg button { min-height:34px }
+  .mobile-tray .check { min-height:30px; margin:3px 0 }
+  .mobile-tray .check input { width:19px; height:19px; flex:none }
+  .mobile-tray .btn,.mobile-tray .btn-quiet { min-height:34px }
+  .mobile-accordion { border-bottom:1px solid var(--line); margin:0 0 6px; padding:0 0 4px }
+  .mobile-accordion>summary { cursor:pointer; font-size:13px; color:var(--ink-2); font-weight:700; padding:8px 0; min-height:36px }
+  .mobile-accordion[open]>summary { color:var(--accent) }
+  .mobile-lab .mobile-tray .lesson-head { padding:0; margin:8px 0 12px }
+  .mobile-tray .lesson-head h1 { font-size:19px }
+  .mobile-tray .lesson-head p { font-size:14px }
+  .mobile-lab .mobile-tray .tasks,.mobile-lab .mobile-tray .ideas { margin:0 0 10px }
+  .mobile-tray .tasks summary,.mobile-tray .ideas summary { padding:10px 0 }
+  .mobile-level-label { color:var(--muted); font-size:12px; margin:4px 0 5px }
+  .mobile-lab .mobile-tray .view-panel { position:static; width:100%; border:0; background:none; border-radius:0; box-shadow:none; max-height:none; backdrop-filter:none }
+  .mobile-tray .vp-head { display:none }
+  .mobile-lab .mobile-tray #displayBody { display:block!important; padding:0; border:0; overflow:visible }
+  .mobile-tray .metrics { display:grid; grid-template-columns:1fr 1fr; border-radius:8px; box-shadow:none; overflow:visible }
+  .mobile-tray .metric { border-bottom:1px solid var(--line); padding:10px }
+  .mobile-tray .metric small { display:block }
+  .mobile-colour-note { font-size:13px; color:var(--ink-2); margin:4px 0 10px }
+  .mobile-lab .toast { bottom:calc(90px + env(safe-area-inset-bottom,0px)); max-width:calc(100% - 24px); width:max-content }
+}
+
+@media (max-width:900px) and (max-aspect-ratio:6/5) {
+  .mobile-lab .app[data-mobile-result="target"] .mobile-tray.collapsed { height:calc(44px + env(safe-area-inset-bottom,0px)) }
+  .mobile-lab .app[data-mobile-result="target"] .mobile-tray.collapsed .mobile-fold { display:none }
+}
+
+/* Short, wide phones use a side tray, leaving the full height for the visualization. */
+@media (max-width:900px) and (max-height:500px) and (min-aspect-ratio:6/5) {
+  .mobile-lab .app { grid-template-columns:minmax(0,1fr) min(42%,340px); grid-template-rows:44px minmax(0,1fr) }
+  .mobile-lab .mobile-toolbar { grid-column:1/-1 }
+  .mobile-lab .stage { grid-column:1; grid-row:2; padding:4px }
+  .mobile-lab .mobile-tray { grid-column:2; grid-row:2; height:100%; border-radius:10px 0 0 0; border-left:1px solid var(--line) }
+  .mobile-lab .mobile-fold { cursor:pointer }
+  .mobile-lab .app[data-mobile-collapsed="true"] { grid-template-columns:minmax(0,1fr) 52px }
+  .mobile-lab .mobile-tray.collapsed { height:100% }
+  .mobile-lab .mobile-tray.collapsed .mobile-tray-tabs { display:none }
+  .mobile-lab .mobile-tray.collapsed .mobile-fold { height:100%; padding:10px; flex-direction:column; justify-content:center; gap:12px; cursor:pointer }
+  .mobile-lab .mobile-tray.collapsed .mobile-fold::before { display:none }
+  .mobile-lab .mobile-tray.collapsed .mobile-fold-title { writing-mode:vertical-rl }
+  .mobile-lab .mobile-tray.collapsed .mobile-fold-word { display:none }
+  .mobile-lab .mobile-tray.collapsed .mobile-fold svg { transform:rotate(90deg) }
+  .mobile-lab .legend { width:140px }
+  .mobile-lab .mobile-target-view { padding:8px }
+  .mobile-target-picker { display:grid; grid-template-columns:minmax(0,1fr) minmax(180px,.8fr); grid-template-rows:auto auto minmax(0,1fr) auto; gap:8px 12px }
+  .mobile-target-map-slot { grid-column:1; grid-row:1/-1; height:100% }
+  .mobile-target-intro { grid-column:2; grid-row:1; font-size:14px }
+  .mobile-target-picker #tPresets { grid-column:2; grid-row:2; min-width:0 }
+  .mobile-target-knobs { grid-column:2; grid-row:3; align-self:start }
+  .mobile-target-picker #tGamut { grid-column:2; grid-row:4 }
+}
+
+@media (max-width:360px) {
+  .mobile-lab .brand { font-size:13px; gap:4px }
+  .mobile-lab .brand>svg { width:19px }
+  .mobile-lab .top-actions>.btn-quiet { padding:7px 5px; font-size:11px }
+  .mobile-toolbar .seg button { padding:4px 8px; font-size:12px }
+}
+
+/* Keep a usable graph when a portrait phone's keyboard reduces the viewport. */
+@media (max-width:520px) and (max-height:500px) and (max-aspect-ratio:6/5) {
+  .mobile-lab .top { height:calc(40px + env(safe-area-inset-top,0px)) }
+  .mobile-lab .mobile-contextbar { height:36px; padding-top:1px; padding-bottom:1px }
+  .mobile-lab .app { grid-template-rows:40px minmax(0,1fr) auto }
+  .mobile-toolbar select { height:32px }
+  .mobile-toolbar .seg button { min-height:28px }
+  .mobile-lab .graph-bar { flex-wrap:nowrap; gap:5px }
+  .mobile-lab .graph-bar .tabs { flex:1; flex-basis:0; min-width:65px }
+  .mobile-lab .graph-bar .tabs button { padding:6px 7px; font-size:11px }
+  .mobile-lab .graph-actions { flex:none; width:auto; gap:5px; padding:3px 0 }
+  .mobile-lab .graph-actions .check { font-size:11px; gap:4px }
+  .mobile-lab .graph-actions input { width:14px; height:14px }
+  .mobile-lab .graph-actions #dataBtn { font-size:11px; padding:3px 6px }
+  .mobile-lab .mobile-fold { height:32px; padding-top:6px }
+  .mobile-lab .mobile-tray-tabs { min-height:36px; padding-top:2px; padding-bottom:4px }
+  .mobile-lab .mobile-tray-tabs button { min-height:30px; padding:4px 11px }
+  .mobile-lab .mobile-tray.collapsed { height:calc(68px + env(safe-area-inset-bottom,0px)) }
+  .mobile-lab .mobile-tray { display:grid; grid-template-columns:32px minmax(0,1fr); grid-template-rows:36px minmax(0,1fr) }
+  .mobile-lab .mobile-fold { grid-column:1; grid-row:1; width:32px; height:36px; padding:0; justify-content:center }
+  .mobile-lab .mobile-fold-title,.mobile-lab .mobile-fold-word,.mobile-lab .mobile-fold::before { display:none }
+  .mobile-lab .mobile-tray-tabs { grid-column:2; grid-row:1; min-width:0; padding-left:0 }
+  .mobile-lab .mobile-tray-content { grid-column:1/-1; grid-row:2 }
+  .mobile-lab .mobile-tray.collapsed { height:calc(36px + env(safe-area-inset-bottom,0px)) }
+  .mobile-lab .app[data-mobile-result="target"] .mobile-tray.collapsed .mobile-tray-tabs { grid-column:1/-1; padding-left:8px }
+  .mobile-lab .mobile-graph-note { display:none }
+  .mobile-target-picker { display:grid; grid-template-columns:minmax(0,1fr) minmax(110px,.8fr); grid-template-rows:auto minmax(0,1fr) auto; gap:6px }
+  .mobile-target-map-slot { grid-column:1; grid-row:1/-1; height:100% }
+  .mobile-target-intro { display:none }
+  .mobile-target-picker #tPresets { grid-column:2; grid-row:1; min-width:0 }
+  .mobile-target-knobs { grid-column:2; grid-row:2; display:flex; flex-direction:column; align-self:start; gap:0 }
+  .mobile-target-knobs .row { align-self:stretch; font-size:11px }
+  .mobile-target-knobs #tLSlider { flex:none; height:32px }
+  .mobile-target-preview-label { display:none }
+  .mobile-target-knobs .lab-sw { width:40px; height:18px; align-self:start }
+  .mobile-target-picker #tGamut { grid-column:2; grid-row:3 }
+}
+
+/* Museum uses the existing laboratory renderer; other lessons keep their layout. */
+.museum-view{display:none;min-width:0;min-height:0;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+body[data-museum="true"] .stage{display:flex;flex-direction:column}
+body[data-museum="true"] .stage>:not(.museum-view){display:none!important}
+body[data-museum="true"] .museum-view{display:flex;flex-direction:column;flex:1;width:100%;height:100%}
+.museum-navigation{display:flex;align-items:center;gap:8px;padding:8px 10px;border-bottom:1px solid var(--line);flex:none}
+.museum-navigation select{flex:1;min-width:0;width:0;font-weight:700;font-size:15px;height:36px}
+.museum-navigation .btn-icon{width:34px;height:34px;font-size:26px;flex:none}
+.museum-tools{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:5px 10px;flex:none}
+.museum-tools .seg{flex-wrap:nowrap}
+.museum-tools .seg button{min-height:30px}
+.museum-stage{display:grid;grid-template-columns:minmax(0,1fr) clamp(235px,29%,285px);flex:1;min-height:0;min-width:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.museum-image-area{min-height:0;min-width:0;position:relative;overflow:hidden;background:#fff}
+.museum-image-area>canvas,.museum-image-area>.museum-scene{position:absolute;inset:0;width:100%;height:100%;min-height:0;display:block;touch-action:none;outline-offset:-3px}
+.museum-image-area canvas{touch-action:none;cursor:grab}
+.museum-image-area canvas:active{cursor:grabbing}
+.museum-image-area>.museum-scene{background:transparent!important;transition:none}
+.museum-scene canvas{display:block;width:100%;height:100%}
+#museumContours{pointer-events:none;z-index:2}
+#museumCurveTip{position:absolute;z-index:3;pointer-events:none;padding:5px 8px;border-radius:5px;background:#172738eb;color:#fff;font-size:12px;white-space:nowrap;max-width:calc(100% - 8px)}
+.museum-curve-links{display:flex;gap:5px;flex:1;min-width:0;overflow-x:auto;scroll-snap-type:x proximity;scrollbar-width:thin;justify-content:flex-start;padding:2px 0 3px}
+.museum-curve-links button{flex:none;scroll-snap-align:start;position:relative;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink);font:12px var(--ui);min-height:30px;padding:5px 8px 5px 15px;cursor:pointer;white-space:nowrap}
+.museum-tools>.seg:first-child{flex:none}
+.museum-curve-links button::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:3px;border-radius:2px;background:var(--curve)}
+.museum-curve-links button:hover,.museum-curve-links button:focus-visible,.museum-curve-links button.on{border-color:var(--curve);background:var(--surface-2)}
+#museumNoGL{position:absolute;bottom:8px;left:8px;right:8px;margin:0;padding:8px;background:#fffffff0;border:1px solid #b1bac4;border-radius:6px;font-size:12px;color:#283440}
+.museum-console{min-width:0;min-height:0;padding:12px;display:flex;flex-direction:column;gap:10px;border-left:1px solid var(--line);overflow:auto;overscroll-behavior:contain}
+.museum-console-head{display:flex;flex-direction:column;align-items:flex-start;gap:7px}
+.museum-console-head strong{font-size:12px;line-height:1.35;color:var(--accent)}
+.museum-console-head button{font-size:11px;padding:4px 8px;min-height:28px}
+.museum-console-head select{font-size:12px;width:136px;min-height:30px;height:30px;padding:3px 6px}
+#museumTargets[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);background:var(--surface-2)}
+.museum-info{display:none}
+.museum-settings{font:12px/1.65 var(--mono);overflow-wrap:anywhere;color:var(--ink)}
+.museum-settings p{margin:0 0 4px}
+.museum-live-title{font-size:12px;line-height:1.3;color:var(--accent)}
+.museum-lesson-link{font-size:12px;padding:7px 9px;line-height:1.35;text-align:left;flex:none}
+.museum-match{font-size:11px;line-height:1.35;margin:0;color:var(--ink-2)}
+.museum-sliders{display:grid;gap:10px;margin-top:auto}
+.museum-knob{display:flex;flex-direction:column;gap:0;font-size:13px;min-width:0;font-weight:700}
+.museum-knob[hidden]{display:none}
+.museum-knob>span{display:flex;justify-content:space-between;gap:6px;white-space:nowrap}
+.museum-knob output{font-family:var(--mono);font-weight:400}
+.museum-knob input[type="range"]{width:100%;height:36px;min-width:0;touch-action:none}
+.museum-blend{display:flex;align-items:center;gap:8px;flex:none;font-size:11px;border-top:1px solid var(--line);padding-top:6px}
+.museum-blend span{white-space:nowrap}
+.museum-blend input[type="range"]{flex:1;min-width:0;width:0;height:32px;touch-action:none}
+.museum-blend output{min-width:32px;text-align:right;font:11px var(--mono)}
+.museum-key{flex:none;padding:5px 10px 2px;font-size:11px;color:var(--ink-2)}
+.museum-source{flex:none;margin:0;padding:2px 10px 7px;color:var(--ink-2);font-size:11px}
+.museum-source a,.museum-source-links a{color:var(--accent);text-decoration:underline;text-underline-offset:2px}
+.museum-source-links{display:flex;flex-direction:column;gap:7px;margin:10px 0;font-size:12px;line-height:1.4}
+@media(max-width:900px) and (max-height:360px) and (min-aspect-ratio:6/5){
+  body.mobile-lab:has(.app[data-mobile-lesson="museum"]) .top{height:36px}
+  .mobile-lab:has(.app[data-mobile-lesson="museum"]) .top-actions .btn-icon{height:28px;width:28px}
+  .mobile-lab:has(.app[data-mobile-lesson="museum"]) .mobile-contextbar{height:32px;padding-top:1px;padding-bottom:1px}
+  .mobile-lab:has(.app[data-mobile-lesson="museum"]) .mobile-contextbar #level button{min-height:26px;font-size:12px;padding:2px 10px}
+  .mobile-lab:has(.app[data-mobile-lesson="museum"]) .mobile-guide-button{min-height:26px;padding:2px 10px}
+  .mobile-lab .app[data-mobile-lesson="museum"]{grid-template-rows:34px minmax(0,1fr)}
+  .mobile-lab .app[data-mobile-lesson="museum"] .mobile-toolbar{padding-top:1px;padding-bottom:1px}
+  .mobile-lab .app[data-mobile-lesson="museum"] .mobile-toolbar select{height:28px;font-size:14px}
+}
+#museumControls p{font-size:13px;color:var(--ink-2);line-height:1.45}
+#museumControls #museumParameters{color:var(--ink);font-weight:700}
+#museumControls details{margin:10px 0;font-size:13px}
+#museumControls summary{cursor:pointer;font-weight:700;padding:5px 0}
+#museumControls cite{font-style:normal;display:block;margin:8px 0;font-size:12px;color:var(--ink-2)}
+@media(max-width:900px){
+  .mobile-lab .museum-navigation{padding:4px 6px;gap:5px}
+  .mobile-lab .museum-navigation select{font-size:16px;height:34px}
+  .mobile-lab .museum-tools{padding:3px 6px}
+  .mobile-lab .museum-tools .seg button{padding:4px 8px;font-size:11px;min-height:28px}
+  .mobile-lab .museum-stage{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(65px,1fr) auto}
+  .mobile-lab .museum-console{padding:6px 8px 3px;gap:3px;overflow:visible;border-left:0;border-top:1px solid var(--line)}
+  .mobile-lab .museum-console-head{flex-direction:row;justify-content:space-between;align-items:center;gap:6px}
+  .mobile-lab .museum-console-head strong{font-size:10px;flex:1;min-width:0}
+  .mobile-lab .museum-console-head button{font-size:10px;padding:2px 6px;min-height:25px;flex:none}
+  .mobile-lab .museum-console-head select{font-size:16px;flex:1;min-width:90px;max-width:150px;width:120px;height:28px;min-height:28px;padding:2px 3px}
+  .mobile-lab .museum-console-head:has(#museumFit:not([hidden]))>strong{display:none}
+  .mobile-lab .museum-info{display:block;font-size:16px!important;width:27px;padding:0!important}
+  .mobile-lab .app[data-mobile-lesson="museum"] .mobile-tray.collapsed{display:none!important;height:0}
+  .mobile-lab .museum-settings{font-size:10px;line-height:1.4}
+  .mobile-lab .museum-settings p{margin:0}
+  .mobile-lab .museum-live-title{font-size:10px;line-height:1.2}
+  .mobile-lab .museum-lesson-link{font-size:11px;min-height:29px;padding:4px 7px}
+  .mobile-lab .museum-match{font-size:10px;line-height:1.3}
+  .mobile-lab .museum-sliders{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:2px 0 0}
+  .mobile-lab #museumWavelengthRow,.mobile-lab #museumPathRow{grid-column:1/-1}
+  .mobile-lab .museum-curve-links{display:flex;overflow-x:auto;scroll-snap-type:x proximity;scrollbar-width:thin;gap:5px;padding:2px 0 3px}
+  .mobile-lab .museum-curve-links button{flex:none;scroll-snap-align:start;min-height:30px;font-size:11px;padding-right:8px}
+  .mobile-lab .museum-knob:only-child,.mobile-lab .museum-knob:first-child:not([hidden]),.mobile-lab #museumSizeRow:not([hidden]){grid-column:1/-1}
+  .mobile-lab .museum-knob{font-size:12px}
+  .mobile-lab .museum-knob input[type="range"]{height:30px}
+  .mobile-lab .museum-console input[type="range"]::-webkit-slider-thumb{width:22px;height:22px;margin-top:-9px}
+  .mobile-lab .museum-console input[type="range"]::-moz-range-thumb{width:18px;height:18px}
+  .mobile-lab .museum-blend{gap:8px;padding-top:0;border-top:0;font-size:10px}
+  .mobile-lab .museum-blend input[type="range"]{height:26px}
+  .mobile-lab .museum-key{font-size:10px;padding:3px 8px 0;line-height:1.3}
+  .mobile-lab .museum-source{font-size:10px;padding:1px 8px 4px}
+}
+@media(max-width:900px) and (max-aspect-ratio:6/5){
+  .mobile-lab .app[data-mobile-lesson="museum"] .mobile-tray.collapsed{height:calc(44px + env(safe-area-inset-bottom,0px))}
+  .mobile-lab .app[data-mobile-lesson="museum"] .mobile-tray.collapsed .mobile-fold{display:none}
+}
+@media(max-width:520px) and (min-height:501px) and (max-height:650px){
+  .mobile-lab .museum-key,.mobile-lab .museum-source{display:none}
+  .mobile-lab .museum-navigation{padding:2px 5px}
+  .mobile-lab .museum-navigation select{height:30px}
+  .mobile-lab .museum-navigation .btn-icon{height:30px;width:30px}
+}
+@media(max-width:900px) and (max-height:500px) and (min-aspect-ratio:6/5){
+  .mobile-lab .app[data-mobile-lesson="museum"][data-mobile-collapsed="true"]{grid-template-columns:minmax(0,1fr)}
+  .mobile-lab .museum-navigation{padding:2px 5px}
+  .mobile-lab .museum-navigation select{height:28px;font-size:14px}
+  .mobile-lab .museum-navigation .btn-icon{height:28px;width:28px}
+  .mobile-lab .museum-tools{padding:2px 5px}
+  .mobile-lab .museum-tools .seg{padding:1px}
+  .mobile-lab .museum-tools .seg button{min-height:26px}
+  .mobile-lab .museum-stage{grid-template-columns:minmax(100px,1fr) minmax(175px,42%);grid-template-rows:minmax(0,1fr)}
+  .mobile-lab .museum-console{padding:4px 6px;gap:2px;border-top:0;border-left:1px solid var(--line);overflow:auto}
+  .mobile-lab .museum-console-head{align-items:flex-start}
+  .mobile-lab .museum-console-head strong{font-size:9px;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .mobile-lab .museum-console-head button{font-size:9px;min-height:24px}
+  .mobile-lab .museum-settings{font:9px/1.35 var(--ui)}
+  .mobile-lab .museum-live-title,.mobile-lab .museum-match{display:none}
+  .mobile-lab .museum-lesson-link{font-size:9px;line-height:1.15;min-height:25px;padding:3px 5px}
+  .mobile-lab .museum-match{font-size:9px}
+  .mobile-lab .museum-knob{font-size:10px}
+  .mobile-lab .museum-knob input[type="range"]{height:26px}
+  .mobile-lab .museum-sliders{gap:6px}
+  .mobile-lab .museum-curve-links{padding:0;gap:3px}
+  .mobile-lab .museum-curve-links button{min-height:24px;font-size:9px;padding-top:2px;padding-bottom:2px}
+  .mobile-lab .museum-view[data-kind="gold"] .museum-settings{line-height:1.25}
+  .mobile-lab .museum-view[data-kind="gold"] .museum-match{font-size:9px;line-height:1.15}
+  .mobile-lab .museum-key,.mobile-lab .museum-source,.mobile-lab .museum-blend{display:none}
+}
+@media(max-width:520px) and (max-height:500px) and (max-aspect-ratio:6/5){
+  .mobile-lab .museum-tools{padding:1px 5px}
+  .mobile-lab .museum-tools .seg button{min-height:24px;padding:2px 7px}
+  .mobile-lab .museum-navigation{padding:1px 5px}
+  .mobile-lab .museum-navigation select{height:28px;font-size:14px}
+  .mobile-lab .museum-navigation .btn-icon{height:28px;width:28px}
+  .mobile-lab .museum-tools .seg{padding:1px}
+  .mobile-lab .museum-stage{grid-template-columns:minmax(100px,.7fr) minmax(200px,1.3fr);grid-template-rows:minmax(0,1fr)}
+  .mobile-lab .museum-console{border-left:1px solid var(--line);border-top:0;padding:3px 5px;gap:2px;overflow:auto}
+  .mobile-lab .museum-console-head{align-items:flex-start}
+  .mobile-lab .museum-console-head strong{font-size:9px;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .mobile-lab .museum-console-head button{font-size:9px;min-height:20px}
+  .mobile-lab .museum-settings{font:9px/1.25 var(--ui)}
+  .mobile-lab .museum-live-title,.mobile-lab .museum-match{display:none}
+  .mobile-lab .museum-lesson-link{font-size:9px;line-height:1.15;min-height:25px;padding:3px 5px}
+  .mobile-lab .museum-match{font-size:9px}
+  .mobile-lab .museum-knob{font-size:10px}
+  .mobile-lab .museum-knob input[type="range"]{height:24px}
+  .mobile-lab .museum-blend input[type="range"]{height:22px}
+  .mobile-lab .museum-curve-links{padding:0;gap:3px}
+  .mobile-lab .museum-curve-links button{min-height:24px;font-size:9px;padding-top:2px;padding-bottom:2px}
+  .mobile-lab .museum-key,.mobile-lab .museum-source,.mobile-lab .museum-blend{display:none}
+  .mobile-lab .app[data-mobile-lesson="museum"] .mobile-tray.collapsed{height:36px}
+  .mobile-lab .app[data-mobile-lesson="museum"] .mobile-tray.collapsed .mobile-tray-tabs{grid-column:1/-1;padding-left:8px}
+}
+@media(max-width:900px) and (max-height:360px) and (min-aspect-ratio:6/5){
+  .mobile-lab .museum-console-head button{min-height:20px}
+  .mobile-lab .museum-settings{line-height:1.2}
+  .mobile-lab .museum-lesson-link{min-height:22px;padding:2px 5px;line-height:1.1}
+  .mobile-lab .museum-knob>span{line-height:1.1}
+  .mobile-lab .museum-knob input[type="range"]{height:24px}
+  .mobile-lab .museum-view[data-kind="gold"] .museum-settings{line-height:1.2}
+}
+
+.population-controls{border-top:1px solid var(--line);margin-top:12px;padding-top:10px}
+.population-controls summary{cursor:pointer;font-weight:600;display:list-item}
+.population-controls summary span{font-weight:400;font-size:.85em;margin-left:6px}
+.population-controls .check{margin-top:10px}
+.population-controls select{max-width:185px}
+.population-controls .note{font-size:11px;line-height:1.5}
+#populationStatus{font-variant-numeric:tabular-nums}
+#populationStatus[data-error="true"]{color:var(--s3)}
+body[data-population="true"] #sceneInfo{visibility:hidden}
+#populationSceneNote{position:absolute;left:10px;top:10px;z-index:5;max-width:calc(100% - 20px);padding:5px 9px;border-radius:5px;background:var(--bg);color:var(--ink);font-size:11px;pointer-events:none;box-shadow:0 1px 5px #0002}
+@media(max-width:760px){.population-controls select{max-width:57%;font-size:12px}#populationSceneNote{top:4px;left:4px;max-width:calc(100% - 8px);font-size:10px;padding:3px 5px}}
+
+
+/* Two compact, explicit controls for historical pigment comparisons. */
+@media(max-width:900px){.mobile-lab .museum-console-head:has(#museumDotsRegistration:not([hidden]))>strong{display:none}.mobile-lab .museum-console-head #museumDotsRegistration,.mobile-lab .museum-console-head #museumDotsSampling{min-width:90px;max-width:145px;flex:1;width:120px}}
+
+@media(max-width:900px){.mobile-lab #museumShellRow:not([hidden]){grid-column:1/-1}}

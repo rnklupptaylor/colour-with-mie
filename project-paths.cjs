@@ -1,0 +1,1 @@
+const path=require('path'),version=require('./package.json').version,label=version.endsWith('.0.0')?version.slice(0,-4):version.replace(/\.0$/,'');module.exports={root:__dirname,html:path.join(__dirname,'colour-with-mie-v'+label+'.html')};

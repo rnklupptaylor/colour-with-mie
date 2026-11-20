@@ -1,0 +1,1 @@
+window.__mieStartHash=location.hash;document.documentElement.classList.add("start-menu-pending");

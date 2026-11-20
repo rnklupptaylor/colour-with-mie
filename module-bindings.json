@@ -1,0 +1,214 @@
+{
+  "src/paper-museum.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/book-museum.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/museum.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/seidel-data.js": {
+    "main": 1,
+    "workers": 1
+  },
+  "src/oldenburg-modern.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/alloys.js": {
+    "main": 1,
+    "workers": 1
+  },
+  "src/app.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/museum-studies.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/materials.js": {
+    "main": 1,
+    "workers": 1
+  },
+  "src/renderer.js": {
+    "main": 1,
+    "workers": 1
+  },
+  "src/lightbox.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/guides.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/museum-presentation.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/export.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/scene.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/kernel/tmatrix.js": {
+    "main": 1,
+    "workers": 1
+  },
+  "src/charts.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/modern-optics.js": {
+    "main": 1,
+    "workers": 1
+  },
+  "src/kernel/illuminants-data.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/model.js": {
+    "main": 1,
+    "workers": 1
+  },
+  "src/kernel/interior.js": {
+    "main": 1,
+    "workers": 1
+  },
+  "src/paint-renderer.js": {
+    "main": 1,
+    "workers": 1
+  },
+  "src/kernel/cie2006.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/seidel-kernel.js": {
+    "main": 1,
+    "workers": 1
+  },
+  "src/kernel/physics.js": {
+    "main": 1,
+    "workers": 1
+  },
+  "src/design.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/population.js": {
+    "main": 1,
+    "workers": 1
+  },
+  "src/seidel-renderer.js": {
+    "main": 1,
+    "workers": 1
+  },
+  "src/paint-science.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/viewer.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/kernel/optics.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/notation.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/concentrations.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/family-layout.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/surface.js": {
+    "main": 1,
+    "workers": 1
+  },
+  "src/museum-spectra.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/optics.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/solid-matrix.js": {
+    "main": 1,
+    "workers": 1
+  },
+  "src/family.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/export-renderer.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/solid-mixture.js": {
+    "main": 1,
+    "workers": 1
+  },
+  "src/kernel/illuminants.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/museum-field.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/guide-format.js": {
+    "main": 0,
+    "workers": 0
+  },
+  "src/fau-logo.js": {
+    "main": 1,
+    "workers": 1
+  },
+  "src/monolith-data.js": {
+    "main": 1,
+    "workers": 1
+  },
+  "src/film-observers.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/film-science.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/film-ui.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/palette.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/palette-science.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/export-names.js": {
+    "main": 1,
+    "workers": 0
+  },
+  "src/dotsenko-museum.js": {
+    "main": 1,
+    "workers": 0
+  }
+}

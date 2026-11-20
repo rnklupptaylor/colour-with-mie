@@ -1,0 +1,4 @@
+const fs=require('node:fs'),readline=require('node:readline');require('../src/kernel/physics.js');require('../src/kernel/interior.js');
+const rows=JSON.parse(fs.readFileSync('data/dotsenko-fig2-digitized.json','utf8')).rows;
+function calc(n0,B,mode='cauchy',factor=1){const residuals=[];for(const row of rows)for(const [w,q] of row.points){const wl=mode==='wavelength'?w/factor:w,nb=mode==='medium'?factor:1.5,rScale=mode==='size'?factor:1,k=2*Math.PI*nb/wl,n=(n0+B/(wl/1000)**2)*(mode==='index'?factor:1),c=Mie.coreShell(k*(500-row.shellNm)*rScale,k*500*rScale,[1.48/nb,0],[n/nb,1e-4/nb]);residuals.push(c.Qsca-q);}return residuals;}
+readline.createInterface({input:process.stdin}).on('line',line=>{const q=JSON.parse(line);console.log(JSON.stringify(Array.isArray(q)?calc(...q):calc(2.48,.08,q.mode,q.factor)));});

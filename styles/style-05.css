@@ -1,0 +1,15 @@
+
+/* A floating export task never changes the gallery or its render size. */
+.lb-export-progress[hidden],.lb-export-progress [hidden]{display:none!important}
+.lb-export-progress{position:fixed;z-index:2000;right:16px;bottom:16px;width:min(430px,calc(100vw - 32px));box-sizing:border-box;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);box-shadow:0 4px 24px #0004;font:13px/1.4 var(--ui);text-align:left}
+.lb-export-progress-heading{display:flex;align-items:center;gap:10px;margin-bottom:7px}.lb-export-progress-heading strong{flex:1}.lb-export-progress-heading output{font:12px var(--mono);font-variant-numeric:tabular-nums}.lb-export-progress-heading button{height:24px;min-height:24px;padding:0 7px}
+.lb-export-progress progress{display:block;width:100%;height:9px;border:0;border-radius:10px;overflow:hidden;accent-color:var(--accent);background:var(--surface-2)}
+.lb-export-progress progress::-webkit-progress-bar{background:var(--surface-2);border-radius:10px}.lb-export-progress progress::-webkit-progress-value{background:var(--accent);border-radius:10px;transition:width .15s}.lb-export-progress progress::-moz-progress-bar{background:var(--accent);border-radius:10px}
+.lb-export-progress-bottom{display:flex;align-items:center;gap:12px;margin-top:8px}.lb-export-progress-bottom span{flex:1;min-width:0;font-size:12px;overflow-wrap:anywhere}.lb-export-progress-bottom button{flex:none;white-space:nowrap;min-height:32px}
+@media(max-width:700px){.lb-export-progress{right:8px;bottom:8px;width:calc(100vw - 16px);padding:9px 11px}.lb-export-progress-bottom{gap:8px}.lb-export-progress-bottom button{font-size:12px;padding:5px 8px}}
+@media(prefers-reduced-motion:reduce){.lb-export-progress progress::-webkit-progress-value{transition:none}}
+/* Keep the direct close control visible alongside the Lightbox logo. */
+@media(max-width:360px){.lb-dialog>.lb-head{column-gap:4px}.lb-dialog>.lb-head>div:first-child{min-width:148px}.lb-dialog #lightboxClose{min-width:30px;padding-inline:5px}.lb-dialog .lb-scene-toggle{padding-inline:6px}.lb-head>.utility-menu>summary{width:28px;min-width:28px}}
+@media(max-height:480px) and (min-width:480px){.lb-dialog>.lb-head{flex-wrap:wrap}.lb-dialog .lb-file-actions{order:3;flex:1 0 100%;width:100%}.lb-dialog .lb-file-actions select{min-width:90px}.lb-dialog>.lb-head>div:first-child{flex:1;max-width:none}}
+.lb-family-stage canvas{width:100%;height:100%;object-fit:contain}
+

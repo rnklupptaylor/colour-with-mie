@@ -1,0 +1,24 @@
+{
+  "source": "Humpen.stl",
+  "sourceSha256": "6b4f47c676242e9656f13a3affe7b729459df8b8f3762e82871c2cfec06cbba9",
+  "inputTriangles": 20108,
+  "oppositeDuplicateFacetsRemoved": 56,
+  "nonManifoldEdgesAfterCancellation": 1,
+  "triangles": 20052,
+  "vertices": 10026,
+  "bvhNodes": 8191,
+  "closed": true,
+  "boundaryEdges": 0,
+  "eulerCharacteristic": 1,
+  "inputUnitAssumption": "millimetres",
+  "outsideDimensionsMm": [
+    65,
+    50,
+    89
+  ],
+  "solidVolumeCm3": 39.667268777229275,
+  "millimetresPerWorldUnit": 26.646706586826348,
+  "float32MaximumCoordinateErrorMm": 3.1722519978780423e-06,
+  "normalCreaseAngleDegrees": 35,
+  "surfaceAssumption": "Optically smoothed triangle normals, ideal homogeneous matrix. Printed layer grooves, voids and yellowing are not inferred from the STL."
+}
